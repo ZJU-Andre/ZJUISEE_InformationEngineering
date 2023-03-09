@@ -1,0 +1,24 @@
+; Top Design: "MyFirstWorkspace_lib:cell_1:schematic"
+; Netlisted using Hierarchy Policy: "Standard"
+
+Options ResourceUsage=yes UseNutmegFormat=no EnableOptim=no TopDesignName="MyFirstWorkspace_lib:cell_1:schematic" DcopOutputNodeVoltages=yes DcopOutputPinCurrents=yes DcopOutputAllSweepPoints=no DcopOutputDcopType=0
+Port:Term1  N__1 0 Num=1 Z=50 Ohm Noise=yes 
+#uselib "ckt" , "BPF_Chebyshev"
+BPF_Chebyshev:BPF1  N__1 N__2 Fcenter=2140 MHz BWpass=80 MHz Apass=1 dB Ripple=0.1 dB BWstop=400 MHz Astop=25 dB StopType="open" N=0 IL=0 dB Qu=1E308 Z1=50 Ohm Z2=50 Ohm 
+#uselib "sml" , "Amplifier2"
+Amplifier2:AMP1  N__2 N__6 S21=dbpolar(21,180) S11=polar(0,0) S22=polar(0,180) S12=0 GainCompType=0 ReferToInput=0 GainCompSat=5.0 dB GainComp=1.0 dB ClipDataFile=1 
+Port:Term2  N__6 0 Num=2 Z=50 Ohm Noise=yes 
+S_Param:SP1 CalcS=yes CalcY=no CalcZ=no GroupDelayAperture=1e-4 FreqConversion=no FreqConversionPort=1 StatusLevel=2 CalcNoise=no SortNoise=0 BandwidthForNoise=1.0 Hz DevOpPtLevel=0 \
+SweepVar="freq" SweepPlan="SP1_stim" OutputPlan="SP1_Output" 
+
+SweepPlan: SP1_stim Start=1.0 GHz Stop=3.0 GHz Step=10 MHz 
+
+OutputPlan:SP1_Output \
+      Type="Output" \
+      UseEquationNestLevel=yes \
+      EquationNestLevel=2 \
+      UseSavedEquationNestLevel=yes \
+      SavedEquationNestLevel=2
+
+#load "python","LinearCollapse"
+Component Module="LinearCollapse" Type="ModelExtractor" NetworkRepresentation=2

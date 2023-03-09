@@ -1,0 +1,45 @@
+***** HSPICE -- F-2011.09 32-BIT (Sep  5 2011) winnt ******
+ Input File: e:\ee\project\spice\2.0\gm_complex.sp
+ lic:
+ lic: FLEXlm: v10.8
+ lic: USER:   shabi                HOSTNAME: Kunlin-Yuquan
+ lic: HOSTID: "581122b93f59 346f24e5c2cc 005056c00001 005056c00008 00ffe567be1a
+ lic: Using FLEXlm license file:
+ lic: E:\EE\A3-H$pice2011.09\hspice2011_crack\hspice2011_crack\license1.dat
+ lic: Checkout 1 hspice
+ lic: License/Maintenance for hspice will expire on 31-dec-2030/2030.12
+ lic: NODE LOCKED license on hostid "581122b93f59 346f24e5c2cc 005056c00001 0050
+ lic:
+ init: begin read circuit files,  cpu clock=  4.92E-01
+       option search   = E:\EE\Hspice\PARTS\behave\
+       option search   = E:\EE\Hspice\PARTS\behave\
+       option search   = E:\EE\Hspice\PARTS\AD\
+       option search   = E:\EE\Hspice\PARTS\XILINX\
+       option search   = E:\EE\Hspice\PARTS\TLINE\
+       option search   = E:\EE\Hspice\PARTS\TI\
+       option search   = E:\EE\Hspice\PARTS\SIGNET\
+       option search   = E:\EE\Hspice\PARTS\PCI\
+       option search   = E:\EE\Hspice\PARTS\LIN_TECH\
+       option search   = E:\EE\Hspice\PARTS\FET\
+       option search   = E:\EE\Hspice\PARTS\DIO\
+       option search   = E:\EE\Hspice\PARTS\COMLINE\
+       option search   = E:\EE\Hspice\PARTS\BURR_BRN\
+       option search   = E:\EE\Hspice\PARTS\BJT\
+       option search   = E:\EE\Hspice\PARTS\behave\
+       option search   = E:\EE\Hspice\PARTS\AD\
+       option post     =     2.00
+       option runlvl
+       option post
+       option accura
+       option probe
+       option nomod
+       option captab
+       option post
+       option accura
+       option probe
+       option nomod
+       option captab   =     1.00
+ init: end read circuit files,  cpu clock=  5.60E-01 memory=    289 kb
+ init: begin check errors,  cpu clock=  5.60E-01
+>error          ***** hspice job aborted
+ lic: Release hspice token(s)

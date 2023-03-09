@@ -1,0 +1,59 @@
+***** HSPICE -- F-2011.09 32-BIT (Sep  5 2011) winnt ******
+ Input File: e:\ee\project\spice\1.0\opa_cmrr.sp
+ lic:
+ lic: FLEXlm: v10.8
+ lic: USER:   shabi                HOSTNAME: Kunlin-Yuquan
+ lic: HOSTID: "581122b93f59 346f24e5c2cc 005056c00001 005056c00008 00ffe567be1a
+ lic: Using FLEXlm license file:
+ lic: E:\EE\A3-H$pice2011.09\hspice2011_crack\hspice2011_crack\license1.dat
+ lic: Checkout 1 hspice
+ lic: License/Maintenance for hspice will expire on 31-dec-2030/2030.12
+ lic: NODE LOCKED license on hostid "581122b93f59 346f24e5c2cc 005056c00001 0050
+ lic:
+ init: begin read circuit files,  cpu clock=  5.13E-01
+       option search   = E:\EE\Hspice\PARTS\behave\
+       option search   = E:\EE\Hspice\PARTS\behave\
+       option search   = E:\EE\Hspice\PARTS\AD\
+       option search   = E:\EE\Hspice\PARTS\XILINX\
+       option search   = E:\EE\Hspice\PARTS\TLINE\
+       option search   = E:\EE\Hspice\PARTS\TI\
+       option search   = E:\EE\Hspice\PARTS\SIGNET\
+       option search   = E:\EE\Hspice\PARTS\PCI\
+       option search   = E:\EE\Hspice\PARTS\LIN_TECH\
+       option search   = E:\EE\Hspice\PARTS\FET\
+       option search   = E:\EE\Hspice\PARTS\DIO\
+       option search   = E:\EE\Hspice\PARTS\COMLINE\
+       option search   = E:\EE\Hspice\PARTS\BURR_BRN\
+       option search   = E:\EE\Hspice\PARTS\BJT\
+       option search   = E:\EE\Hspice\PARTS\behave\
+       option search   = E:\EE\Hspice\PARTS\AD\
+       option post     =     2.00
+       option runlvl
+       option post
+       option accura
+       option probe
+ init: end read circuit files,  cpu clock=  5.74E-01 memory=    149 kb
+ init: begin check errors,  cpu clock=  5.74E-01
+ init: end check errors,  cpu clock=  5.97E-01 memory=    150 kb
+ init: begin setup matrix, pivot=     0 cpu clock=  5.97E-01
+       establish matrix -- done,  cpu clock=  6.06E-01 memory=    155 kb
+       re-order matrix -- done,  cpu clock=  6.10E-01 memory=    154 kb
+ init: end setup matrix,  cpu clock=  6.14E-01 memory=    167 kb
+ dcop: begin dcop,  cpu clock=  6.17E-01
+ dcop: end dcop,  cpu clock=  6.25E-01 memory=    167 kb  tot_iter=      15
+ output: e:\ee\project\spice\1.0\opa_cmrr.ac0
+ sweep: ac ac0    begin, #sweeps=  91 cpu clock=  6.32E-01
+ ac: frequency=    1.26E+00
+ ac: frequency=    7.94E+00
+ ac: frequency=    6.31E+01
+ ac: frequency=    5.01E+02
+ ac: frequency=    3.98E+03
+ ac: frequency=    3.16E+04
+ ac: frequency=    2.51E+05
+ ac: frequency=    2.00E+06
+ ac: frequency=    1.58E+07
+ ac: frequency=    1.26E+08
+ ac: frequency=    1.00E+09
+ sweep: ac ac0    end,  cpu clock=  6.66E-01 memory=    170 kb
+>info:         ***** hspice job concluded
+ lic: Release hspice token(s)

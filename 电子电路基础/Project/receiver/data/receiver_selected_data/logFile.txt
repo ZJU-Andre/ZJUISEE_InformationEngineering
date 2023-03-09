@@ -1,0 +1,31 @@
+
+hpeesofsim (*) 491.update1.0 Mar 16 2019, MINT version 4
+    (64-bit windows built: Sat Mar 16, 2019 19:44:49 +0000)
+
+Pt DC convergence is used.
+Message from hpeesofsim during TRAN analysis `SP1'.
+    Required filter order is calculated to be 5 for component
+                 `LPF2.CMP1'
+Message from hpeesofsim during TRAN analysis `SP1'.
+    Required filter order is calculated to be 5 for component
+                 `LPF1.CMP1'
+Message from hpeesofsim during TRAN analysis `SP1'.
+    Required filter order is calculated to be 3 for component
+                 `BPF1.CMP1'
+
+SP SP1[1] <receiver_lib:receiver_selected:schematic>   freq=(2.1 GHz->2.18 GHz)
+Warning detected by hpeesofsim during SP analysis `SP1'.
+    Linear S_Port `PWR2.CMP1' is non-passive.
+    Please raise the StatusLevel to 5 on the Simulation Controller for
+    more information of amount of passivity violation and frequencies
+    at which passivity is violated on 'Status/Summary' field.
+Warning detected by hpeesofsim during SP analysis `SP1'.
+    Linear S_Port `PWR1.CMP1' is non-passive.
+    Please raise the StatusLevel to 5 on the Simulation Controller for
+    more information of amount of passivity violation and frequencies
+    at which passivity is violated on 'Status/Summary' field.
+
+
+Resource usage:
+  Total stopwatch time     =     0.34 seconds.
+

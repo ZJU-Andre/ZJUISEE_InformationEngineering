@@ -1,0 +1,21 @@
+* "simulator" "HSPICE" 
+* "version" "F-2011.09 32-BIT"
+* "format" "HSP"
+* "rundate" "23:02:03 01/07/2023 "
+* "netlist" "e:\ee\project\spice\1.0\opa_unity_gain.sp "
+* "runtitle" ".title opa_unity_gain"
+* time =    0.            
+* temperature =   27.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ 1 =  -2.0000        
++ 3 =  -1.7915        
++ 4 =   2.5000        
++ 5 =  -2.5000        
++ x1.3 =  -1.8216        
++ x1.4 =  -1.1587        
++ x1.5 =  -1.1589        
++ x1.7 =  -3.5164        
+***   END: Saved Operating Point ***                     

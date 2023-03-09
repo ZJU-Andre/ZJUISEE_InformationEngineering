@@ -1,0 +1,48 @@
+; Top Design: "receiver_lib:receiver_selected:schematic"
+; Netlisted using Hierarchy Policy: "Standard"
+
+Options ResourceUsage=yes UseNutmegFormat=no EnableOptim=no TopDesignName="receiver_lib:receiver_selected:schematic" DcopOutputNodeVoltages=yes DcopOutputPinCurrents=yes DcopOutputAllSweepPoints=no DcopOutputDcopType=0
+Port:PORT1  Vin 0 Num=1 Z=50 Ohm P[1]=polar(dbmtow(RF_pwr),0) Freq[1]=RF_freq MHz    Noise=yes Pac=polar(dbmtow(0),0) LimitPhaseNoiseToCarrier=no 
+#uselib "ckt" , "BPF_Chebyshev"
+BPF_Chebyshev:BPF1  Vin N__2 Fcenter=2140 MHz BWpass=80 MHz Apass=1 dB Ripple=0.1 dB BWstop=400 MHz Astop=25 dB StopType="open" N=0 IL=0 dB Qu=1E308 Z1=50 Ohm Z2=50 Ohm 
+#uselib "sml" , "Amplifier2"
+Amplifier2:AMP1  N__2 N__5 S21=dbpolar(21,180) S11=polar(0,0) S22=polar(0,180) S12=0 GainCompType=0 ReferToInput=0 GainCompSat=5.0 dB GainComp=1.0 dB ClipDataFile=1 
+#uselib "ckt" , "PwrSplit2"
+PwrSplit2:PWR1  N__5 N__10 N__26 SP21=1 SP31=1 SP11=0. SP22=0.  Isolation=100. dB ZRef=50. Ohm CheckPassivity=1 
+Mixer:MIX1  N__10 N__11 N__9 SideBand=-1 ConvGain=dbpolar(10,0) S11=polar(0,0) S22=polar(0,180) S33=0 GainCompType=0 ReferToInput=0 GainCompSat=5.0 dB GainComp=1.0 dB 
+#uselib "ckt" , "PhaseShift"
+PhaseShift:PS1  N__12 N__9 Phase=90. PhaseSlope=0. RTConj=0 ZRef=50. Ohm 
+#uselib "ckt" , "PwrSplit2"
+PwrSplit2:PWR2  N__14 N__25 N__12 SP21=1 SP31=1 SP11=0. SP22=0.  Isolation=100. dB ZRef=50. Ohm CheckPassivity=1 
+R:R1  N__14 N__19 R=50 Ohm Noise=yes 
+V_Source:SRC1  N__19 0 Type="V_1Tone" V[1]=polar(1,0) V Freq[1]=LO_freq MHz    Vac=polar(1,0) V SaveCurrent=1 
+#uselib "ckt" , "LPF_Chebyshev"
+LPF_Chebyshev:LPF1  N__11 N__28 Fpass=1.92 MHz Apass=1 dB Ripple=0.01 dB Fstop=5 MHz Astop=36 dB StopType="open" N=0 IL=0 dB Qu=1E308 Z1=50 Ohm Z2=50 Ohm 
+#uselib "ckt" , "LPF_Chebyshev"
+LPF_Chebyshev:LPF2  N__27 N__30 Fpass=1.92 MHz Apass=1 dB Ripple=0.01 dB Fstop=5 MHz Astop=36 dB StopType="open" N=0 IL=0 dB Qu=1E308 Z1=50 Ohm Z2=50 Ohm 
+Mixer:MIX2  N__26 N__27 N__25 SideBand=-1 ConvGain=dbpolar(10,0) S11=polar(0,0) S22=polar(0,180) S33=0 GainCompType=0 ReferToInput=0 GainCompSat=5.0 dB GainComp=1.0 dB 
+#uselib "sml" , "Amplifier2"
+Amplifier2:AMP2  N__28 Vout_i S21=dbpolar(G5,0) S11=polar(0,0) S22=polar(0,180) S12=0 GainCompType=0 ReferToInput=0 GainCompSat=5.0 dB GainComp=1.0 dB ClipDataFile=1 
+#uselib "sml" , "Amplifier2"
+Amplifier2:AMP3  N__30 Vout_q S21=dbpolar(G5,0) S11=polar(0,0) S22=polar(0,180) S12=0 GainCompType=0 ReferToInput=0 GainCompSat=5.0 dB GainComp=1.0 dB ClipDataFile=1 
+Port:Term2  Vout_i 0 Num=2 Z=50 Ohm Noise=yes 
+Port:Term3  Vout_q 0 Num=3 Z=50 Ohm Noise=yes 
+
+RF_freq=2140
+LO_freq=2140
+G5=66
+RF_pwr=-108
+S_Param:SP1 CalcS=yes CalcY=no CalcZ=no GroupDelayAperture=1e-4 FreqConversion=yes FreqConversionPort=1 StatusLevel=2 CalcNoise=no SortNoise=0 BandwidthForNoise=1.0 Hz DevOpPtLevel=0 \
+SweepVar="freq" SweepPlan="SP1_stim" OutputPlan="SP1_Output" 
+
+SweepPlan: SP1_stim Start=2.1 GHz Stop=2.18 GHz Step=0.5 MHz 
+
+OutputPlan:SP1_Output \
+      Type="Output" \
+      UseEquationNestLevel=yes \
+      EquationNestLevel=2 \
+      UseSavedEquationNestLevel=yes \
+      SavedEquationNestLevel=2
+
+#load "python","LinearCollapse"
+Component Module="LinearCollapse" Type="ModelExtractor" NetworkRepresentation=2

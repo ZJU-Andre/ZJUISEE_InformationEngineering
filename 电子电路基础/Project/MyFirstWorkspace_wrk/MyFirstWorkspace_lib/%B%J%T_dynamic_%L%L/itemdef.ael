@@ -1,0 +1,1 @@
+create_item("BJT_dynamic_LL","BJT_dynamic_LL","X",16,-1,NULL,"Component Parameters",NULL,"%d:%t %# %44?0%:%31?%C%:_net%c%;%;%e %b%r%8?%29?%:%30?%p %:%k%?[%1i]%;=%p %;%;%;%e%e","BJT_dynamic_LL","%t%b%r%38?%:\n%39?all_parm%A%:%30?%s%:%k%?[%1i]%;=%s%;%;%;%e%e%;","SYM_0Port",3,NULL,0);

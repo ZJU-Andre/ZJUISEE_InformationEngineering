@@ -1,0 +1,4 @@
+INCLUDE $HPEESOF_DIR/oalibs/analog_rf.defs
+INCLUDE $HPEESOF_DIR/oalibs/dsp.defs
+DEFINE frequency_conversion_lib frequency_conversion_lib
+ASSIGN frequency_conversion_lib libMode shared

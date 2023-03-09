@@ -1,0 +1,25 @@
+* "simulator" "HSPICE" 
+* "version" "F-2011.09 32-BIT"
+* "format" "HSP"
+* "rundate" "09:02:12 01/08/2023 "
+* "netlist" "e:\ee\project\spice\2.0\ota_dc.sp "
+* "runtitle" ".title ota_dc"
+* time =    0.            
+* temperature =   27.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ ibias = 581.4676m       
++ vcmfb = 900.0000m       
++ vdd =   1.8000        
++ vin = 900.0000m       
++ vip = 900.0000m       
++ voutn = 899.8759m       
++ voutp = 899.8759m       
++ x1.net0124 =   1.1936        
++ x1.net053 = 339.3161m       
++ x1.net065 = 339.3161m       
++ x1.net29 = 301.8932m       
++ x1.net39 = 301.8932m       
+***   END: Saved Operating Point ***                     

@@ -1,0 +1,6 @@
+$DATA1 SOURCE='HSPICE' VERSION='F-2011.09 32-BIT'
+.TITLE '.title ota_dc'
+ dcgain           phase            pm               temper            
+ alter#            
+    failed           failed           failed          27.0000         
+ 1                 

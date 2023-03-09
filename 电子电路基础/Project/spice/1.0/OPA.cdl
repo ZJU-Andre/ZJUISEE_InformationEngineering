@@ -1,0 +1,25 @@
+.SUBCKT OPAMP 1 2 6 8 9
+* 1 vip
+* 2 vin
+* 6 vout
+* 8 VDD
+* 9 VSS
+M1 4 2 3 3 p08 W = 6U   L = 1U AD = 36P   AS = 36P   PD = 24U   PS = 24U 
+M2 5 1 3 3 p08 W = 6U   L = 1U AD = 36P   AS = 36P   PD = 24U   PS = 24U 
+M3 4 4 8 8 p08 W = 7U   L = 1U AD = 42P   AS = 42P   PD = 26U   PS = 26U 
+M4 5 4 8 8 p08 W = 7U   L = 1U AD = 42P   AS = 42P   PD = 26U   PS = 26U 
+M5 3 7 9 9 p08 W = 11U  L = 1U AD = 66P   AS = 24P   PD = 34U   PS = 34U 
+M6 6 5 8 8 p08 W = 44U  L = 1U AD = 264P  AS = 264P  PD = 100U  PS = 100U
+M7 6 7 9 9 p08 W = 35U  L = 1U AD = 210P  AS = 210P  PD = 82U   PS = 82U 
+M8 7 7 9 9 p08 W = 11U  L = 1U AD = 66P   AS = 66P   PD = 34U   PS = 34U 
+CC 5 6 3.0P
+IBIAS 7 9 30U
+
+.MODEL n08 NMOS VTO = 0.70 KP = 110U GAMMA = 0.4  LAMBDA = 0.04 
++ PHI = 0.7 MJ = 0.5 MJSW = 0.38 CGBO = 700P CGSO = 220P CGDO = 220P 
++ CJ = 770U CJSW = 380P LD = 0.016U TOX = 14N
+.MODEL p08 PMOS VTO = -0.70 KP = 50U GAMMA = 0.57 LAMBDA = 0.05 
++ PHI = 0.8 MJ = 0.5 MJSW = 0.35 CGBO = 700P CGSO = 220P CGDO = 220P 
++ CJ = 560U CJSW = 350P LD = 0.014U TOX = 14N
+
+.ENDS

@@ -1,0 +1,67 @@
+
+hpeesofsim (*) 491.update1.0 Mar 16 2019, MINT version 4
+    (64-bit windows built: Sat Mar 16, 2019 19:44:49 +0000)
+
+Warning detected by hpeesofsim during circuit set up `HB1'.
+     Several fundamental frequencies are set to the same value 2.14 GHz. A simpler frequency grid is advised and would be faster.
+
+HB HB1[1] <frequency_conversion_lib:frequency conversion:schematic>
+Pt DC convergence is used.
+Message from hpeesofsim during TRAN analysis `HB1'.
+    Required filter order is calculated to be 5 for component
+                 `LPF2.CMP1'
+Message from hpeesofsim during TRAN analysis `HB1'.
+    Required filter order is calculated to be 5 for component
+                 `LPF1.CMP1'
+Message from hpeesofsim during TRAN analysis `HB1'.
+    Required filter order is calculated to be 3 for component
+                 `BPF1.CMP1'
+    Number of tones:   1.
+    Number of frequencies:   4.
+    Number of time samples:  8.
+    Number of HB equations (problem size): 371.
+    Auto mode: on.
+    Convergence mode: Auto.
+    Linear solver: direct.
+Warning detected by hpeesofsim during AC Analysis `HB1'.
+    Linear S_Port `PWR2.CMP1' is non-passive.
+Warning detected by hpeesofsim during AC Analysis `HB1'.
+    Linear S_Port `PWR1.CMP1' is non-passive.
+------------------------------------------------------------------------------
+Newton solver:					
+Iter	KCL residual	Damp %	Sol update
+------------------------------------------------------------------------------
+0.0*	51.7065 mA  	100.0             
+1.0 	8.07548 mA  	100.0	55.9582 V    
+1.1 	3.85575 fA  	100.0	39.3599 fV   
+
+HB HB1[1] <frequency_conversion_lib:frequency conversion:schematic>
+    Number of tones:   2.
+    Number of frequencies:   19.
+    Number of time samples:  64.
+    Number of HB equations (problem size): 1961.
+    Auto mode: on.
+    Convergence mode: Auto.
+    Linear solver: direct.
+------------------------------------------------------------------------------
+Newton solver:					
+Iter	KCL residual	Damp %	Sol update
+------------------------------------------------------------------------------
+0.0*	3.83999 fA  	100.0             
+Warning detected by hpeesofsim during HB analysis `HB1'.
+     More than one mixing term has landed on frequency 0 Hz.
+Warning detected by hpeesofsim during HB analysis `HB1'.
+     More than one mixing term has landed on frequency 2.14 GHz.
+Warning detected by hpeesofsim during HB analysis `HB1'.
+     More than one mixing term has landed on frequency 4.28 GHz.
+Warning detected by hpeesofsim during HB analysis `HB1'.
+     More than one mixing term has landed on frequency 6.42 GHz.
+Warning detected by hpeesofsim during HB analysis `HB1'.
+     More than one mixing term has landed on frequency 8.56 GHz.
+Warning detected by hpeesofsim during HB analysis `HB1'.
+    Evaluation failed for ` BudGain1=bud_gain(,,50.0,,budget_path)':  "BudGain1":
+      Function select_outer_indep(), argument 1 ("data") : parameter is null 
+
+Resource usage:
+  Total stopwatch time     =     0.29 seconds.
+

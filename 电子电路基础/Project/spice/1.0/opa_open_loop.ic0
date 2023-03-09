@@ -1,0 +1,22 @@
+* "simulator" "HSPICE" 
+* "version" "F-2011.09 32-BIT"
+* "format" "HSP"
+* "rundate" "22:59:45 01/07/2023 "
+* "netlist" "e:\ee\project\spice\1.0\opa_open_loop.sp "
+* "runtitle" ".title opa_open_loop"
+* time =    0.            
+* temperature =   27.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ 1 =   0.            
++ 2 =   0.            
++ 3 =  -1.7915        
++ 4 =   2.5000        
++ 5 =  -2.5000        
++ x1.3 =  -1.8216        
++ x1.4 =  -1.1586        
++ x1.5 =  -1.1586        
++ x1.7 =  -3.5164        
+***   END: Saved Operating Point ***                     

@@ -1,0 +1,60 @@
+* "simulator" "HSPICE" 
+* "version" "F-2011.09 32-BIT"
+* "format" "HSP"
+* "rundate" "11:16:21 01/08/2023 "
+* "netlist" "e:\ee\project\spice\2.0\gm_ac.sp "
+* "runtitle" ".title gm_ac"
+* time =    0.            
+* temperature =   27.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ ibias = 581.4676m       
++ vcmfb = 900.0000m       
++ vdd =   1.8000        
++ vin_i = 900.0000m       
++ vin_ib = 900.0000m       
++ vout_i = 899.8777m       
++ vout_ib = 899.8777m       
++ x1.net055 = 899.8771m       
++ x1.net056 = 899.8771m       
++ x1.net83 = 899.8777m       
++ x1.net84 = 899.8777m       
++ x1.vout_ib/ = 899.8777m       
++ x1.xi45.net0124 =   1.1936        
++ x1.xi45.net053 = 339.3166m       
++ x1.xi45.net065 = 339.3166m       
++ x1.xi45.net29 = 301.7963m       
++ x1.xi45.net39 = 301.7963m       
++ x1.xi49.net0124 =   1.1936        
++ x1.xi49.net053 = 339.3168m       
++ x1.xi49.net065 = 339.3168m       
++ x1.xi49.net29 = 301.7968m       
++ x1.xi49.net39 = 301.7968m       
++ x1.xi46.net0124 =   1.1936        
++ x1.xi46.net053 = 339.3168m       
++ x1.xi46.net065 = 339.3168m       
++ x1.xi46.net29 = 301.7963m       
++ x1.xi46.net39 = 301.7963m       
++ x1.xi47.net0124 =   1.1936        
++ x1.xi47.net053 = 339.3168m       
++ x1.xi47.net065 = 339.3168m       
++ x1.xi47.net29 = 301.7968m       
++ x1.xi47.net39 = 301.7968m       
++ x1.xi1.net0124 =   1.1936        
++ x1.xi1.net053 = 339.3166m       
++ x1.xi1.net065 = 339.3166m       
++ x1.xi1.net29 = 301.8932m       
++ x1.xi1.net39 = 301.8932m       
++ x1.xi44.net0124 =   1.1936        
++ x1.xi44.net053 = 339.3166m       
++ x1.xi44.net065 = 339.3166m       
++ x1.xi44.net29 = 301.7968m       
++ x1.xi44.net39 = 301.7968m       
++ x1.xi48.net0124 =   1.1936        
++ x1.xi48.net053 = 339.3168m       
++ x1.xi48.net065 = 339.3168m       
++ x1.xi48.net29 = 301.7968m       
++ x1.xi48.net39 = 301.7968m       
+***   END: Saved Operating Point ***                     

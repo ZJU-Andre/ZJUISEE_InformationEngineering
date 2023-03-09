@@ -1,0 +1,61 @@
+***** HSPICE -- F-2011.09 32-BIT (Sep  5 2011) winnt ******
+ Input File: e:\ee\project\spice\1.0\opa_unity_gain.sp
+ lic:
+ lic: FLEXlm: v10.8
+ lic: USER:   shabi                HOSTNAME: Kunlin-Yuquan
+ lic: HOSTID: "581122b93f59 346f24e5c2cc 005056c00001 005056c00008 00ffe567be1a
+ lic: Using FLEXlm license file:
+ lic: E:\EE\A3-H$pice2011.09\hspice2011_crack\hspice2011_crack\license1.dat
+ lic: Checkout 1 hspice
+ lic: License/Maintenance for hspice will expire on 31-dec-2030/2030.12
+ lic: NODE LOCKED license on hostid "581122b93f59 346f24e5c2cc 005056c00001 0050
+ lic:
+ init: begin read circuit files,  cpu clock=  4.80E-01
+       option search   = E:\EE\Hspice\PARTS\behave\
+       option search   = E:\EE\Hspice\PARTS\behave\
+       option search   = E:\EE\Hspice\PARTS\AD\
+       option search   = E:\EE\Hspice\PARTS\XILINX\
+       option search   = E:\EE\Hspice\PARTS\TLINE\
+       option search   = E:\EE\Hspice\PARTS\TI\
+       option search   = E:\EE\Hspice\PARTS\SIGNET\
+       option search   = E:\EE\Hspice\PARTS\PCI\
+       option search   = E:\EE\Hspice\PARTS\LIN_TECH\
+       option search   = E:\EE\Hspice\PARTS\FET\
+       option search   = E:\EE\Hspice\PARTS\DIO\
+       option search   = E:\EE\Hspice\PARTS\COMLINE\
+       option search   = E:\EE\Hspice\PARTS\BURR_BRN\
+       option search   = E:\EE\Hspice\PARTS\BJT\
+       option search   = E:\EE\Hspice\PARTS\behave\
+       option search   = E:\EE\Hspice\PARTS\AD\
+       option post     =     2.00
+       option runlvl
+       option post
+       option accura
+       option probe
+ init: end read circuit files,  cpu clock=  5.24E-01 memory=    149 kb
+ init: begin check errors,  cpu clock=  5.24E-01
+ init: end check errors,  cpu clock=  5.31E-01 memory=    150 kb
+ init: begin setup matrix, pivot=     0 cpu clock=  5.31E-01
+       establish matrix -- done,  cpu clock=  5.37E-01 memory=    154 kb
+       re-order matrix -- done,  cpu clock=  5.39E-01 memory=    153 kb
+ init: end setup matrix,  cpu clock=  5.43E-01 memory=    166 kb
+ output: e:\ee\project\spice\1.0\opa_unity_gain.sw0
+ sweep: dc dc0    begin, #sweeps=  51 cpu clock=  5.51E-01
+ sweep: dc dc0    end,  cpu clock=  5.54E-01 memory=    168 kb
+ dcop: begin dcop,  cpu clock=  5.57E-01
+ dcop: end dcop,  cpu clock=  5.61E-01 memory=    166 kb  tot_iter=      17
+ output: e:\ee\project\spice\1.0\opa_unity_gain.tr0
+ sweep: tran tran0    begin, stop_t=  1.00E-05 #sweeps= 201 cpu clock=  5.69E-01
+ tran: time= 1.0090E-06 tot_iter=     242 conv_iter=     119 cpu clock= 5.72E-01
+ tran: time= 2.0000E-06 tot_iter=     442 conv_iter=     219 cpu clock= 5.76E-01
+ tran: time= 3.0095E-06 tot_iter=     679 conv_iter=     336 cpu clock= 5.79E-01
+ tran: time= 4.0000E-06 tot_iter=     877 conv_iter=     435 cpu clock= 5.82E-01
+ tran: time= 5.0050E-06 tot_iter=    1111 conv_iter=     551 cpu clock= 5.86E-01
+ tran: time= 6.0000E-06 tot_iter=    1311 conv_iter=     651 cpu clock= 5.89E-01
+ tran: time= 7.0054E-06 tot_iter=    1535 conv_iter=     763 cpu clock= 5.93E-01
+ tran: time= 8.0000E-06 tot_iter=    1735 conv_iter=     863 cpu clock= 5.96E-01
+ tran: time= 9.0058E-06 tot_iter=    1959 conv_iter=     975 cpu clock= 6.01E-01
+ tran: time= 1.0000E-05 tot_iter=    2159 conv_iter=    1075 cpu clock= 6.04E-01
+ sweep: tran tran0    end,  cpu clock=  6.07E-01 memory=    167 kb
+>info:         ***** hspice job concluded
+ lic: Release hspice token(s)

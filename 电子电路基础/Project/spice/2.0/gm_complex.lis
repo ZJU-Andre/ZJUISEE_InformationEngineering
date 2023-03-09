@@ -1,0 +1,74 @@
+ ****** HSPICE -- F-2011.09 32-BIT (Sep  5 2011) winnt ******                   
+  Copyright (C) 2011 Synopsys, Inc. All Rights Reserved.                        
+  Unpublished-rights reserved under US copyright laws.
+  This program is protected by law and is subject to the
+  terms and conditions of the license agreement from Synopsys.
+  Use of this program is your acceptance to be bound by the
+  license agreement. HSPICE is the trademark of Synopsys, Inc.
+  Input File: e:\ee\project\spice\2.0\gm_complex.sp                             
+  Command line options: -i e:\ee\project\spice\2.0\gm_complex.sp -o e:\ee\project\spice\2.0\gm_complex.lis
+  lic:  
+  lic: FLEXlm: v10.8 
+  lic: USER:   shabi                HOSTNAME: Kunlin-Yuquan 
+  lic: HOSTID: "581122b93f59 346f24e5c2cc 005056c00001 005056c00008 00ffe567be1a
+  
+  lic: Using FLEXlm license file: 
+  lic: E:\EE\A3-H$pice2011.09\hspice2011_crack\hspice2011_crack\license1.dat 
+  lic: Checkout 1 hspice 
+  lic: License/Maintenance for hspice will expire on 31-dec-2030/2030.12 
+  lic: NODE LOCKED license on hostid "581122b93f59 346f24e5c2cc 005056c00001 005
+ 0
+  lic:   
+ Init: read install configuration file: E:\EE\Hspice\meta.cfg
+  **warning** (E:\EE\project\spice\2.0\ms018.mdl:20) Model n18 device geometries will not be checked against the limits set by lmin, lmax, wmin and wmax. To enable this check, add a period(.) to the model name(i.e. enable model selector).
+
+ **warning**  runlvl smaller than 5, reset to 5  when accurate turned on
+  **warning** (e:\ee\project\spice\2.0\gm_complex.sp:3) Global net name, "gnd", in subckt pin list. The pin will be connected to the local net. Recommend to not use global net names in subckt pin lists.
+  **error** (e:\ee\project\spice\2.0\gm_complex.sp:55) Number of nodes miss match between instance "x1              " and subcircuit "gm_c_3th_bandpass".  Subcircuit definition has   11 node(s) whereas subckt instance was found with   21 node(s). Please specify same number of nodes.
+
+ **warning**  runlvl smaller than 5, reset to 5  when accurate turned on
+
+          ***** job aborted
+1****** HSPICE -- F-2011.09 32-BIT (Sep  5 2011) winnt ******                   
+ ******  
+ .title gm_complex
+
+  ******  job statistics summary tnom=  25.000 temp=  25.000 *****
+
+  ******  HSPICE Threads Information  ******
+
+  Command Line Threads Count :     1
+  Available CPU Count        :    16
+  Actual Threads Count       :     1
+
+
+  ******  Circuit Statistics  ******
+  # nodes       =       0 # elements   =      17
+  # resistors   =       0 # capacitors =       0 # inductors   =       0
+  # mutual_inds =       0 # vccs       =       0 # vcvs        =       0
+  # cccs        =       0 # ccvs       =       0 # volt_srcs   =       7
+  # curr_srcs   =      10 # diodes     =       0 # bjts        =       0
+  # jfets       =       0 # mosfets    =       0 # U elements  =       0
+  # T elements  =       0 # W elements =       0 # B elements  =       0
+  # S elements  =       0 # P elements =       0 # va device   =       0
+  # vector_srcs =       0
+
+
+  ******  Runtime Statistics (seconds)  ******
+
+  analysis           time    # points   tot. iter  conv.iter
+  op point           0.00           1           0
+  readin             0.08
+  errchk             0.00
+  setup              0.00
+  output             0.00
+
+
+           peak memory used         44.50 megabytes
+           total cpu time            0.09 seconds
+           total elapsed time        0.57 seconds
+           job started at     12:29:35 01/08/2023
+           job ended   at     12:29:36 01/08/2023
+
+
+  lic: Release hspice token(s) 

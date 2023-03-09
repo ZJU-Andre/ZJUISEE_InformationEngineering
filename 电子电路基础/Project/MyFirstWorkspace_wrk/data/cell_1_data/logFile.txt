@@ -1,0 +1,15 @@
+
+hpeesofsim (*) 491.update1.0 Mar 16 2019, MINT version 4
+    (64-bit windows built: Sat Mar 16, 2019 19:44:49 +0000)
+
+Pt DC convergence is used.
+Message from hpeesofsim during TRAN analysis `SP1'.
+    Required filter order is calculated to be 3 for component
+                 `BPF1.CMP1'
+
+SP SP1[1] <MyFirstWorkspace_lib:cell_1:schematic>   freq=(1 GHz->3 GHz)
+
+
+Resource usage:
+  Total stopwatch time     =     0.28 seconds.
+

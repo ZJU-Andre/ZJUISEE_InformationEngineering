@@ -1,0 +1,7655 @@
+%PDF-1.1
+3 0 obj
+<< /Type /Font /Name /R3 /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+4 0 obj
+<< /Length 5 0 R >>
+stream
+q
+BT
+/R3 12 Tf
+1 0 0 1 18 784 Tm
+( ) Tj
+1 0 0 1 296.007 44 Tm
+(- ) Tj
+1 0 0 1 303.003 44 Tm
+(1) Tj
+1 0 0 1 309.003 44 Tm
+( -) Tj
+1 0 0 1 72 730 Tm
+(        ) Tj
+1 0 0 1 467.701 730 Tm
+(        ) Tj
+1 0 0 1 507.34 717 Tm
+(EE133) Tj
+1 0 0 1 473.669 704 Tm
+(  Winter 1999) Tj
+1 0 0 1 236.849 665 Tm
+(STANFORD UNIVERSITY) Tj
+1 0 0 1 222.378 652 Tm
+(Electrical Engineering Department) Tj
+ET
+endstream
+endobj
+5 0 obj
+386
+endobj
+6 0 obj
+<< /Type /Font /Name /R6 /Subtype /Type1 /BaseFont /Times-Bold >>
+endobj
+7 0 obj
+<< /Length 8 0 R >>
+stream
+BT
+/R6 24 Tf
+1 0 0 1 21 784 Tm
+( ) Tj
+1 0 0 1 261.331 592 Tm
+(HSPICE) Tj
+/R3 14 Tf
+1 0 0 1 27 784 Tm
+( ) Tj
+1 0 0 1 108 496.667 Tm
+(1.) Tj
+1 0 0 1 126 496.667 Tm
+(HSPICE Introduction) Tj
+1 0 0 1 421.315 496.667 Tm
+(Page 2) Tj
+1 0 0 1 108 469.667 Tm
+(2.) Tj
+1 0 0 1 126 469.667 Tm
+(Running HSPICE) Tj
+1 0 0 1 421.301 469.667 Tm
+(Page 3) Tj
+1 0 0 1 108 442.667 Tm
+(3.) Tj
+1 0 0 1 126 442.667 Tm
+(Unix Basics) Tj
+1 0 0 1 421.302 442.667 Tm
+(Page 4) Tj
+1 0 0 1 108 415.667 Tm
+(4.) Tj
+1 0 0 1 126 415.667 Tm
+(Workstation Basics) Tj
+1 0 0 1 421.314 415.667 Tm
+(Page 8) Tj
+1 0 0 1 108 388.667 Tm
+(5.) Tj
+1 0 0 1 126 388.667 Tm
+(HSPICE Basics) Tj
+1 0 0 1 414.308 388.667 Tm
+(Page 12) Tj
+1 0 0 1 108 361.667 Tm
+(6.) Tj
+1 0 0 1 126 361.667 Tm
+(MetaWaves Basics) Tj
+1 0 0 1 414.314 361.667 Tm
+(Page 18) Tj
+1 0 0 1 108 334.667 Tm
+(7.) Tj
+1 0 0 1 126 334.667 Tm
+(Sample HSPICE Input Files) Tj
+1 0 0 1 414.324 334.667 Tm
+(Page 20) Tj
+ET
+Q
+endstream
+endobj
+8 0 obj
+925
+endobj
+9 0 obj
+<<
+/Type /Page
+/MediaBox [0 0 612 792]
+/Parent 2 0 R
+/Resources << /ProcSet [/PDF /Text]
+/Font <<
+/R6 6 0 R
+/R3 3 0 R
+>>
+>>
+/Contents [
+4 0 R
+7 0 R
+]
+>>
+endobj
+10 0 obj
+<< /Type /Font /Name /R10 /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+11 0 obj
+<< /Length 12 0 R >>
+stream
+q
+BT
+/R10 12 Tf
+1 0 0 1 30 784 Tm
+( ) Tj
+1 0 0 1 296.007 44 Tm
+(- ) Tj
+1 0 0 1 303.003 44 Tm
+(2) Tj
+1 0 0 1 309.003 44 Tm
+( -) Tj
+ET
+endstream
+endobj
+12 0 obj
+133
+endobj
+13 0 obj
+<< /Type /Font /Name /R13 /Subtype /Type1 /BaseFont /Times-Bold >>
+endobj
+14 0 obj
+<< /Length 15 0 R >>
+stream
+BT
+/R13 24 Tf
+1 0 0 1 33 784 Tm
+( ) Tj
+1 0 0 1 178.008 691 Tm
+(1.  HSPICE Introduction) Tj
+/R10 12 Tf
+1 0 0 1 39 784 Tm
+( ) Tj
+0.00933333 Tc
+1 0 0 1 90 631 Tm
+(HSPICE is an analog circuit simulator \(similar to Berkeley\251s SPICE-3\) capable of performing) Tj
+-0.00741667 Tc
+1 0 0 1 72 618 Tm
+(transient, steady state, and frequency domain analyses.  Existing SPICE decks created for SPICE-) Tj
+0.037 Tc
+1 0 0 1 72 605 Tm
+(3 can be easily modified to run under HSPICE, or can be rewritten to take advantage of features) Tj
+0.0245833 Tc
+1 0 0 1 72 592 Tm
+(not available in SPICE-3.  HSPICE generally has better convergence than SPICE-3 and, because) Tj
+0.0370833 Tc
+1 0 0 1 72 579 Tm
+(it is a commercial product \(from Meta-Software\), is better supported.  It also allows hierarchical) Tj
+-0.0490833 Tc
+1 0 0 1 72 566 Tm
+(node naming, circuit optimization, input, output, and behavioral algebraics for parameterized cells,) Tj
+0 Tc
+1 0 0 1 72 553 Tm
+(and interactive waveform viewing with MetaWaves.) Tj
+-0.0291667 Tc
+1 0 0 1 90 528 Tm
+(This handout contains basic information about HSPICE and MetaWaves, which should be suf-) Tj
+-0.0359167 Tc
+1 0 0 1 72 515 Tm
+(ficient for performing simple simulations. For more detailed information, consult the ) Tj
+ET
+endstream
+endobj
+15 0 obj
+1258
+endobj
+16 0 obj
+<< /Type /Font /Name /R16 /Subtype /Type1 /BaseFont /Times-Italic >>
+endobj
+17 0 obj
+<< /Length 18 0 R >>
+stream
+BT
+/R16 12 Tf
+0 Tc
+1 0 0 1 42 784 Tm
+( ) Tj
+-0.0359167 Tc
+1 0 0 1 477.455 515 Tm
+(HSPICE US-) Tj
+0.112333 Tc
+1 0 0 1 72 502 Tm
+(ERS MANUAL) Tj
+/R10 12 Tf
+0 Tc
+1 0 0 1 45 784 Tm
+( ) Tj
+0.112333 Tc
+1 0 0 1 145 502 Tm
+( \(available from MetaSoftware directly at 800-346-5953 \(note - ONLY use this) Tj
+-0.0181667 Tc
+1 0 0 1 72 489 Tm
+(number to order manuals: all technical questions should be directed to your TA\)\), or you can view) Tj
+0.01275 Tc
+1 0 0 1 72 476 Tm
+(an on-line version of the manual in the ) Tj
+/R13 12 Tf
+0 Tc
+1 0 0 1 48 784 Tm
+( ) Tj
+1 0 0 1 261.822 476 Tm
+(/usr/class/ee/hspice/docs/Postscript) Tj
+/R10 12 Tf
+1 0 0 1 51 784 Tm
+( ) Tj
+0.01275 Tc
+1 0 0 1 439.103 476 Tm
+( directory. To view a) Tj
+-0.0599167 Tc
+1 0 0 1 72 463 Tm
+(section of the manual, you can use one of the postscript viewers \(such as ghostview, or ghostscript\).) Tj
+0.0218333 Tc
+1 0 0 1 72 450 Tm
+(For example, to view the 15_mosfet_introduction.ps section from one of the elaine workstations,) Tj
+0 Tc
+1 0 0 1 72 437 Tm
+(enter) Tj
+/R13 12 Tf
+1 0 0 1 54 784 Tm
+( ) Tj
+1 0 0 1 108 412 Tm
+(ghostview) Tj
+/R10 12 Tf
+1 0 0 1 57 784 Tm
+( ) Tj
+1 0 0 1 158.654 412 Tm
+( /usr/class/ee/hspice/docs/Postscript/15_mosfet_introduction.ps) Tj
+-0.0330833 Tc
+1 0 0 1 90 387 Tm
+(Don't try to print out sections of the manual using the cluster printers - the large files can cause) Tj
+0 Tc
+1 0 0 1 72 374 Tm
+(the printers to hang, and you are allotted only 100 pages of printouts per quarter. ) Tj
+-0.04275 Tc
+1 0 0 1 90 349 Tm
+(HSPICE has been installed on the Sweet Hall and Terman clusters, and runs on most DEC, HP,) Tj
+0.000833333 Tc
+1 0 0 1 72 336 Tm
+(SGI, and SUN workstations. For a list of available computers, type ) Tj
+/R13 12 Tf
+0 Tc
+1 0 0 1 60 784 Tm
+( ) Tj
+1 0 0 1 396.678 336 Tm
+(help) Tj
+/R10 12 Tf
+1 0 0 1 63 784 Tm
+( ) Tj
+0.000833333 Tc
+1 0 0 1 418.68 336 Tm
+( ) Tj
+/R13 12 Tf
+0 Tc
+1 0 0 1 66 784 Tm
+( ) Tj
+1 0 0 1 421.69 336 Tm
+(systems) Tj
+/R10 12 Tf
+1 0 0 1 69 784 Tm
+( ) Tj
+0.000833333 Tc
+1 0 0 1 461.003 336 Tm
+( from any Sweet) Tj
+0.0270833 Tc
+1 0 0 1 72 323 Tm
+(Hall or Terman computer, or ask the consultants on the second floor of Sweet Hall if you want a) Tj
+0.0961667 Tc
+1 0 0 1 72 310 Tm
+(more up-to-date list. The following computers are currently available for running HSPICE and) Tj
+-0.00891667 Tc
+1 0 0 1 72 297 Tm
+(MetaWaves on the Sweet Hall cluster: ) Tj
+/R13 12 Tf
+0 Tc
+1 0 0 1 72 784 Tm
+( ) Tj
+1 0 0 1 258.607 297 Tm
+(amy1) Tj
+/R10 12 Tf
+1 0 0 1 75 784 Tm
+( ) Tj
+1 0 0 1 286.6 297 Tm
+(-) Tj
+/R13 12 Tf
+1 0 0 1 78 784 Tm
+( ) Tj
+1 0 0 1 290.593 297 Tm
+(amy29) Tj
+/R10 12 Tf
+1 0 0 1 81 784 Tm
+( ) Tj
+-0.00891667 Tc
+1 0 0 1 324.586 297 Tm
+(  \(DEC3000/300LX\), ) Tj
+/R13 12 Tf
+0 Tc
+1 0 0 1 84 784 Tm
+( ) Tj
+1 0 0 1 429.575 297 Tm
+(elaine1) Tj
+/R10 12 Tf
+1 0 0 1 87 784 Tm
+( ) Tj
+1 0 0 1 465.566 297 Tm
+(-) Tj
+/R13 12 Tf
+1 0 0 1 90 784 Tm
+( ) Tj
+-0.00891667 Tc
+1 0 0 1 469.559 297 Tm
+( elaine44) Tj
+/R10 12 Tf
+0 Tc
+1 0 0 1 93 784 Tm
+( ) Tj
+-0.00891667 Tc
+1 0 0 1 514.443 297 Tm
+( \(Sun) Tj
+0.0723333 Tc
+1 0 0 1 72 284 Tm
+(SPARCstation 20\), ) Tj
+/R13 12 Tf
+0 Tc
+1 0 0 1 96 784 Tm
+( ) Tj
+1 0 0 1 168.738 284 Tm
+(raptor1) Tj
+/R10 12 Tf
+1 0 0 1 99 784 Tm
+( ) Tj
+1 0 0 1 208.054 284 Tm
+(-) Tj
+/R13 12 Tf
+1 0 0 1 102 784 Tm
+( ) Tj
+1 0 0 1 212.047 284 Tm
+(raptor14) Tj
+/R10 12 Tf
+1 0 0 1 105 784 Tm
+( ) Tj
+0.0723333 Tc
+1 0 0 1 257.364 284 Tm
+( \(SGI Indigo XZ\), ) Tj
+/R13 12 Tf
+0 Tc
+1 0 0 1 108 784 Tm
+( ) Tj
+1 0 0 1 350.472 284 Tm
+(firebird1) Tj
+/R10 12 Tf
+1 0 0 1 111 784 Tm
+( ) Tj
+1 0 0 1 396.453 284 Tm
+(-) Tj
+/R13 12 Tf
+1 0 0 1 114 784 Tm
+( ) Tj
+1 0 0 1 400.446 284 Tm
+(firebird18) Tj
+/R10 12 Tf
+1 0 0 1 117 784 Tm
+( ) Tj
+0.0723333 Tc
+1 0 0 1 452.428 284 Tm
+( \(SGI Indigo2 ex-) Tj
+-0.00891667 Tc
+1 0 0 1 72 271 Tm
+(treme\), ) Tj
+/R13 12 Tf
+0 Tc
+1 0 0 1 120 784 Tm
+( ) Tj
+1 0 0 1 109.2 271 Tm
+(epic1) Tj
+/R10 12 Tf
+1 0 0 1 123 784 Tm
+( ) Tj
+-0.00891667 Tc
+1 0 0 1 135.857 271 Tm
+(- ) Tj
+/R13 12 Tf
+0 Tc
+1 0 0 1 126 784 Tm
+( ) Tj
+1 0 0 1 142.743 271 Tm
+(epic18) Tj
+/R10 12 Tf
+1 0 0 1 129 784 Tm
+( ) Tj
+-0.00891667 Tc
+1 0 0 1 175.4 271 Tm
+( \(SUN UltraSPARC\), and ) Tj
+/R13 12 Tf
+0 Tc
+1 0 0 1 132 784 Tm
+( ) Tj
+-0.00891667 Tc
+1 0 0 1 301.944 271 Tm
+(adelbert1 - adelbert10 ) Tj
+/R10 12 Tf
+0 Tc
+1 0 0 1 135 784 Tm
+( ) Tj
+-0.00891667 Tc
+1 0 0 1 417.911 271 Tm
+(\(SUN UltraSPARC\). The) Tj
+-0.0336667 Tc
+1 0 0 1 72 258 Tm
+(raptor and firebird clusters are in the basement, and are intended primarily for CS students, but can) Tj
+-0.001 Tc
+1 0 0 1 72 245 Tm
+(be used during non-peak hours by all students \(you can get the combination to the door lock from) Tj
+-0.03275 Tc
+1 0 0 1 72 232 Tm
+(the consultants on the second floor\). In the Terman cluster \(Terman 104\) use the ) Tj
+/R13 12 Tf
+0 Tc
+1 0 0 1 138 784 Tm
+( ) Tj
+1 0 0 1 455.329 232 Tm
+(apollo1) Tj
+/R10 12 Tf
+1 0 0 1 141 784 Tm
+( ) Tj
+1 0 0 1 492.668 232 Tm
+(-) Tj
+/R13 12 Tf
+1 0 0 1 144 784 Tm
+( ) Tj
+1 0 0 1 496.661 232 Tm
+(apollo13) Tj
+/R10 12 Tf
+1 0 0 1 147 784 Tm
+( ) Tj
+-0.038 Tc
+1 0 0 1 72 219 Tm
+(\(HP9000/712\) and ) Tj
+/R13 12 Tf
+0 Tc
+1 0 0 1 150 784 Tm
+( ) Tj
+1 0 0 1 163.068 219 Tm
+(voyager1) Tj
+/R10 12 Tf
+1 0 0 1 153 784 Tm
+( ) Tj
+1 0 0 1 209.72 219 Tm
+(-) Tj
+/R13 12 Tf
+1 0 0 1 156 784 Tm
+( ) Tj
+1 0 0 1 213.713 219 Tm
+(voyager8) Tj
+/R10 12 Tf
+1 0 0 1 159 784 Tm
+( ) Tj
+-0.038 Tc
+1 0 0 1 260.365 219 Tm
+( \(SUN SPARCstation IPX\) workstations.  In addition, sim-) Tj
+0.0600833 Tc
+1 0 0 1 72 206 Tm
+(ulations can be run remotely using X-Windows.  All of these workstations share a common file) Tj
+-0.0265 Tc
+1 0 0 1 72 193 Tm
+(server and account database.  For specific instructions on a particular workstation, read the section) Tj
+0 Tc
+1 0 0 1 72 180 Tm
+(entitled ) Tj
+/R16 12 Tf
+1 0 0 1 162 784 Tm
+( ) Tj
+1 0 0 1 110.988 180 Tm
+(Workstation Basics ) Tj
+/R10 12 Tf
+1 0 0 1 165 784 Tm
+( ) Tj
+1 0 0 1 206.968 180 Tm
+(later in this handout.) Tj
+-0.0311667 Tc
+1 0 0 1 90 155 Tm
+(More information on campus computer clusters is available in the handouts ) Tj
+/R16 12 Tf
+0 Tc
+1 0 0 1 168 784 Tm
+( ) Tj
+-0.0311667 Tc
+1 0 0 1 450.765 155 Tm
+(Introduction to the) Tj
+0.0426667 Tc
+1 0 0 1 72 142 Tm
+(leland systems) Tj
+/R10 12 Tf
+0 Tc
+1 0 0 1 171 784 Tm
+( ) Tj
+0.0426667 Tc
+1 0 0 1 142.157 142 Tm
+(, ) Tj
+/R16 12 Tf
+0 Tc
+1 0 0 1 174 784 Tm
+( ) Tj
+0.0426667 Tc
+1 0 0 1 148.669 142 Tm
+(Unix Command Summary) Tj
+/R10 12 Tf
+0 Tc
+1 0 0 1 177 784 Tm
+( ) Tj
+0.0426667 Tc
+1 0 0 1 273.667 142 Tm
+(, and ) Tj
+/R16 12 Tf
+0 Tc
+1 0 0 1 180 784 Tm
+( ) Tj
+0.0426667 Tc
+1 0 0 1 301.018 142 Tm
+(Using The X-Window System ) Tj
+/R10 12 Tf
+0 Tc
+1 0 0 1 183 784 Tm
+( ) Tj
+0.0426667 Tc
+1 0 0 1 445.699 142 Tm
+(which are available) Tj
+-0.0005 Tc
+1 0 0 1 72 129 Tm
+(on-line in the directory ) Tj
+/R13 12 Tf
+0 Tc
+1 0 0 1 186 784 Tm
+( ) Tj
+1 0 0 1 185.265 129 Tm
+(~consult/pub/lair-docs) Tj
+/R10 12 Tf
+1 0 0 1 189 784 Tm
+( ) Tj
+-0.0005 Tc
+1 0 0 1 299.497 129 Tm
+( or in the document rack in the northeast corner of) Tj
+0.000666667 Tc
+1 0 0 1 72 116 Tm
+(the second floor of Sweet Hall.  You can also get help from the consulting desk in Terman 104 or) Tj
+0 Tc
+1 0 0 1 72 103 Tm
+(on the second floor of Sweet Hall.) Tj
+ET
+Q
+endstream
+endobj
+18 0 obj
+7064
+endobj
+19 0 obj
+<<
+/Type /Page
+/MediaBox [0 0 612 792]
+/Parent 2 0 R
+/Resources << /ProcSet [/PDF /Text]
+/Font <<
+/R16 16 0 R
+/R13 13 0 R
+/R10 10 0 R
+>>
+>>
+/Contents [
+11 0 R
+14 0 R
+17 0 R
+]
+>>
+endobj
+20 0 obj
+<< /Type /Font /Name /R20 /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+21 0 obj
+<< /Length 22 0 R >>
+stream
+q
+BT
+/R20 12 Tf
+1 0 0 1 192 784 Tm
+( ) Tj
+1 0 0 1 296.007 44 Tm
+(- ) Tj
+1 0 0 1 303.003 44 Tm
+(3) Tj
+1 0 0 1 309.003 44 Tm
+( -) Tj
+ET
+endstream
+endobj
+22 0 obj
+134
+endobj
+23 0 obj
+<< /Type /Font /Name /R23 /Subtype /Type1 /BaseFont /Times-Bold >>
+endobj
+24 0 obj
+<< /Length 25 0 R >>
+stream
+BT
+/R23 24 Tf
+1 0 0 1 195 784 Tm
+( ) Tj
+1 0 0 1 198.65 691 Tm
+(2.  Running HSPICE) Tj
+/R20 12 Tf
+1 0 0 1 201 784 Tm
+( ) Tj
+0.0339167 Tc
+1 0 0 1 90 662 Tm
+(The general procedure for analyzing a circuit is to use an editor \() Tj
+/R23 12 Tf
+0 Tc
+1 0 0 1 204 784 Tm
+( ) Tj
+1 0 0 1 406.048 662 Tm
+(vi) Tj
+/R20 12 Tf
+1 0 0 1 207 784 Tm
+( ) Tj
+0.0339167 Tc
+1 0 0 1 415.382 662 Tm
+(, ) Tj
+/R23 12 Tf
+0 Tc
+1 0 0 1 210 784 Tm
+( ) Tj
+1 0 0 1 421.789 662 Tm
+(emacs) Tj
+/R20 12 Tf
+1 0 0 1 213 784 Tm
+( ) Tj
+0.0339167 Tc
+1 0 0 1 453.101 662 Tm
+(, etc.\) to create an) Tj
+0 Tc
+1 0 0 1 72 649 Tm
+(input file, run HSPICE to generate graph and hardcopy data files, and run ) Tj
+0.53525 Tc
+1 0 0 1 428.268 649 Tm
+(MetaWaves to view,) Tj
+0.0579167 Tc
+1 0 0 1 72 636 Tm
+(customize, and print the resulting graphs.  It is usually easier to start with an example input file) Tj
+-0.0519167 Tc
+1 0 0 1 72 623 Tm
+(\(such as those at the end of this handout\) and modify it to match the desired circuit.  The commands) Tj
+-0.0339167 Tc
+1 0 0 1 72 610 Tm
+(found in the example input files and summary in this handout are sufficient to perform simple sim-) Tj
+0 Tc
+1 0 0 1 72 597 Tm
+(ulations.  For more sophisticated analyses consult the ) Tj
+ET
+endstream
+endobj
+25 0 obj
+1219
+endobj
+26 0 obj
+<< /Type /Font /Name /R26 /Subtype /Type1 /BaseFont /Times-Italic >>
+endobj
+27 0 obj
+<< /Length 28 0 R >>
+stream
+BT
+/R26 12 Tf
+1 0 0 1 216 784 Tm
+( ) Tj
+1 0 0 1 330.929 597 Tm
+(HSPICE USERS MANUAL) Tj
+/R23 12 Tf
+1 0 0 1 219 784 Tm
+( ) Tj
+1 0 0 1 461.563 597 Tm
+(.) Tj
+/R20 12 Tf
+1 0 0 1 222 784 Tm
+( ) Tj
+-0.00108333 Tc
+1 0 0 1 90 572 Tm
+(To run HSPICE, you must first open an X-window.  The procedure for opening an X-window) Tj
+-0.0331667 Tc
+1 0 0 1 72 559 Tm
+(varies depending on the type of computer you are using.  If you have questions, read the section on) Tj
+/R26 12 Tf
+0 Tc
+1 0 0 1 225 784 Tm
+( ) Tj
+1 0 0 1 72 546 Tm
+(Workstation Basics) Tj
+/R20 12 Tf
+1 0 0 1 228 784 Tm
+( ) Tj
+1 0 0 1 164.979 546 Tm
+( later in this handout.) Tj
+1 0 0 1 90 521 Tm
+(Before running HSPICE, users should execute the command) Tj
+/R23 12 Tf
+1 0 0 1 231 784 Tm
+( ) Tj
+1 0 0 1 230.366 500 Tm
+(source) Tj
+/R20 12 Tf
+1 0 0 1 234 784 Tm
+( ) Tj
+1 0 0 1 263.682 500 Tm
+( /usr/class/ee/) Tj
+/R26 12 Tf
+1 0 0 1 237 784 Tm
+( ) Tj
+1 0 0 1 328.651 500 Tm
+(DOT.cshrc) Tj
+/R20 12 Tf
+1 0 0 1 240 784 Tm
+( ) Tj
+0.0545 Tc
+1 0 0 1 72 475 Tm
+(This will set your path correctly and initialize some environment variables \(put this line in your) Tj
+0 Tc
+1 0 0 1 72 462 Tm
+(.cshrc file to avoid having to retype it each time you run HSPICE\). ) Tj
+0.0135833 Tc
+1 0 0 1 90 437 Tm
+(You may also want to customize some of the HSPICE control options assigned in the config-) Tj
+0.06 Tc
+1 0 0 1 72 424 Tm
+(uration file ) Tj
+/R23 12 Tf
+0 Tc
+1 0 0 1 243 784 Tm
+( ) Tj
+1 0 0 1 129.414 424 Tm
+(meta.cfg) Tj
+/R20 12 Tf
+1 0 0 1 246 784 Tm
+( ) Tj
+0.06 Tc
+1 0 0 1 173.046 424 Tm
+(.  At run time, HSPICE looks for a configuration file, searching first in the) Tj
+-0.0296667 Tc
+1 0 0 1 72 411 Tm
+(user\251s home directory, and then in the HSPICE installation directory \(which contains a default ver-) Tj
+0.0408333 Tc
+1 0 0 1 72 398 Tm
+(sion\).  If you wish to customize your configuration, copy the default ) Tj
+/R23 12 Tf
+0 Tc
+1 0 0 1 249 784 Tm
+( ) Tj
+1 0 0 1 408.435 398 Tm
+(meta.cfg) Tj
+/R20 12 Tf
+1 0 0 1 252 784 Tm
+( ) Tj
+0.0408333 Tc
+1 0 0 1 452.067 398 Tm
+( file to your home) Tj
+0 Tc
+1 0 0 1 72 385 Tm
+(directory using the command) Tj
+/R23 12 Tf
+1 0 0 1 255 784 Tm
+( ) Tj
+1 0 0 1 194.805 364 Tm
+(cp) Tj
+/R20 12 Tf
+1 0 0 1 258 784 Tm
+( ) Tj
+1 0 0 1 206.802 364 Tm
+( /usr/class/ee/hspice/96/meta.cfg ~/meta.cfg) Tj
+-0.006 Tc
+1 0 0 1 72 339 Tm
+(You can then use an editor to make the desired modifications \(such as setting the ) Tj
+/R23 12 Tf
+0 Tc
+1 0 0 1 261 784 Tm
+( ) Tj
+1 0 0 1 462.447 339 Tm
+(prtdefault) Tj
+/R20 12 Tf
+1 0 0 1 264 784 Tm
+( ) Tj
+-0.006 Tc
+1 0 0 1 514.425 339 Tm
+( vari-) Tj
+0.00283333 Tc
+1 0 0 1 72 326 Tm
+(able to ) Tj
+/R23 12 Tf
+0 Tc
+1 0 0 1 267 784 Tm
+( ) Tj
+0.00283333 Tc
+1 0 0 1 107.389 326 Tm
+(sweet1 ) Tj
+/R20 12 Tf
+0 Tc
+1 0 0 1 270 784 Tm
+( ) Tj
+0.00283333 Tc
+1 0 0 1 144.398 326 Tm
+(\(sweet1 can print on both sides of the page, so you won\251t go through your quota as) Tj
+0 Tc
+1 0 0 1 72 313 Tm
+(fast\)\).) Tj
+0.103583 Tc
+1 0 0 1 90 288 Tm
+(Once you have opened an X-window, the procedure for running HSPICE is essentially the) Tj
+0.0249167 Tc
+1 0 0 1 72 275 Tm
+(same on the various workstations.  However, there are different versions of HSPICE installed on) Tj
+0 Tc
+1 0 0 1 72 262 Tm
+(the different workstations, so you may notice slight differences. ) Tj
+1 0 0 1 90 237 Tm
+(To run HSPICE, enter the command) Tj
+/R23 12 Tf
+1 0 0 1 273 784 Tm
+( ) Tj
+1 0 0 1 223.144 216 Tm
+(hspice) Tj
+/R20 12 Tf
+1 0 0 1 276 784 Tm
+( ) Tj
+1 0 0 1 255.139 216 Tm
+( filename.hsp > filename.lis) Tj
+-0.0324167 Tc
+1 0 0 1 72 191 Tm
+(You can also run hspice interactively by entering the ) Tj
+/R23 12 Tf
+0 Tc
+1 0 0 1 279 784 Tm
+( ) Tj
+1 0 0 1 324.732 191 Tm
+(hspice) Tj
+/R20 12 Tf
+1 0 0 1 282 784 Tm
+( ) Tj
+-0.0324167 Tc
+1 0 0 1 356.727 191 Tm
+( command by itself, and answering the) Tj
+0 Tc
+1 0 0 1 72 178 Tm
+(questions. For more details on HSPICE, read the section ) Tj
+/R26 12 Tf
+1 0 0 1 285 784 Tm
+( ) Tj
+1 0 0 1 345.592 178 Tm
+(HSPICE Basics) Tj
+/R20 12 Tf
+1 0 0 1 288 784 Tm
+( ) Tj
+1 0 0 1 421.236 178 Tm
+(, later in this handout. ) Tj
+0.00266667 Tc
+1 0 0 1 90 153 Tm
+(You can then view the simulation results by running MetaWaves on the output file created by) Tj
+0 Tc
+1 0 0 1 72 140 Tm
+(HSPICE \(filename.tr0, filename.ac0, etc.\):) Tj
+/R23 12 Tf
+1 0 0 1 291 784 Tm
+( ) Tj
+1 0 0 1 255.025 119 Tm
+(mwaves) Tj
+/R20 12 Tf
+1 0 0 1 294 784 Tm
+( ) Tj
+1 0 0 1 295.674 119 Tm
+( filename.tr0 ) Tj
+0.0185 Tc
+1 0 0 1 72 94 Tm
+(MetaWaves is an interactive menu-driven waveform viewer, which is described in more detail in) Tj
+0 Tc
+1 0 0 1 72 81 Tm
+(the section ) Tj
+/R26 12 Tf
+1 0 0 1 297 784 Tm
+( ) Tj
+1 0 0 1 126.647 81 Tm
+(MetaWaves Basics) Tj
+/R20 12 Tf
+1 0 0 1 300 784 Tm
+( ) Tj
+1 0 0 1 216.938 81 Tm
+(, later in this handout.) Tj
+ET
+Q
+endstream
+endobj
+28 0 obj
+4695
+endobj
+29 0 obj
+<<
+/Type /Page
+/MediaBox [0 0 612 792]
+/Parent 2 0 R
+/Resources << /ProcSet [/PDF /Text]
+/Font <<
+/R26 26 0 R
+/R23 23 0 R
+/R20 20 0 R
+>>
+>>
+/Contents [
+21 0 R
+24 0 R
+27 0 R
+]
+>>
+endobj
+30 0 obj
+<< /Type /Font /Name /R30 /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+31 0 obj
+<< /Length 32 0 R >>
+stream
+q
+BT
+/R30 12 Tf
+1 0 0 1 303 784 Tm
+( ) Tj
+1 0 0 1 296.007 44 Tm
+(- ) Tj
+1 0 0 1 303.003 44 Tm
+(4) Tj
+1 0 0 1 309.003 44 Tm
+( -) Tj
+ET
+endstream
+endobj
+32 0 obj
+134
+endobj
+33 0 obj
+<< /Type /Font /Name /R33 /Subtype /Type1 /BaseFont /Times-Bold >>
+endobj
+34 0 obj
+<< /Length 35 0 R >>
+stream
+BT
+/R33 24 Tf
+1 0 0 1 306 784 Tm
+( ) Tj
+1 0 0 1 231.334 722 Tm
+(3.  Unix Basics) Tj
+/R33 14 Tf
+1 0 0 1 312 784 Tm
+( ) Tj
+1 0 0 1 72 662.667 Tm
+(Setting up your account) Tj
+/R30 12 Tf
+1 0 0 1 315 784 Tm
+( ) Tj
+0.00516667 Tc
+1 0 0 1 90 637 Tm
+(If you don\251t have an account yet at Sweet Hall, see the document entitled ) Tj
+ET
+endstream
+endobj
+35 0 obj
+327
+endobj
+36 0 obj
+<< /Type /Font /Name /R36 /Subtype /Type1 /BaseFont /Times-Italic >>
+endobj
+37 0 obj
+<< /Length 38 0 R >>
+stream
+BT
+/R36 12 Tf
+0 Tc
+1 0 0 1 318 784 Tm
+( ) Tj
+0.00516667 Tc
+1 0 0 1 443.22 637 Tm
+(Introduction To The) Tj
+-0.0255 Tc
+1 0 0 1 72 624 Tm
+(Leland Systems) Tj
+/R30 12 Tf
+0 Tc
+1 0 0 1 321 784 Tm
+( ) Tj
+-0.0255 Tc
+1 0 0 1 146.008 624 Tm
+( in the document racks on the second floor of Sweet Hall.  It usually takes about 24) Tj
+0.0179167 Tc
+1 0 0 1 72 611 Tm
+(hours to get an account. Once you have an account you can access your home directory at any of) Tj
+0 Tc
+1 0 0 1 72 598 Tm
+(the campus clusters.) Tj
+/R33 14 Tf
+1 0 0 1 324 784 Tm
+( ) Tj
+1 0 0 1 72 558.667 Tm
+(Offsite SITN students) Tj
+/R30 12 Tf
+1 0 0 1 327 784 Tm
+( ) Tj
+-0.0205833 Tc
+1 0 0 1 90 533 Tm
+(HCP and NDO students wishing to open an on-campus account should, upon receiving confir-) Tj
+0 Tc
+1 0 0 1 72 520 Tm
+(mation of registration containing your student ID number from SITN, go to the web page:) Tj
+1 0 0 1 90 495 Tm
+(http://www-leland.stanford.edu/group/itss/services/sunetid/) Tj
+-0.00075 Tc
+1 0 0 1 72 470 Tm
+(Complete instructions for opening an account are described on the web page, with specific proce-) Tj
+0 Tc
+1 0 0 1 72 457 Tm
+(dures for SITN students. You may have to wait up to one day for your account to appear. ) Tj
+-0.0328333 Tc
+1 0 0 1 90 432 Tm
+(If you have questions or problems with the login procedure, contact the Sweet Hall consultants) Tj
+0.00691667 Tc
+1 0 0 1 72 419 Tm
+(at the consulting desk on the second floor of Sweet Hall, or by calling 725-2101.  If your account) Tj
+0 Tc
+1 0 0 1 72 406 Tm
+(is frozen, or you have trouble with your ID, call SITN at 415-725-3016.) Tj
+/R33 14 Tf
+1 0 0 1 330 784 Tm
+( ) Tj
+1 0 0 1 72 373.667 Tm
+(X-Windows Basics) Tj
+/R30 12 Tf
+1 0 0 1 333 784 Tm
+( ) Tj
+-0.0198333 Tc
+1 0 0 1 90 348 Tm
+(The Sweet Hall workstations use an X-Windows environment.  HSPICE behaves basically the) Tj
+-0.0241667 Tc
+1 0 0 1 72 335 Tm
+(same on each system, however, there are some differences between the various operating systems.) Tj
+0 Tc
+1 0 0 1 72 322 Tm
+(A few important ones are:) Tj
+-0.0223333 Tc
+1 0 0 1 108 301 Tm
+(SPARCstations only:  The SPARCstations do not automatically start X-Windows upon lo-) Tj
+0 Tc
+1 0 0 1 126 288 Tm
+(gin.  Use the command ) Tj
+/R33 12 Tf
+1 0 0 1 336 784 Tm
+( ) Tj
+1 0 0 1 239.971 288 Tm
+(x) Tj
+/R30 12 Tf
+1 0 0 1 339 784 Tm
+( ) Tj
+1 0 0 1 245.971 288 Tm
+( to start the X environment.) Tj
+0.0404167 Tc
+1 0 0 1 108 267 Tm
+(DECstations only:  The ) Tj
+/R33 12 Tf
+0 Tc
+1 0 0 1 342 784 Tm
+( ) Tj
+1 0 0 1 225.923 267 Tm
+(ESC) Tj
+/R30 12 Tf
+1 0 0 1 345 784 Tm
+( ) Tj
+0.0404167 Tc
+1 0 0 1 249.261 267 Tm
+( key does not exist on the DEC keyboard.  Use the function) Tj
+0 Tc
+1 0 0 1 126 254 Tm
+(key ) Tj
+/R33 12 Tf
+1 0 0 1 348 784 Tm
+( ) Tj
+1 0 0 1 146.326 254 Tm
+(F11) Tj
+/R30 12 Tf
+1 0 0 1 351 784 Tm
+( ) Tj
+1 0 0 1 165.656 254 Tm
+( instead.) Tj
+1 0 0 1 108 233 Tm
+(The X-Windows set-up is different between the various operating systems.) Tj
+0.00533333 Tc
+1 0 0 1 90 208 Tm
+(When X-Windows starts, it loads the default window configuration.  To create new windows,) Tj
+0.00625 Tc
+1 0 0 1 72 195 Tm
+(move or iconify existing windows, resize existing windows, etc., you will need to know the basic) Tj
+0 Tc
+1 0 0 1 72 182 Tm
+(X-Windows operations.  A few of the more useful ones are listed below.) Tj
+/R33 12 Tf
+1 0 0 1 354 784 Tm
+( ) Tj
+1 0 0 1 108 161 Tm
+(Left) Tj
+/R30 12 Tf
+1 0 0 1 357 784 Tm
+( ) Tj
+1 0 0 1 129.316 161 Tm
+(-) Tj
+/R33 12 Tf
+1 0 0 1 360 784 Tm
+( ) Tj
+1 0 0 1 133.31 161 Tm
+(Button) Tj
+/R30 12 Tf
+1 0 0 1 363 784 Tm
+( ) Tj
+0.17325 Tc
+1 0 0 1 168.642 161 Tm
+( pressed over the workstation background will bring up the ) Tj
+/R33 12 Tf
+0 Tc
+1 0 0 1 366 784 Tm
+( ) Tj
+1 0 0 1 475.336 161 Tm
+(Applications) Tj
+/R30 12 Tf
+1 0 0 1 369 784 Tm
+( ) Tj
+-0.01475 Tc
+1 0 0 1 126 148 Tm
+(menu.  You can select one of the menu items by dragging the cursor over the appropri-) Tj
+-0.0438333 Tc
+1 0 0 1 126 135 Tm
+(ate menu item while still keeping the left button pressed.  Releasing the button will then) Tj
+0.0340833 Tc
+1 0 0 1 126 122 Tm
+(select the item.  Menu items which have a little symbol to their right are ) Tj
+/R36 12 Tf
+0 Tc
+1 0 0 1 372 784 Tm
+( ) Tj
+1 0 0 1 480.685 122 Tm
+(hierarchical) Tj
+/R30 12 Tf
+1 0 0 1 375 784 Tm
+( ) Tj
+0.02175 Tc
+1 0 0 1 126 109 Tm
+(menus.  To select an item from a hierarchical menu, move the cursor to the right over) Tj
+-0.00483333 Tc
+1 0 0 1 126 96 Tm
+(that menu item \(while still keeping the button pressed\), and a new menu will come up.) Tj
+-0.06 Tc
+1 0 0 1 126 83 Tm
+(Select a menu item from the sub-menu the same way as you would from a normal menu.) Tj
+0.151417 Tc
+1 0 0 1 126 70 Tm
+(From the Applications menu you can create a new terminal window, among other) Tj
+ET
+Q
+endstream
+endobj
+38 0 obj
+4659
+endobj
+39 0 obj
+<<
+/Type /Page
+/MediaBox [0 0 612 792]
+/Parent 2 0 R
+/Resources << /ProcSet [/PDF /Text]
+/Font <<
+/R36 36 0 R
+/R33 33 0 R
+/R30 30 0 R
+>>
+>>
+/Contents [
+31 0 R
+34 0 R
+37 0 R
+]
+>>
+endobj
+40 0 obj
+<< /Type /Font /Name /R40 /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+41 0 obj
+<< /Length 42 0 R >>
+stream
+q
+BT
+/R40 12 Tf
+1 0 0 1 378 784 Tm
+( ) Tj
+1 0 0 1 296.007 44 Tm
+(- ) Tj
+1 0 0 1 303.003 44 Tm
+(5) Tj
+1 0 0 1 309.003 44 Tm
+( -) Tj
+1 0 0 1 126 730 Tm
+(things.) Tj
+ET
+endstream
+endobj
+42 0 obj
+166
+endobj
+43 0 obj
+<< /Type /Font /Name /R43 /Subtype /Type1 /BaseFont /Times-Bold >>
+endobj
+44 0 obj
+<< /Length 45 0 R >>
+stream
+BT
+/R43 12 Tf
+1 0 0 1 381 784 Tm
+( ) Tj
+0.0185 Tc
+1 0 0 1 108 709 Tm
+(Middle-Button ) Tj
+/R40 12 Tf
+0 Tc
+1 0 0 1 384 784 Tm
+( ) Tj
+0.0185 Tc
+1 0 0 1 187.21 709 Tm
+(pressed over the workstation background will bring up the ) Tj
+/R43 12 Tf
+0 Tc
+1 0 0 1 387 784 Tm
+( ) Tj
+0.0185 Tc
+1 0 0 1 472.119 709 Tm
+(Window Ma-) Tj
+0 Tc
+1 0 0 1 126 696 Tm
+(nipulations) Tj
+/R40 12 Tf
+1 0 0 1 390 784 Tm
+( ) Tj
+1 0 0 1 183.346 696 Tm
+( menu.) Tj
+/R43 12 Tf
+1 0 0 1 393 784 Tm
+( ) Tj
+0.0843333 Tc
+1 0 0 1 108 675 Tm
+(Right-Button ) Tj
+/R40 12 Tf
+0 Tc
+1 0 0 1 396 784 Tm
+( ) Tj
+0.0843333 Tc
+1 0 0 1 179.998 675 Tm
+(pressed over the workstation background will bring up the ) Tj
+/R43 12 Tf
+0 Tc
+1 0 0 1 399 784 Tm
+( ) Tj
+1 0 0 1 472.011 675 Tm
+(Environment) Tj
+/R40 12 Tf
+1 0 0 1 402 784 Tm
+( ) Tj
+1 0 0 1 126 662 Tm
+(menu.) Tj
+/R43 12 Tf
+1 0 0 1 405 784 Tm
+( ) Tj
+1 0 0 1 108 641 Tm
+(Left) Tj
+/R40 12 Tf
+1 0 0 1 408 784 Tm
+( ) Tj
+1 0 0 1 129.316 641 Tm
+(-) Tj
+/R43 12 Tf
+1 0 0 1 411 784 Tm
+( ) Tj
+1 0 0 1 133.31 641 Tm
+(Button) Tj
+/R40 12 Tf
+1 0 0 1 414 784 Tm
+( ) Tj
+1 0 0 1 168.642 641 Tm
+( clicked over a window title bar will bring that window to the top.) Tj
+/R43 12 Tf
+1 0 0 1 417 784 Tm
+( ) Tj
+1 0 0 1 108 620 Tm
+(Middle-Button ) Tj
+/R40 12 Tf
+1 0 0 1 420 784 Tm
+( ) Tj
+1 0 0 1 186.987 620 Tm
+(clicked over a window title bar will lower that window.) Tj
+/R43 12 Tf
+1 0 0 1 423 784 Tm
+( ) Tj
+0.0283333 Tc
+1 0 0 1 108 599 Tm
+(Right-Button ) Tj
+/R40 12 Tf
+0 Tc
+1 0 0 1 426 784 Tm
+( ) Tj
+0.0283333 Tc
+1 0 0 1 179.327 599 Tm
+(pressed over a window title bar will bring up the ) Tj
+/R43 12 Tf
+0 Tc
+1 0 0 1 429 784 Tm
+( ) Tj
+1 0 0 1 418.649 599 Tm
+(Window) Tj
+/R40 12 Tf
+1 0 0 1 432 784 Tm
+( ) Tj
+0.0283333 Tc
+1 0 0 1 461.987 599 Tm
+( ) Tj
+/R43 12 Tf
+0 Tc
+1 0 0 1 435 784 Tm
+( ) Tj
+1 0 0 1 465.328 599 Tm
+(Manipulations) Tj
+/R40 12 Tf
+1 0 0 1 438 784 Tm
+( ) Tj
+1 0 0 1 126 586 Tm
+(menu.) Tj
+/R43 12 Tf
+1 0 0 1 441 784 Tm
+( ) Tj
+-0.0268333 Tc
+1 0 0 1 108 565 Tm
+(Left-Button ) Tj
+/R40 12 Tf
+0 Tc
+1 0 0 1 444 784 Tm
+( ) Tj
+-0.0268333 Tc
+1 0 0 1 171.32 565 Tm
+(pressed \(and held\) over text within a window will copy text out for copy-and-) Tj
+0 Tc
+1 0 0 1 126 552 Tm
+(paste operations.) Tj
+/R43 12 Tf
+1 0 0 1 447 784 Tm
+( ) Tj
+1 0 0 1 108 531 Tm
+(Middle-Button ) Tj
+/R40 12 Tf
+1 0 0 1 450 784 Tm
+( ) Tj
+1 0 0 1 186.987 531 Tm
+(clicked within a text window will paste the text previously copied. ) Tj
+/R43 12 Tf
+1 0 0 1 453 784 Tm
+( ) Tj
+1 0 0 1 108 510 Tm
+(Right-Button ) Tj
+/R40 12 Tf
+1 0 0 1 456 784 Tm
+( ) Tj
+1 0 0 1 178.986 510 Tm
+(clicked within a text window extends the current copy region.) Tj
+/R43 12 Tf
+1 0 0 1 459 784 Tm
+( ) Tj
+1 0 0 1 108 489 Tm
+(Any) Tj
+/R40 12 Tf
+1 0 0 1 462 784 Tm
+( ) Tj
+1 0 0 1 129.334 489 Tm
+(-) Tj
+/R43 12 Tf
+1 0 0 1 465 784 Tm
+( ) Tj
+-0.0525833 Tc
+1 0 0 1 133.327 489 Tm
+(Button ) Tj
+/R40 12 Tf
+0 Tc
+1 0 0 1 468 784 Tm
+( ) Tj
+-0.0525833 Tc
+1 0 0 1 171.028 489 Tm
+(pressed \(and held\) over the resize icon in the upper right-hand corner of a win-) Tj
+0 Tc
+1 0 0 1 126 476 Tm
+(dow will allow you to resize that window.) Tj
+/R43 12 Tf
+1 0 0 1 471 784 Tm
+( ) Tj
+0.0366667 Tc
+1 0 0 1 108 455 Tm
+(Any-Button ) Tj
+/R40 12 Tf
+0 Tc
+1 0 0 1 474 784 Tm
+( ) Tj
+0.0366667 Tc
+1 0 0 1 172.099 455 Tm
+(clicked over the icon in the upper left-hand corner of a window will iconify) Tj
+0 Tc
+1 0 0 1 126 442 Tm
+(that window.  A window is de-iconified by clicking any button over the icon.) Tj
+/R43 12 Tf
+1 0 0 1 477 784 Tm
+( ) Tj
+1 0 0 1 108 421 Tm
+(To) Tj
+/R40 12 Tf
+1 0 0 1 480 784 Tm
+( ) Tj
+0.034 Tc
+1 0 0 1 122.004 421 Tm
+( ) Tj
+/R43 12 Tf
+0 Tc
+1 0 0 1 483 784 Tm
+( ) Tj
+1 0 0 1 125.412 421 Tm
+(exit) Tj
+/R40 12 Tf
+1 0 0 1 486 784 Tm
+( ) Tj
+0.034 Tc
+1 0 0 1 144.065 421 Tm
+( X-Windows, use the right button to select the ) Tj
+ET
+endstream
+endobj
+45 0 obj
+3733
+endobj
+46 0 obj
+<< /Type /Font /Name /R46 /Subtype /Type1 /BaseFont /Times-Italic >>
+endobj
+47 0 obj
+<< /Length 48 0 R >>
+stream
+BT
+/R46 12 Tf
+0 Tc
+1 0 0 1 489 784 Tm
+( ) Tj
+0.034 Tc
+1 0 0 1 371.672 421 Tm
+(Quit the X -Windows System ) Tj
+/R40 12 Tf
+0 Tc
+1 0 0 1 492 784 Tm
+( ) Tj
+1 0 0 1 513.339 421 Tm
+(menu) Tj
+1 0 0 1 126 408 Tm
+(item from the ) Tj
+/R43 12 Tf
+1 0 0 1 495 784 Tm
+( ) Tj
+1 0 0 1 194.309 408 Tm
+(Environment) Tj
+/R40 12 Tf
+1 0 0 1 498 784 Tm
+( ) Tj
+1 0 0 1 262.298 408 Tm
+( menu.) Tj
+0.0766667 Tc
+1 0 0 1 90 383 Tm
+(Details on the operation of some of the machines can be found in the handouts ) Tj
+/R46 12 Tf
+0 Tc
+1 0 0 1 501 784 Tm
+( ) Tj
+1 0 0 1 483.333 383 Tm
+(DECstation) Tj
+1 0 0 1 72 370 Tm
+(Tips) Tj
+/R40 12 Tf
+1 0 0 1 504 784 Tm
+( ) Tj
+0.0238333 Tc
+1 0 0 1 92.672 370 Tm
+(, ) Tj
+/R46 12 Tf
+0 Tc
+1 0 0 1 507 784 Tm
+( ) Tj
+0.0238333 Tc
+1 0 0 1 98.958 370 Tm
+(SPARCstation Tips) Tj
+/R40 12 Tf
+0 Tc
+1 0 0 1 510 784 Tm
+( ) Tj
+0.0238333 Tc
+1 0 0 1 191.579 370 Tm
+(, ) Tj
+/R46 12 Tf
+0 Tc
+1 0 0 1 513 784 Tm
+( ) Tj
+0.0238333 Tc
+1 0 0 1 197.864 370 Tm
+(Unix Command Summary) Tj
+/R40 12 Tf
+0 Tc
+1 0 0 1 516 784 Tm
+( ) Tj
+0.0238333 Tc
+1 0 0 1 322.409 370 Tm
+(, and ) Tj
+/R46 12 Tf
+0 Tc
+1 0 0 1 519 784 Tm
+( ) Tj
+0.0238333 Tc
+1 0 0 1 349.307 370 Tm
+(Using the X-Window System,) Tj
+/R40 12 Tf
+0 Tc
+1 0 0 1 522 784 Tm
+( ) Tj
+0.0238333 Tc
+1 0 0 1 489.459 370 Tm
+( which are) Tj
+-0.0128333 Tc
+1 0 0 1 72 357 Tm
+(available in the document rack near the consulting desk in the northeast corner of the second floor) Tj
+0.00816667 Tc
+1 0 0 1 72 344 Tm
+(of Sweet Hall or on-line in the directory ) Tj
+/R43 12 Tf
+0 Tc
+1 0 0 1 525 784 Tm
+( ) Tj
+1 0 0 1 268.039 344 Tm
+(~consult/pub/lair-docs) Tj
+/R40 12 Tf
+1 0 0 1 528 784 Tm
+( ) Tj
+0.00816667 Tc
+1 0 0 1 382.27 344 Tm
+(.  You can also get help from the) Tj
+0 Tc
+1 0 0 1 72 331 Tm
+(consulting desk on the second floor.) Tj
+/R43 14 Tf
+1 0 0 1 531 784 Tm
+( ) Tj
+1 0 0 1 72 273.667 Tm
+(UNIX commands) Tj
+/R40 12 Tf
+1 0 0 1 534 784 Tm
+( ) Tj
+-0.03425 Tc
+1 0 0 1 90 248 Tm
+(To access UNIX commands, enter commands from your keyboard in one of the x-windows.  A) Tj
+0 Tc
+1 0 0 1 72 235 Tm
+(few of those you might want to use are listed below:) Tj
+/R43 12 Tf
+1 0 0 1 537 784 Tm
+( ) Tj
+1 0 0 1 108 214 Tm
+(passwd) Tj
+/R40 12 Tf
+1 0 0 1 540 784 Tm
+( ) Tj
+1 0 0 1 145.339 214 Tm
+( - Change login password.  Please change your password the first time you log in.) Tj
+/R43 12 Tf
+1 0 0 1 543 784 Tm
+( ) Tj
+1 0 0 1 108 193 Tm
+(ls) Tj
+/R40 12 Tf
+1 0 0 1 546 784 Tm
+( ) Tj
+1 0 0 1 116.001 193 Tm
+( - Shows the names of your files.) Tj
+/R43 12 Tf
+1 0 0 1 549 784 Tm
+( ) Tj
+1 0 0 1 108 172 Tm
+(more) Tj
+/R40 12 Tf
+1 0 0 1 552 784 Tm
+( ) Tj
+1 0 0 1 134.646 172 Tm
+( ) Tj
+/R46 12 Tf
+1 0 0 1 555 784 Tm
+( ) Tj
+1 0 0 1 137.646 172 Tm
+(file ) Tj
+/R40 12 Tf
+1 0 0 1 558 784 Tm
+( ) Tj
+1 0 0 1 155.974 172 Tm
+(- Shows contents of ) Tj
+/R46 12 Tf
+1 0 0 1 561 784 Tm
+( ) Tj
+1 0 0 1 253.948 172 Tm
+(file.) Tj
+/R43 12 Tf
+1 0 0 1 564 784 Tm
+( ) Tj
+1 0 0 1 108 151 Tm
+(lpr) Tj
+/R40 12 Tf
+1 0 0 1 567 784 Tm
+( ) Tj
+1 0 0 1 123.331 151 Tm
+( ) Tj
+/R46 12 Tf
+1 0 0 1 570 784 Tm
+( ) Tj
+1 0 0 1 126.331 151 Tm
+(file ) Tj
+/R40 12 Tf
+1 0 0 1 573 784 Tm
+( ) Tj
+1 0 0 1 144.659 151 Tm
+(- Prints contents of ) Tj
+/R46 12 Tf
+1 0 0 1 576 784 Tm
+( ) Tj
+1 0 0 1 238.632 151 Tm
+(file ) Tj
+/R40 12 Tf
+1 0 0 1 579 784 Tm
+( ) Tj
+1 0 0 1 256.96 151 Tm
+(on printer. ) Tj
+/R43 12 Tf
+1 0 0 1 582 784 Tm
+( ) Tj
+1 0 0 1 108 130 Tm
+(rm) Tj
+/R40 12 Tf
+1 0 0 1 585 784 Tm
+( ) Tj
+1 0 0 1 123.319 130 Tm
+( ) Tj
+/R46 12 Tf
+1 0 0 1 588 784 Tm
+( ) Tj
+1 0 0 1 126.319 130 Tm
+(file ) Tj
+/R40 12 Tf
+1 0 0 1 591 784 Tm
+( ) Tj
+1 0 0 1 144.647 130 Tm
+(- Removes ) Tj
+/R46 12 Tf
+1 0 0 1 594 784 Tm
+( ) Tj
+1 0 0 1 199.298 130 Tm
+(file.) Tj
+/R43 12 Tf
+1 0 0 1 597 784 Tm
+( ) Tj
+1 0 0 1 108 109 Tm
+(man man) Tj
+/R40 12 Tf
+1 0 0 1 600 784 Tm
+( ) Tj
+1 0 0 1 156.328 109 Tm
+( - Tells how to use the on-line manual.) Tj
+-0.0445833 Tc
+1 0 0 1 90 84 Tm
+(You will need an editor to create the input files for HSPICE:  ) Tj
+/R43 12 Tf
+0 Tc
+1 0 0 1 603 784 Tm
+( ) Tj
+1 0 0 1 379.943 84 Tm
+(vi) Tj
+/R40 12 Tf
+1 0 0 1 606 784 Tm
+( ) Tj
+-0.0445833 Tc
+1 0 0 1 389.277 84 Tm
+( and ) Tj
+/R43 12 Tf
+0 Tc
+1 0 0 1 609 784 Tm
+( ) Tj
+1 0 0 1 411.533 84 Tm
+(emacs) Tj
+/R40 12 Tf
+1 0 0 1 612 784 Tm
+( ) Tj
+-0.0445833 Tc
+1 0 0 1 442.846 84 Tm
+( are two widely used) Tj
+-0.03025 Tc
+1 0 0 1 72 71 Tm
+(editors \(For more information on editors pick up the handouts on the second floor of Sweet Hall or) Tj
+0 Tc
+1 0 0 1 72 58 Tm
+(on-line in the ) Tj
+/R43 12 Tf
+1 0 0 1 615 784 Tm
+( ) Tj
+1 0 0 1 138.981 58 Tm
+(~consult/pub/lair-docs) Tj
+/R40 12 Tf
+1 0 0 1 618 784 Tm
+( ) Tj
+1 0 0 1 253.213 58 Tm
+( directory\).) Tj
+ET
+Q
+endstream
+endobj
+48 0 obj
+4543
+endobj
+49 0 obj
+<<
+/Type /Page
+/MediaBox [0 0 612 792]
+/Parent 2 0 R
+/Resources << /ProcSet [/PDF /Text]
+/Font <<
+/R46 46 0 R
+/R43 43 0 R
+/R40 40 0 R
+>>
+>>
+/Contents [
+41 0 R
+44 0 R
+47 0 R
+]
+>>
+endobj
+50 0 obj
+<< /Type /Font /Name /R50 /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+51 0 obj
+<< /Length 52 0 R >>
+stream
+q
+BT
+/R50 12 Tf
+1 0 0 1 621 784 Tm
+( ) Tj
+1 0 0 1 296.007 44 Tm
+(- ) Tj
+1 0 0 1 303.003 44 Tm
+(6) Tj
+1 0 0 1 309.003 44 Tm
+( -) Tj
+ET
+endstream
+endobj
+52 0 obj
+134
+endobj
+53 0 obj
+<< /Type /Font /Name /R53 /Subtype /Type1 /BaseFont /Times-Bold >>
+endobj
+54 0 obj
+<< /Length 55 0 R >>
+stream
+BT
+/R53 14 Tf
+1 0 0 1 624 784 Tm
+( ) Tj
+1 0 0 1 72 728.667 Tm
+(Running HSPICE Remotely) Tj
+/R50 12 Tf
+1 0 0 1 627 784 Tm
+( ) Tj
+0.0149167 Tc
+1 0 0 1 90 705 Tm
+(If you have access to a networked workstation running X-Windows, you can run HSPICE re-) Tj
+0.01375 Tc
+1 0 0 1 72 692 Tm
+(motely.  You will need to telnet or rlogin to a computer that does have HSPICE \(one of the ) Tj
+/R53 12 Tf
+0 Tc
+1 0 0 1 630 784 Tm
+( ) Tj
+1 0 0 1 515.006 692 Tm
+(amy,) Tj
+0.01875 Tc
+1 0 0 1 72 679 Tm
+(adelbert, elaine, epic, raptor) Tj
+/R50 12 Tf
+0 Tc
+1 0 0 1 633 784 Tm
+( ) Tj
+0.01875 Tc
+1 0 0 1 217.288 679 Tm
+(, ) Tj
+/R53 12 Tf
+0 Tc
+1 0 0 1 636 784 Tm
+( ) Tj
+0.01875 Tc
+1 0 0 1 223.514 679 Tm
+(firebird, voyager ) Tj
+/R50 12 Tf
+0 Tc
+1 0 0 1 639 784 Tm
+( ) Tj
+1 0 0 1 313.598 679 Tm
+(or) Tj
+/R53 12 Tf
+1 0 0 1 642 784 Tm
+( ) Tj
+0.01875 Tc
+1 0 0 1 323.591 679 Tm
+( apollo ) Tj
+/R50 12 Tf
+0 Tc
+1 0 0 1 645 784 Tm
+( ) Tj
+0.01875 Tc
+1 0 0 1 361.381 679 Tm
+(workstations\) and have it open an X-) Tj
+0 Tc
+1 0 0 1 72 666 Tm
+(Window on your local host.) Tj
+/R53 12 Tf
+1 0 0 1 648 784 Tm
+( ) Tj
+1 0 0 1 205.638 666 Tm
+(  ) Tj
+/R50 12 Tf
+1 0 0 1 651 784 Tm
+( ) Tj
+1 0 0 1 211.638 666 Tm
+(Begin by opening a terminal window on your workstation and enter) Tj
+/R53 12 Tf
+1 0 0 1 654 784 Tm
+( ) Tj
+1 0 0 1 260.792 645 Tm
+(xhost) Tj
+/R50 12 Tf
+1 0 0 1 657 784 Tm
+( ) Tj
+1 0 0 1 288.123 645 Tm
+( +) Tj
+ET
+endstream
+endobj
+55 0 obj
+1375
+endobj
+56 0 obj
+<< /Type /Font /Name /R56 /Subtype /Type1 /BaseFont /Times-Italic >>
+endobj
+57 0 obj
+<< /Length 58 0 R >>
+stream
+BT
+/R56 12 Tf
+1 0 0 1 660 784 Tm
+( ) Tj
+1 0 0 1 297.891 645 Tm
+(remotehost) Tj
+/R50 12 Tf
+1 0 0 1 663 784 Tm
+( ) Tj
+-0.0369167 Tc
+1 0 0 1 72 622 Tm
+(where ) Tj
+/R56 12 Tf
+0 Tc
+1 0 0 1 666 784 Tm
+( ) Tj
+1 0 0 1 103.865 622 Tm
+(remotehost) Tj
+/R50 12 Tf
+1 0 0 1 669 784 Tm
+( ) Tj
+-0.0369167 Tc
+1 0 0 1 157.183 622 Tm
+( is the name of the host on which you are running simulations. Next, rlogin to the) Tj
+0 Tc
+1 0 0 1 72 609 Tm
+(remote host, and enter) Tj
+/R53 12 Tf
+1 0 0 1 672 784 Tm
+( ) Tj
+1 0 0 1 234.013 588 Tm
+(setenv) Tj
+/R50 12 Tf
+1 0 0 1 675 784 Tm
+( ) Tj
+1 0 0 1 265.997 588 Tm
+( ) Tj
+/R53 12 Tf
+1 0 0 1 678 784 Tm
+( ) Tj
+1 0 0 1 268.997 588 Tm
+(DISPLAY) Tj
+/R50 12 Tf
+1 0 0 1 681 784 Tm
+( ) Tj
+1 0 0 1 321.658 588 Tm
+( ) Tj
+/R56 12 Tf
+1 0 0 1 684 784 Tm
+( ) Tj
+1 0 0 1 324.658 588 Tm
+(localhost) Tj
+/R50 12 Tf
+1 0 0 1 687 784 Tm
+( ) Tj
+1 0 0 1 368.653 588 Tm
+(:0) Tj
+-0.01625 Tc
+1 0 0 1 72 565 Tm
+(This enables the remote host to open windows on your local host.  Once you have created your in-) Tj
+0 Tc
+1 0 0 1 72 552 Tm
+(put file, you can run HSPICE just as you would on any Sweet Hall or Terman computer.) Tj
+-0.0183333 Tc
+1 0 0 1 90 527 Tm
+(Your input, configuration, and hardcopy files will all need to reside on the remote host, so you) Tj
+0.0175 Tc
+1 0 0 1 72 514 Tm
+(may need to use ) Tj
+/R53 12 Tf
+0 Tc
+1 0 0 1 690 784 Tm
+( ) Tj
+1 0 0 1 153.48 514 Tm
+(ftp) Tj
+/R50 12 Tf
+1 0 0 1 693 784 Tm
+( ) Tj
+0.0175 Tc
+1 0 0 1 168.138 514 Tm
+( \(see man pages for details\) to transfer files between hosts \(for example, exe-) Tj
+-0.0335833 Tc
+1 0 0 1 72 501 Tm
+(cuting the print command on the remote host will send printouts to the default printer at the remote) Tj
+0.0736667 Tc
+1 0 0 1 72 488 Tm
+(host site\).  There are many possible incompatibilities between various shells and operating sys-) Tj
+0.0111667 Tc
+1 0 0 1 72 475 Tm
+(tems, so it may be necessary to modify your environment files to ensure compatibility.  For more) Tj
+0 Tc
+1 0 0 1 72 462 Tm
+(information contact one of the Sweet Hall consultants.) Tj
+/R53 14 Tf
+1 0 0 1 696 784 Tm
+( ) Tj
+1 0 0 1 72 429.667 Tm
+(Running HSPICE From Off-Campus) Tj
+/R50 12 Tf
+1 0 0 1 699 784 Tm
+( ) Tj
+0.041 Tc
+1 0 0 1 90 404 Tm
+(The Sweet Hall and Terman computers can be accessed remotely from any terminal or com-) Tj
+-0.035 Tc
+1 0 0 1 72 391 Tm
+(puter connected to the Stanford Ethertip network.  The Ethertip can also be dialed up at the follow-) Tj
+0 Tc
+1 0 0 1 72 378 Tm
+(ing numbers:) Tj
+/R53 12 Tf
+1 0 0 1 702 784 Tm
+( ) Tj
+1 0 0 1 108 340 Tm
+(498-1440) Tj
+/R50 12 Tf
+1 0 0 1 705 784 Tm
+( ) Tj
+0.233583 Tc
+1 0 0 1 180 340 Tm
+(2400 to 14,400 bps, meeting v.32bis standards, plus throughput up to) Tj
+0 Tc
+1 0 0 1 180 327 Tm
+(57.6kbs with compression. Also supports SLIP service.) Tj
+0.00475 Tc
+1 0 0 1 90 302 Tm
+(To use these numbers you must have your modem set to 8 bits with no parity and one stop bit) Tj
+0.0271667 Tc
+1 0 0 1 72 289 Tm
+(\(if applicable\).  There are handouts in Sweet Hall that describe the procedure for logging in over) Tj
+-0.021 Tc
+1 0 0 1 72 276 Tm
+(phone lines \() Tj
+/R56 12 Tf
+0 Tc
+1 0 0 1 708 784 Tm
+( ) Tj
+-0.021 Tc
+1 0 0 1 133.476 276 Tm
+(Dial-in Procedures for Connecting to Leland Systems and Forsythe) Tj
+/R50 12 Tf
+0 Tc
+1 0 0 1 711 784 Tm
+( ) Tj
+-0.021 Tc
+1 0 0 1 456.048 276 Tm
+(\).  Once you have) Tj
+-0.00075 Tc
+1 0 0 1 72 263 Tm
+(reached the tip you will be asked to enter your login name and password \(use your leland account) Tj
+-0.00633333 Tc
+1 0 0 1 72 250 Tm
+(information\).  Enter your name and password, and when the ) Tj
+/R53 12 Tf
+0 Tc
+1 0 0 1 714 784 Tm
+( ) Tj
+1 0 0 1 362.463 250 Tm
+(tip-mpxx-ncs>) Tj
+/R50 12 Tf
+1 0 0 1 717 784 Tm
+( ) Tj
+-0.00633333 Tc
+1 0 0 1 436.613 250 Tm
+( \(ethertip\) prompt ap-) Tj
+0.00333333 Tc
+1 0 0 1 72 237 Tm
+(pears type in the name of the host you wish to use \() Tj
+/R53 12 Tf
+0 Tc
+1 0 0 1 720 784 Tm
+( ) Tj
+0.00333333 Tc
+1 0 0 1 319.068 237 Tm
+(voyager1, apollo1, ) Tj
+/R50 12 Tf
+0 Tc
+1 0 0 1 723 784 Tm
+( ) Tj
+1 0 0 1 415.139 237 Tm
+(etc) Tj
+/R53 12 Tf
+1 0 0 1 726 784 Tm
+( ) Tj
+1 0 0 1 429.125 237 Tm
+(.) Tj
+/R50 12 Tf
+1 0 0 1 729 784 Tm
+( ) Tj
+0.00333333 Tc
+1 0 0 1 432.125 237 Tm
+(\).  You can then log in) Tj
+-0.0608333 Tc
+1 0 0 1 72 224 Tm
+(as you would normally.  If you are using a graphics terminal, be sure your terminal type \(mfb name\)) Tj
+0 Tc
+1 0 0 1 72 211 Tm
+(is listed in the file ) Tj
+/R53 12 Tf
+1 0 0 1 732 784 Tm
+( ) Tj
+1 0 0 1 160.978 211 Tm
+(~cad/lib/mfbcap) Tj
+/R50 12 Tf
+1 0 0 1 735 784 Tm
+( ) Tj
+1 0 0 1 243.873 211 Tm
+(. ) Tj
+/R53 14 Tf
+1 0 0 1 738 784 Tm
+( ) Tj
+1 0 0 1 72 178.667 Tm
+(Moving Files Between Systems) Tj
+/R50 12 Tf
+1 0 0 1 741 784 Tm
+( ) Tj
+0.0516667 Tc
+1 0 0 1 90 153 Tm
+(If you plan to use a workstation that is not connected to the Sweet Hall file server, you may) Tj
+-0.0508333 Tc
+1 0 0 1 72 140 Tm
+(need to copy files from one system to another.  To do this, use the ) Tj
+/R53 12 Tf
+0 Tc
+1 0 0 1 744 784 Tm
+( ) Tj
+1 0 0 1 382.426 140 Tm
+(ftp) Tj
+/R50 12 Tf
+1 0 0 1 747 784 Tm
+( ) Tj
+-0.0508333 Tc
+1 0 0 1 397.083 140 Tm
+( command, as in the following) Tj
+0 Tc
+1 0 0 1 72 127 Tm
+(example.) Tj
+1 0 0 1 108 106 Tm
+(1.) Tj
+1 0 0 1 126 106 Tm
+(Type ") Tj
+/R53 12 Tf
+1 0 0 1 750 784 Tm
+( ) Tj
+1 0 0 1 158.552 106 Tm
+(ftp) Tj
+/R50 12 Tf
+1 0 0 1 753 784 Tm
+( ) Tj
+1 0 0 1 173.209 106 Tm
+( hostname" to connect to the remote host) Tj
+1 0 0 1 108 85 Tm
+(2.) Tj
+1 0 0 1 126 85 Tm
+(Give your login information when prompted.) Tj
+1 0 0 1 108 64 Tm
+(3.) Tj
+0.000166667 Tc
+1 0 0 1 126 64 Tm
+(Type ") Tj
+/R53 12 Tf
+0 Tc
+1 0 0 1 756 784 Tm
+( ) Tj
+1 0 0 1 158.553 64 Tm
+(put) Tj
+/R50 12 Tf
+1 0 0 1 759 784 Tm
+( ) Tj
+0.000166667 Tc
+1 0 0 1 175.888 64 Tm
+( ) Tj
+/R56 12 Tf
+0 Tc
+1 0 0 1 762 784 Tm
+( ) Tj
+1 0 0 1 178.89 64 Tm
+(filename) Tj
+/R50 12 Tf
+1 0 0 1 765 784 Tm
+( ) Tj
+1 0 0 1 220.207 64 Tm
+(") Tj
+/R56 12 Tf
+1 0 0 1 768 784 Tm
+( ) Tj
+0.000166667 Tc
+1 0 0 1 225.103 64 Tm
+( ) Tj
+/R50 12 Tf
+0 Tc
+1 0 0 1 771 784 Tm
+( ) Tj
+0.000166667 Tc
+1 0 0 1 228.105 64 Tm
+(where ) Tj
+/R56 12 Tf
+0 Tc
+1 0 0 1 774 784 Tm
+( ) Tj
+0.000166667 Tc
+1 0 0 1 260.415 64 Tm
+(filename ) Tj
+/R50 12 Tf
+0 Tc
+1 0 0 1 777 784 Tm
+( ) Tj
+0.000166667 Tc
+1 0 0 1 304.734 64 Tm
+(is the name of the file you want to send to the re-) Tj
+ET
+Q
+endstream
+endobj
+58 0 obj
+6185
+endobj
+59 0 obj
+<<
+/Type /Page
+/MediaBox [0 0 612 792]
+/Parent 2 0 R
+/Resources << /ProcSet [/PDF /Text]
+/Font <<
+/R56 56 0 R
+/R53 53 0 R
+/R50 50 0 R
+>>
+>>
+/Contents [
+51 0 R
+54 0 R
+57 0 R
+]
+>>
+endobj
+60 0 obj
+<< /Type /Font /Name /R60 /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+61 0 obj
+<< /Length 62 0 R >>
+stream
+q
+BT
+/R60 12 Tf
+1 0 0 1 780 784 Tm
+( ) Tj
+1 0 0 1 296.007 44 Tm
+(- ) Tj
+1 0 0 1 303.003 44 Tm
+(7) Tj
+1 0 0 1 309.003 44 Tm
+( -) Tj
+1 0 0 1 126 730 Tm
+(mote host.) Tj
+1 0 0 1 108 709 Tm
+(4.) Tj
+0.0544167 Tc
+1 0 0 1 126 709 Tm
+(Repeat the above step until you are finished putting the files you need on the remote) Tj
+0 Tc
+1 0 0 1 126 696 Tm
+(host.) Tj
+1 0 0 1 108 675 Tm
+(5.) Tj
+1 0 0 1 126 675 Tm
+(Type ") Tj
+ET
+endstream
+endobj
+62 0 obj
+412
+endobj
+63 0 obj
+<< /Type /Font /Name /R63 /Subtype /Type1 /BaseFont /Times-Bold >>
+endobj
+64 0 obj
+<< /Length 65 0 R >>
+stream
+BT
+/R63 12 Tf
+1 0 0 1 783 784 Tm
+( ) Tj
+1 0 0 1 158.552 675 Tm
+(quit) Tj
+/R60 12 Tf
+1 0 0 1 786 784 Tm
+( ) Tj
+1 0 0 1 179.221 675 Tm
+(" to exit ftp.) Tj
+-0.03575 Tc
+1 0 0 1 90 650 Tm
+(To copy files from the remote host, use the command ") Tj
+/R63 12 Tf
+0 Tc
+1 0 0 1 789 784 Tm
+( ) Tj
+1 0 0 1 350.187 650 Tm
+(get) Tj
+/R60 12 Tf
+1 0 0 1 792 784 Tm
+( ) Tj
+-0.03575 Tc
+1 0 0 1 365.507 650 Tm
+( ) Tj
+ET
+endstream
+endobj
+65 0 obj
+398
+endobj
+66 0 obj
+<< /Type /Font /Name /R66 /Subtype /Type1 /BaseFont /Times-Italic >>
+endobj
+67 0 obj
+<< /Length 68 0 R >>
+stream
+BT
+/R66 12 Tf
+0 Tc
+1 0 0 1 795 784 Tm
+( ) Tj
+1 0 0 1 368.078 650 Tm
+(filename) Tj
+/R60 12 Tf
+1 0 0 1 798 784 Tm
+( ) Tj
+-0.03575 Tc
+1 0 0 1 409.395 650 Tm
+(" instead of ") Tj
+/R63 12 Tf
+0 Tc
+1 0 0 1 801 784 Tm
+( ) Tj
+1 0 0 1 470.88 650 Tm
+(put) Tj
+/R60 12 Tf
+1 0 0 1 804 784 Tm
+( ) Tj
+-0.03575 Tc
+1 0 0 1 488.215 650 Tm
+( ) Tj
+/R66 12 Tf
+0 Tc
+1 0 0 1 807 784 Tm
+( ) Tj
+1 0 0 1 490.787 650 Tm
+(filename) Tj
+/R60 12 Tf
+1 0 0 1 810 784 Tm
+( ) Tj
+1 0 0 1 532.104 650 Tm
+(".) Tj
+1 0 0 1 72 637 Tm
+(Try the command ") Tj
+/R63 12 Tf
+1 0 0 1 813 784 Tm
+( ) Tj
+1 0 0 1 165.199 637 Tm
+(man) Tj
+/R60 12 Tf
+1 0 0 1 816 784 Tm
+( ) Tj
+1 0 0 1 187.863 637 Tm
+( ) Tj
+/R63 12 Tf
+1 0 0 1 819 784 Tm
+( ) Tj
+1 0 0 1 190.863 637 Tm
+(ftp) Tj
+/R60 12 Tf
+1 0 0 1 822 784 Tm
+( ) Tj
+1 0 0 1 205.521 637 Tm
+(" for more information.) Tj
+ET
+Q
+endstream
+endobj
+68 0 obj
+813
+endobj
+69 0 obj
+<<
+/Type /Page
+/MediaBox [0 0 612 792]
+/Parent 2 0 R
+/Resources << /ProcSet [/PDF /Text]
+/Font <<
+/R66 66 0 R
+/R63 63 0 R
+/R60 60 0 R
+>>
+>>
+/Contents [
+61 0 R
+64 0 R
+67 0 R
+]
+>>
+endobj
+70 0 obj
+<< /Type /Font /Name /R70 /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+71 0 obj
+<< /Length 72 0 R >>
+stream
+q
+BT
+/R70 12 Tf
+1 0 0 1 825 784 Tm
+( ) Tj
+1 0 0 1 296.007 44 Tm
+(- ) Tj
+1 0 0 1 303.003 44 Tm
+(8) Tj
+1 0 0 1 309.003 44 Tm
+( -) Tj
+ET
+endstream
+endobj
+72 0 obj
+134
+endobj
+73 0 obj
+<< /Type /Font /Name /R73 /Subtype /Type1 /BaseFont /Times-Bold >>
+endobj
+74 0 obj
+<< /Length 75 0 R >>
+stream
+BT
+/R73 24 Tf
+1 0 0 1 828 784 Tm
+( ) Tj
+1 0 0 1 191.347 722 Tm
+(4.  Workstation Basics) Tj
+/R73 14 Tf
+1 0 0 1 834 784 Tm
+( ) Tj
+1 0 0 1 72 687.667 Tm
+(DEC Computers) Tj
+/R70 12 Tf
+1 0 0 1 837 784 Tm
+( ) Tj
+0.0198333 Tc
+1 0 0 1 72 662 Tm
+(To run HSPICE on the DEC computers in Sweet Hall \() Tj
+/R73 12 Tf
+0 Tc
+1 0 0 1 840 784 Tm
+( ) Tj
+1 0 0 1 338.978 662 Tm
+(amy1) Tj
+/R70 12 Tf
+1 0 0 1 843 784 Tm
+( ) Tj
+1 0 0 1 366.971 662 Tm
+(-) Tj
+/R73 12 Tf
+1 0 0 1 846 784 Tm
+( ) Tj
+1 0 0 1 370.964 662 Tm
+(amy31) Tj
+/R70 12 Tf
+1 0 0 1 849 784 Tm
+( ) Tj
+0.0198333 Tc
+1 0 0 1 404.958 662 Tm
+(\), log in and depress the left) Tj
+0.0195833 Tc
+1 0 0 1 72 649 Tm
+(mouse button to display the ) Tj
+/R73 12 Tf
+0 Tc
+1 0 0 1 852 784 Tm
+( ) Tj
+1 0 0 1 208.826 649 Tm
+(Applications) Tj
+/R70 12 Tf
+1 0 0 1 855 784 Tm
+( ) Tj
+0.0195833 Tc
+1 0 0 1 273.49 649 Tm
+( menu.  Select ) Tj
+/R73 12 Tf
+0 Tc
+1 0 0 1 858 784 Tm
+( ) Tj
+1 0 0 1 345.408 649 Tm
+(Terminal) Tj
+/R70 12 Tf
+1 0 0 1 861 784 Tm
+( ) Tj
+0.0195833 Tc
+1 0 0 1 393.396 649 Tm
+( from this menu to open an X-) Tj
+0.139833 Tc
+1 0 0 1 72 636 Tm
+(window.  Once you have an open window, follow the procedure described above in ) Tj
+ET
+endstream
+endobj
+75 0 obj
+1163
+endobj
+76 0 obj
+<< /Type /Font /Name /R76 /Subtype /Type1 /BaseFont /Times-Italic >>
+endobj
+77 0 obj
+<< /Length 78 0 R >>
+stream
+BT
+/R76 12 Tf
+0 Tc
+1 0 0 1 864 784 Tm
+( ) Tj
+1 0 0 1 499.336 636 Tm
+(Running) Tj
+1 0 0 1 72 623 Tm
+(HSPICE) Tj
+/R70 12 Tf
+1 0 0 1 867 784 Tm
+( ) Tj
+-0.0520833 Tc
+1 0 0 1 113.32 623 Tm
+(. For more information consult the handout ) Tj
+/R76 12 Tf
+0 Tc
+1 0 0 1 870 784 Tm
+( ) Tj
+-0.0520833 Tc
+1 0 0 1 318.895 623 Tm
+(DECstation Tips) Tj
+/R70 12 Tf
+0 Tc
+1 0 0 1 873 784 Tm
+( ) Tj
+-0.0520833 Tc
+1 0 0 1 398.608 623 Tm
+( available on-line in the ) Tj
+/R73 12 Tf
+0 Tc
+1 0 0 1 876 784 Tm
+( ) Tj
+1 0 0 1 511.772 623 Tm
+(~con-) Tj
+1 0 0 1 72 610 Tm
+(sult/pub/lair-docs) Tj
+/R70 12 Tf
+1 0 0 1 879 784 Tm
+( ) Tj
+1 0 0 1 161.997 610 Tm
+( directory or in the document racks on the second floor of Sweet Hall.) Tj
+/R73 14 Tf
+1 0 0 1 882 784 Tm
+( ) Tj
+1 0 0 1 72 581.667 Tm
+(SUN Computers) Tj
+/R70 12 Tf
+1 0 0 1 885 784 Tm
+( ) Tj
+0.00258333 Tc
+1 0 0 1 90 558 Tm
+(To run HSPICE on the SUN workstations in Sweet Hall \() Tj
+/R73 12 Tf
+0 Tc
+1 0 0 1 888 784 Tm
+( ) Tj
+1 0 0 1 366.242 558 Tm
+(elaine1) Tj
+/R70 12 Tf
+1 0 0 1 891 784 Tm
+( ) Tj
+0.00258333 Tc
+1 0 0 1 402.233 558 Tm
+( - ) Tj
+/R73 12 Tf
+0 Tc
+1 0 0 1 894 784 Tm
+( ) Tj
+1 0 0 1 412.287 558 Tm
+(elaine44) Tj
+/R70 12 Tf
+1 0 0 1 897 784 Tm
+( ) Tj
+0.00258333 Tc
+1 0 0 1 454.279 558 Tm
+(\) and Terman 104) Tj
+0 Tc
+1 0 0 1 72 545 Tm
+(\() Tj
+/R73 12 Tf
+1 0 0 1 900 784 Tm
+( ) Tj
+1 0 0 1 75.993 545 Tm
+(voyager1) Tj
+/R70 12 Tf
+1 0 0 1 903 784 Tm
+( ) Tj
+-0.0286667 Tc
+1 0 0 1 122.646 545 Tm
+( - ) Tj
+/R73 12 Tf
+0 Tc
+1 0 0 1 906 784 Tm
+( ) Tj
+1 0 0 1 131.95 545 Tm
+(voyager8) Tj
+/R70 12 Tf
+1 0 0 1 909 784 Tm
+( ) Tj
+-0.0286667 Tc
+1 0 0 1 178.603 545 Tm
+(\) you must first start X-Windows. This is accomplished by entering 'x' after) Tj
+0.0234167 Tc
+1 0 0 1 72 532 Tm
+(logging in \(it may take a while\). The keyboard and mouse controls for the SUN workstations are) Tj
+-0.0489167 Tc
+1 0 0 1 72 519 Tm
+(described in the handout ) Tj
+/R76 12 Tf
+0 Tc
+1 0 0 1 912 784 Tm
+( ) Tj
+-0.0489167 Tc
+1 0 0 1 190.28 519 Tm
+(SPARCstation Tips) Tj
+/R70 12 Tf
+0 Tc
+1 0 0 1 915 784 Tm
+( ) Tj
+-0.0489167 Tc
+1 0 0 1 282.028 519 Tm
+( available on-line in the ) Tj
+/R73 12 Tf
+0 Tc
+1 0 0 1 918 784 Tm
+( ) Tj
+1 0 0 1 395.382 519 Tm
+(~consult/pub/lair-docs) Tj
+/R70 12 Tf
+1 0 0 1 921 784 Tm
+( ) Tj
+-0.0489167 Tc
+1 0 0 1 509.614 519 Tm
+( direc-) Tj
+0 Tc
+1 0 0 1 72 506 Tm
+(tory or in the document racks on the second floor of Sweet Hall\).) Tj
+/R73 14 Tf
+1 0 0 1 924 784 Tm
+( ) Tj
+1 0 0 1 72 477.667 Tm
+(SGI Computers) Tj
+/R70 12 Tf
+1 0 0 1 927 784 Tm
+( ) Tj
+-0.0341667 Tc
+1 0 0 1 90 454 Tm
+(The SGI workstations \() Tj
+/R73 12 Tf
+0 Tc
+1 0 0 1 930 784 Tm
+( ) Tj
+1 0 0 1 201.065 454 Tm
+(raptor1) Tj
+/R70 12 Tf
+1 0 0 1 933 784 Tm
+( ) Tj
+-0.0341667 Tc
+1 0 0 1 240.381 454 Tm
+( - ) Tj
+/R73 12 Tf
+0 Tc
+1 0 0 1 936 784 Tm
+( ) Tj
+-0.0341667 Tc
+1 0 0 1 249.555 454 Tm
+(raptor13 ) Tj
+/R70 12 Tf
+0 Tc
+1 0 0 1 939 784 Tm
+( ) Tj
+1 0 0 1 297.461 454 Tm
+(and) Tj
+/R73 12 Tf
+1 0 0 1 942 784 Tm
+( ) Tj
+-0.0341667 Tc
+1 0 0 1 314.787 454 Tm
+( firebird1 - firebird18) Tj
+/R70 12 Tf
+0 Tc
+1 0 0 1 945 784 Tm
+( ) Tj
+-0.0341667 Tc
+1 0 0 1 424.513 454 Tm
+(\) are in a locked room in) Tj
+0.0195833 Tc
+1 0 0 1 72 441 Tm
+(the basement of Sweet Hall.  Only use these machines during non-peak hours \(they are primarily) Tj
+-0.0273333 Tc
+1 0 0 1 72 428 Tm
+(for CS students\).  If you want to run simulations from the console, go to the consulting desk on the) Tj
+0.05475 Tc
+1 0 0 1 72 415 Tm
+(second floor of Sweet Hall to get the combination to the door lock.  To use these computers re-) Tj
+-0.0110833 Tc
+1 0 0 1 72 402 Tm
+(motely, follow the instructions in the section entitled ) Tj
+/R76 12 Tf
+0 Tc
+1 0 0 1 948 784 Tm
+( ) Tj
+-0.0110833 Tc
+1 0 0 1 327.207 402 Tm
+(Running HSPICE Remotely.) Tj
+/R70 12 Tf
+0 Tc
+1 0 0 1 951 784 Tm
+( ) Tj
+-0.0110833 Tc
+1 0 0 1 462.564 402 Tm
+(  Once you have) Tj
+-0.04175 Tc
+1 0 0 1 72 389 Tm
+(an X-window open, the syntax for running HSPICE is the same for all of the workstations in Sweet) Tj
+0 Tc
+1 0 0 1 72 376 Tm
+(Hall \(see ) Tj
+/R76 12 Tf
+1 0 0 1 954 784 Tm
+( ) Tj
+1 0 0 1 117.97 376 Tm
+(Running HSPICE) Tj
+/R70 12 Tf
+1 0 0 1 957 784 Tm
+( ) Tj
+1 0 0 1 202.954 376 Tm
+(\). ) Tj
+/R73 14 Tf
+1 0 0 1 960 784 Tm
+( ) Tj
+1 0 0 1 72 347.667 Tm
+(HP Computers) Tj
+/R70 12 Tf
+1 0 0 1 963 784 Tm
+( ) Tj
+-0.0199167 Tc
+1 0 0 1 90 322 Tm
+(The HP workstations in Terman 104 use the HP-UX operating system \(HP\251s version of UNIX\)) Tj
+-0.00533333 Tc
+1 0 0 1 72 309 Tm
+(with the HP VUE user interface \(an icon based graphical user interface\).  To start a computer ses-) Tj
+-0.0335833 Tc
+1 0 0 1 72 296 Tm
+(sion on the HP machines, enter your login name and password.  HP VUE will start up automatical-) Tj
+-0.00991667 Tc
+1 0 0 1 72 283 Tm
+(ly, displaying a file manager window \(lots of file and folder icons\) and a series of icons across the) Tj
+0.0374167 Tc
+1 0 0 1 72 270 Tm
+(bottom of the screen \(called the "front panel"\).  These can) Tj
+/R73 12 Tf
+0 Tc
+1 0 0 1 966 784 Tm
+( ) Tj
+0.0374167 Tc
+1 0 0 1 354.475 270 Tm
+( ) Tj
+/R70 12 Tf
+0 Tc
+1 0 0 1 969 784 Tm
+( ) Tj
+0.0374167 Tc
+1 0 0 1 357.924 270 Tm
+(be selected by moving the cursor to a) Tj
+0.151083 Tc
+1 0 0 1 72 257 Tm
+(particular icon and "clicking" or "double-clicking" the mouse \(pressing the left button on the) Tj
+-0.04975 Tc
+1 0 0 1 72 244 Tm
+(mouse once or twice in succession\).  The interface is very intuitive, and has a thorough on-line help) Tj
+0.00825 Tc
+1 0 0 1 72 231 Tm
+(facility.  Don\251t be afraid to experiment:  try clicking on different icons, and using the on-line help) Tj
+0.0188333 Tc
+1 0 0 1 72 218 Tm
+(when you have a question.  When you are finished, click on the ) Tj
+/R73 12 Tf
+0 Tc
+1 0 0 1 972 784 Tm
+( ) Tj
+0.0188333 Tc
+1 0 0 1 382.498 218 Tm
+(exit ) Tj
+/R70 12 Tf
+0 Tc
+1 0 0 1 975 784 Tm
+( ) Tj
+0.0188333 Tc
+1 0 0 1 404.378 218 Tm
+(icon in the lower-right-hand) Tj
+0 Tc
+1 0 0 1 72 205 Tm
+(corner of the workspace to log out.) Tj
+-0.03675 Tc
+1 0 0 1 90 180 Tm
+(To run HSPICE or execute UNIX commands, open a terminal window \(hpterm\) by clicking on) Tj
+-0.01675 Tc
+1 0 0 1 72 167 Tm
+(the terminal icon on the lower left side of the front panel \(which looks like a small terminal\).  You) Tj
+-0.04625 Tc
+1 0 0 1 72 154 Tm
+(can open as many windows as you need this way, allowing multiple SPICE sessions and shells \(see) Tj
+-0.0215 Tc
+1 0 0 1 72 141 Tm
+(section on window manipulation for more details on windowing\).   In future sessions the windows) Tj
+0.0208333 Tc
+1 0 0 1 72 128 Tm
+(will come up as you left them.  When you are finished, exit any open applications, and select the) Tj
+/R73 12 Tf
+0 Tc
+1 0 0 1 978 784 Tm
+( ) Tj
+1 0 0 1 72 115 Tm
+(exit ) Tj
+/R70 12 Tf
+1 0 0 1 981 784 Tm
+( ) Tj
+1 0 0 1 93.653 115 Tm
+(icon in the lower right-hand corner of the front panel to log out.) Tj
+0.0200833 Tc
+1 0 0 1 90 90 Tm
+(If you plan to open X-windows to log in to other workstations, you may want to open xterms) Tj
+0.0248333 Tc
+1 0 0 1 72 77 Tm
+(instead of the default hpterm.  The xterm windows are more compatible with other workstations,) Tj
+0 Tc
+1 0 0 1 72 64 Tm
+(which results in fewer problems with key bindings, etc.  To open an xterm, enter) Tj
+ET
+Q
+endstream
+endobj
+78 0 obj
+7058
+endobj
+79 0 obj
+<<
+/Type /Page
+/MediaBox [0 0 612 792]
+/Parent 2 0 R
+/Resources << /ProcSet [/PDF /Text]
+/Font <<
+/R76 76 0 R
+/R73 73 0 R
+/R70 70 0 R
+>>
+>>
+/Contents [
+71 0 R
+74 0 R
+77 0 R
+]
+>>
+endobj
+80 0 obj
+<< /Type /Font /Name /R80 /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+81 0 obj
+<< /Length 82 0 R >>
+stream
+q
+BT
+/R80 12 Tf
+1 0 0 1 984 784 Tm
+( ) Tj
+1 0 0 1 296.007 44 Tm
+(- ) Tj
+1 0 0 1 303.003 44 Tm
+(9) Tj
+1 0 0 1 309.003 44 Tm
+( -) Tj
+ET
+endstream
+endobj
+82 0 obj
+134
+endobj
+83 0 obj
+<< /Type /Font /Name /R83 /Subtype /Type1 /BaseFont /Times-Bold >>
+endobj
+84 0 obj
+<< /Length 85 0 R >>
+stream
+BT
+/R83 12 Tf
+1 0 0 1 987 784 Tm
+( ) Tj
+1 0 0 1 108 730 Tm
+(/usr/bin/X11/xterm.) Tj
+1 0 0 1 72 699 Tm
+(Using HP VUE) Tj
+/R80 12 Tf
+1 0 0 1 990 784 Tm
+( ) Tj
+-0.03025 Tc
+1 0 0 1 90 674 Tm
+(If you are just getting familiar with HP VUE you may want to scroll through some of the intro-) Tj
+-0.01625 Tc
+1 0 0 1 72 661 Tm
+(ductory on-line help menus.  To access these, click on the icon with the question mark over it, and) Tj
+-0.0613333 Tc
+1 0 0 1 72 648 Tm
+(then select the topic of your choice.  Topics often have a dot or bullet on the left, and can be selected) Tj
+-0.0131667 Tc
+1 0 0 1 72 635 Tm
+(by clicking on the text portion of the topic \(an hour glass appears during execution\).  A shortcut is) Tj
+0.0391667 Tc
+1 0 0 1 72 622 Tm
+(to click the up-arrow above the book icon, and then select the ) Tj
+/R83 12 Tf
+0 Tc
+1 0 0 1 993 784 Tm
+( ) Tj
+0.0391667 Tc
+1 0 0 1 375.854 622 Tm
+(Welcome! ) Tj
+/R80 12 Tf
+0 Tc
+1 0 0 1 996 784 Tm
+( ) Tj
+0.0391667 Tc
+1 0 0 1 430.623 622 Tm
+(icon, followed by ) Tj
+/R83 12 Tf
+0 Tc
+1 0 0 1 999 784 Tm
+( ) Tj
+1 0 0 1 519.343 622 Tm
+(HP-) Tj
+1 0 0 1 72 609 Tm
+(VUE at a Glance \261 A 60-Second Tour) Tj
+/R80 12 Tf
+1 0 0 1 1002 784 Tm
+( ) Tj
+1 0 0 1 263.637 609 Tm
+(.) Tj
+-0.0146667 Tc
+1 0 0 1 90 584 Tm
+(If you have a question about a UNIX command, click the man page icon \(which appears when) Tj
+0.00591667 Tc
+1 0 0 1 72 571 Tm
+(the help menu is popped up\), or if you have a front panel question, select that icon.  If you have a) Tj
+0.0234167 Tc
+1 0 0 1 72 558 Tm
+(question about something on the screen, select the ) Tj
+/R83 12 Tf
+0 Tc
+1 0 0 1 1005 784 Tm
+( ) Tj
+0.0234167 Tc
+1 0 0 1 317.839 558 Tm
+(On Item) Tj
+/R80 12 Tf
+0 Tc
+1 0 0 1 1008 784 Tm
+( ) Tj
+0.0234167 Tc
+1 0 0 1 361.104 558 Tm
+( icon \(a question mark with an arrow) Tj
+0 Tc
+1 0 0 1 72 545 Tm
+(will appear\), move the arrow to the item in question, and click.) Tj
+-0.0075 Tc
+1 0 0 1 90 520 Tm
+(In addition to the help tours, many windows have help menus that can be selected at any time.) Tj
+0.0268333 Tc
+1 0 0 1 72 507 Tm
+(A good way to learn the system is to simply explore different icons, using the on-line help along) Tj
+0.02825 Tc
+1 0 0 1 72 494 Tm
+(the way.  If in doubt, just click an icon, making sure not to change anything.  Most of the menus) Tj
+0 Tc
+1 0 0 1 72 481 Tm
+(are self-explanatory.) Tj
+-0.0270833 Tc
+1 0 0 1 90 456 Tm
+(To log out, exit any application you are running, and click the ) Tj
+/R83 12 Tf
+0 Tc
+1 0 0 1 1011 784 Tm
+( ) Tj
+1 0 0 1 386.018 456 Tm
+(exit) Tj
+/R80 12 Tf
+1 0 0 1 1014 784 Tm
+( ) Tj
+-0.0270833 Tc
+1 0 0 1 404.671 456 Tm
+( icon in the lower right-hand) Tj
+0.0303333 Tc
+1 0 0 1 72 443 Tm
+(corner of the front panel.  Alternatively, you can move the cursor to an empty part of the screen,) Tj
+0.02025 Tc
+1 0 0 1 72 430 Tm
+(click either button, and while holding it down, drag the cursor down to the ) Tj
+/R83 12 Tf
+0 Tc
+1 0 0 1 1017 784 Tm
+( ) Tj
+0.02025 Tc
+1 0 0 1 435.3 430 Tm
+(log out) Tj
+/R80 12 Tf
+0 Tc
+1 0 0 1 1020 784 Tm
+( ) Tj
+0.02025 Tc
+1 0 0 1 470.54 430 Tm
+( selection, and) Tj
+0 Tc
+1 0 0 1 72 417 Tm
+(release the button.) Tj
+/R83 12 Tf
+1 0 0 1 1023 784 Tm
+( ) Tj
+1 0 0 1 72 386 Tm
+(Front Panel) Tj
+/R80 12 Tf
+1 0 0 1 1026 784 Tm
+( ) Tj
+-0.05625 Tc
+1 0 0 1 90 361 Tm
+(The Front Panel provides easy access to a variety of services through the use of icons.  The ones) Tj
+0.001 Tc
+1 0 0 1 72 348 Tm
+(you are most likely to use are the terminal \(for running SPICE\), editor, help, printer, file manager) Tj
+0 Tc
+1 0 0 1 72 335 Tm
+(\(for manipulating files\), trash can, and exit icons.) Tj
+-0.0316667 Tc
+1 0 0 1 90 310 Tm
+(Starting on the left, the first three front panel icons display the time, date, and CPU load for the) Tj
+0.0418333 Tc
+1 0 0 1 72 297 Tm
+(computer.  Next is the ) Tj
+/R83 12 Tf
+0 Tc
+1 0 0 1 1029 784 Tm
+( ) Tj
+1 0 0 1 183.807 297 Tm
+(Style) Tj
+/R80 12 Tf
+1 0 0 1 1032 784 Tm
+( ) Tj
+0.0418333 Tc
+1 0 0 1 209.131 297 Tm
+( ) Tj
+/R83 12 Tf
+0 Tc
+1 0 0 1 1035 784 Tm
+( ) Tj
+1 0 0 1 212.633 297 Tm
+(Manager) Tj
+/R80 12 Tf
+1 0 0 1 1038 784 Tm
+( ) Tj
+0.0418333 Tc
+1 0 0 1 259.283 297 Tm
+(, which contains selections for changing characteristics of) Tj
+0.0035 Tc
+1 0 0 1 72 284 Tm
+(your terminal \(such as colors, keyboard response, screen features, fonts, etc.\).  The book/manuals) Tj
+0 Tc
+1 0 0 1 72 271 Tm
+(icon, as explained earlier, launches the on-line manuals \(including help\).) Tj
+-0.00358333 Tc
+1 0 0 1 90 246 Tm
+(The ) Tj
+/R83 12 Tf
+0 Tc
+1 0 0 1 1041 784 Tm
+( ) Tj
+1 0 0 1 111.613 246 Tm
+(Workspace) Tj
+/R80 12 Tf
+1 0 0 1 1044 784 Tm
+( ) Tj
+-0.00358333 Tc
+1 0 0 1 169.601 246 Tm
+( buttons, numbered one through six, are for switching between several simul-) Tj
+0.123 Tc
+1 0 0 1 72 233 Tm
+(taneous workspaces \(each with a unique window arrangement\).  For instance, you could have) Tj
+0.0733333 Tc
+1 0 0 1 72 220 Tm
+(SPICE running in one workspace \(with multiple windows\) and IRSIM running in another, then) Tj
+0 Tc
+1 0 0 1 72 207 Tm
+(switch between them by clicking the workspace number.) Tj
+0.0340833 Tc
+1 0 0 1 90 182 Tm
+(The printer icon is used to print a file or view the printer queue.  To print, click and drag the) Tj
+-0.02975 Tc
+1 0 0 1 72 169 Tm
+(file icon from the file manager to the printer control icon, and release the button.  You can then see) Tj
+0 Tc
+1 0 0 1 72 156 Tm
+(the spooler activity by clicking the printer icon.) Tj
+-0.0179167 Tc
+1 0 0 1 90 131 Tm
+(The mail icon is used to launch the mail application.  For information on the mail icon, use the) Tj
+/R83 12 Tf
+0 Tc
+1 0 0 1 1047 784 Tm
+( ) Tj
+1 0 0 1 72 118 Tm
+(On item) Tj
+/R80 12 Tf
+1 0 0 1 1050 784 Tm
+( ) Tj
+1 0 0 1 113.651 118 Tm
+( selection from the pop-up help menu.) Tj
+-0.0169167 Tc
+1 0 0 1 90 93 Tm
+(To use the file icon, which looks like a filing cabinet, click on it, and it will display the current) Tj
+0.033 Tc
+1 0 0 1 72 80 Tm
+(directory \(with files iconified, and directories as small folders\).  Double-click on any folder icon) Tj
+0.0621667 Tc
+1 0 0 1 72 67 Tm
+(to change to that directory, or double-click on a file to call up the HP VUE editor with that file) Tj
+ET
+Q
+endstream
+endobj
+85 0 obj
+6042
+endobj
+86 0 obj
+<<
+/Type /Page
+/MediaBox [0 0 612 792]
+/Parent 2 0 R
+/Resources << /ProcSet [/PDF /Text]
+/Font <<
+/R83 83 0 R
+/R80 80 0 R
+>>
+>>
+/Contents [
+81 0 R
+84 0 R
+]
+>>
+endobj
+87 0 obj
+<< /Type /Font /Name /R87 /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+88 0 obj
+<< /Length 89 0 R >>
+stream
+q
+BT
+/R87 12 Tf
+1 0 0 1 1053 784 Tm
+( ) Tj
+1 0 0 1 293.007 44 Tm
+(- ) Tj
+1 0 0 1 300.003 44 Tm
+(10) Tj
+1 0 0 1 312.003 44 Tm
+( -) Tj
+-0.0241667 Tc
+1 0 0 1 72 730 Tm
+(loaded.  You can also move to different directories using the menu keys.  To go up in the directory) Tj
+0.0449167 Tc
+1 0 0 1 72 717 Tm
+(hierarchy, double-click on the small folder in the upper left corner of the displayed folders/files.) Tj
+0.0286667 Tc
+1 0 0 1 72 704 Tm
+(Yet another way to change directories is to put the cursor in the file manager window displaying) Tj
+0 Tc
+1 0 0 1 72 691 Tm
+(the path, and edit the existing path or type a new one, followed by a carriage return.) Tj
+-0.000833333 Tc
+1 0 0 1 90 666 Tm
+(The personal toolbox icon can be used to store frequently used commands \(see the help selec-) Tj
+0 Tc
+1 0 0 1 72 653 Tm
+(tion for more explanation\).) Tj
+-0.00233333 Tc
+1 0 0 1 90 628 Tm
+(The last icon is the trash can. As on the Macintosh, items can be dragged over and placed into) Tj
+0 Tc
+1 0 0 1 72 615 Tm
+(the trash as an alternative to using the UNIX ) Tj
+ET
+endstream
+endobj
+89 0 obj
+1056
+endobj
+90 0 obj
+<< /Type /Font /Name /R90 /Subtype /Type1 /BaseFont /Times-Bold >>
+endobj
+91 0 obj
+<< /Length 92 0 R >>
+stream
+BT
+/R90 12 Tf
+1 0 0 1 1056 784 Tm
+( ) Tj
+1 0 0 1 288.911 615 Tm
+(rm) Tj
+/R87 12 Tf
+1 0 0 1 1059 784 Tm
+( ) Tj
+1 0 0 1 304.23 615 Tm
+( command.) Tj
+-0.0285 Tc
+1 0 0 1 90 590 Tm
+(On the lower level of the Front Panel are several more commonly used services.  The left-most) Tj
+0.0296667 Tc
+1 0 0 1 72 577 Tm
+(is the lock icon.  Because this feature locks up the console, it should not be used.  If you need to) Tj
+0 Tc
+1 0 0 1 72 564 Tm
+(leave the computer room, make sure you are logged out so that other users may log in.) Tj
+-0.00591667 Tc
+1 0 0 1 90 539 Tm
+(The workspace icon is used to rename workspaces, which shouldn\251t be necessary in most situ-) Tj
+0 Tc
+1 0 0 1 72 526 Tm
+(ations.) Tj
+0.0546667 Tc
+1 0 0 1 90 501 Tm
+(The computer icon is used to launch new hpterm windows.  Each time the icon is clicked, a) Tj
+0 Tc
+1 0 0 1 72 488 Tm
+(new hpterm window is opened.) Tj
+0.03925 Tc
+1 0 0 1 90 463 Tm
+(The small pen and paper icon represent HP VUE\251s simple editor.  You can use this for small) Tj
+0.0529167 Tc
+1 0 0 1 72 450 Tm
+(editing tasks.  For more information, click on the icon to launch the editor, and then select ) Tj
+/R90 12 Tf
+0 Tc
+1 0 0 1 1062 784 Tm
+( ) Tj
+1 0 0 1 517.998 450 Tm
+(help) Tj
+/R87 12 Tf
+1 0 0 1 1065 784 Tm
+( ) Tj
+1 0 0 1 72 437 Tm
+(from the upper right hand corner.) Tj
+-0.0108333 Tc
+1 0 0 1 90 412 Tm
+(Finally, in the lower right-hand corner is the exit icon.  Single-click this to log out without go-) Tj
+0 Tc
+1 0 0 1 72 399 Tm
+(ing through the menu selections.) Tj
+/R90 12 Tf
+1 0 0 1 1068 784 Tm
+( ) Tj
+1 0 0 1 72 368 Tm
+(Window Manipulation) Tj
+/R87 12 Tf
+1 0 0 1 1071 784 Tm
+( ) Tj
+0.0568333 Tc
+1 0 0 1 90 343 Tm
+(Windows can be enlarged, iconified, closed, activated, and resized by clicking and dragging) Tj
+-0.02825 Tc
+1 0 0 1 72 330 Tm
+(the cursor in the appropriate area.  The small and large blocks in the upper right-hand corner of the) Tj
+-0.00691667 Tc
+1 0 0 1 72 317 Tm
+(window are used to enlarge the window to fill the screen \(large block\), or to shrink the window to) Tj
+0.00475 Tc
+1 0 0 1 72 304 Tm
+(an icon \(small block\).  Windows that have been iconified can then be restored by double-clicking) Tj
+-0.01075 Tc
+1 0 0 1 72 291 Tm
+(on the window icon, or holding down the left button and selecting ) Tj
+/R90 12 Tf
+0 Tc
+1 0 0 1 1074 784 Tm
+( ) Tj
+1 0 0 1 390.049 291 Tm
+(restore) Tj
+/R87 12 Tf
+1 0 0 1 1077 784 Tm
+( ) Tj
+-0.01075 Tc
+1 0 0 1 426.013 291 Tm
+( on the menu.  Enlarged) Tj
+-0.00908333 Tc
+1 0 0 1 72 278 Tm
+(windows can be returned to their original size by clicking the large block again.  The ") Tj
+/R90 12 Tf
+0 Tc
+1 0 0 1 1080 784 Tm
+( ) Tj
+1 0 0 1 485.326 278 Tm
+(-) Tj
+/R87 12 Tf
+1 0 0 1 1083 784 Tm
+( ) Tj
+-0.00908333 Tc
+1 0 0 1 489.319 278 Tm
+(" button in) Tj
+-0.0253333 Tc
+1 0 0 1 72 265 Tm
+(the upper left-hand corner pulls up a menu that can be used to close a window \(by selecting close\),) Tj
+0.0513333 Tc
+1 0 0 1 72 252 Tm
+(or to move or resize the window.  To activate a window \(which becomes inactive when another) Tj
+0.00908333 Tc
+1 0 0 1 72 239 Tm
+(window is selected\), move the cursor to anywhere on that window or its border, and click the left) Tj
+-0.0500833 Tc
+1 0 0 1 72 226 Tm
+(button.  Typing will then appear at the cursor \(which appears as a flashing block\).  Finally, to resize) Tj
+-0.0191667 Tc
+1 0 0 1 72 213 Tm
+(a window, move the cursor to the lower left- or right-hand corner and press and hold down the left) Tj
+-0.0271667 Tc
+1 0 0 1 72 200 Tm
+(button.  Then move the cursor until the window is the desired size.  Additional methods for adjust-) Tj
+0 Tc
+1 0 0 1 72 187 Tm
+(ing windows are listed below:) Tj
+/R90 12 Tf
+1 0 0 1 1086 784 Tm
+( ) Tj
+1 0 0 1 108 166 Tm
+(Left-Button) Tj
+/R87 12 Tf
+1 0 0 1 1089 784 Tm
+( ) Tj
+-0.01225 Tc
+1 0 0 1 168.642 166 Tm
+( pressed over a window title bar will allow you to move that window by hold-) Tj
+-0.0486667 Tc
+1 0 0 1 126 153 Tm
+(ing the button down and dragging the window to the location you want it.  If you simply) Tj
+0 Tc
+1 0 0 1 126 140 Tm
+(press and release the left button, you will bring that window to the top.) Tj
+/R90 12 Tf
+1 0 0 1 1092 784 Tm
+( ) Tj
+1 0 0 1 108 119 Tm
+(Left-Button) Tj
+/R87 12 Tf
+1 0 0 1 1095 784 Tm
+( ) Tj
+0.0405 Tc
+1 0 0 1 168.642 119 Tm
+( pressed at a window border will allow you to resize the window by holding) Tj
+0 Tc
+1 0 0 1 126 106 Tm
+(and moving the cursor.  The window size will be echoed as you resize the window.) Tj
+/R90 12 Tf
+1 0 0 1 1098 784 Tm
+( ) Tj
+0.03175 Tc
+1 0 0 1 108 85 Tm
+(Extended-char + Left-Button) Tj
+/R87 12 Tf
+0 Tc
+1 0 0 1 1101 784 Tm
+( ) Tj
+0.03175 Tc
+1 0 0 1 258.219 85 Tm
+( pressed inside a window will allow you to move the win-) Tj
+0 Tc
+1 0 0 1 126 72 Tm
+(dow.  It also brings that window to the top.) Tj
+ET
+Q
+endstream
+endobj
+92 0 obj
+4725
+endobj
+93 0 obj
+<<
+/Type /Page
+/MediaBox [0 0 612 792]
+/Parent 2 0 R
+/Resources << /ProcSet [/PDF /Text]
+/Font <<
+/R90 90 0 R
+/R87 87 0 R
+>>
+>>
+/Contents [
+88 0 R
+91 0 R
+]
+>>
+endobj
+94 0 obj
+<< /Type /Font /Name /R94 /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+95 0 obj
+<< /Length 96 0 R >>
+stream
+q
+BT
+/R94 12 Tf
+1 0 0 1 1104 784 Tm
+( ) Tj
+1 0 0 1 293.007 44 Tm
+(- ) Tj
+1 0 0 1 300.003 44 Tm
+(11) Tj
+1 0 0 1 312.003 44 Tm
+( -) Tj
+ET
+endstream
+endobj
+96 0 obj
+136
+endobj
+97 0 obj
+<< /Type /Font /Name /R97 /Subtype /Type1 /BaseFont /Times-Bold >>
+endobj
+98 0 obj
+<< /Length 99 0 R >>
+stream
+BT
+/R97 12 Tf
+1 0 0 1 1107 784 Tm
+( ) Tj
+-0.03975 Tc
+1 0 0 1 108 730 Tm
+(Extended-char + Right-Button) Tj
+/R94 12 Tf
+0 Tc
+1 0 0 1 1110 784 Tm
+( ) Tj
+-0.03975 Tc
+1 0 0 1 263.848 730 Tm
+( pressed inside a window will iconify that window.  Click-) Tj
+0 Tc
+1 0 0 1 126 717 Tm
+(ing twice \(quickly\) over an icon will restore it.) Tj
+-0.0376667 Tc
+1 0 0 1 90 692 Tm
+(When typing commands, remember to use the backspace key to correct errors.  The arrow keys) Tj
+0.0371667 Tc
+1 0 0 1 72 679 Tm
+(should only be used with certain text editors \(vi\), or when scrolling in an hpterm window \(using) Tj
+/R97 12 Tf
+0 Tc
+1 0 0 1 1113 784 Tm
+( ) Tj
+1 0 0 1 72 666 Tm
+(shift) Tj
+/R94 12 Tf
+1 0 0 1 1116 784 Tm
+( ) Tj
+1 0 0 1 94.658 666 Tm
+(-) Tj
+/R97 12 Tf
+1 0 0 1 1119 784 Tm
+( ) Tj
+1 0 0 1 98.651 666 Tm
+(up) Tj
+/R94 12 Tf
+1 0 0 1 1122 784 Tm
+( ) Tj
+0.0528333 Tc
+1 0 0 1 111.993 666 Tm
+(- or ) Tj
+/R97 12 Tf
+0 Tc
+1 0 0 1 1125 784 Tm
+( ) Tj
+1 0 0 1 133.248 666 Tm
+(down) Tj
+/R94 12 Tf
+1 0 0 1 1128 784 Tm
+( ) Tj
+1 0 0 1 161.253 666 Tm
+(-) Tj
+/R97 12 Tf
+1 0 0 1 1131 784 Tm
+( ) Tj
+1 0 0 1 165.246 666 Tm
+(arrow) Tj
+/R94 12 Tf
+1 0 0 1 1134 784 Tm
+( ) Tj
+0.0528333 Tc
+1 0 0 1 196.562 666 Tm
+(\).  Cutting and pasting is done by moving the cursor to the start of the) Tj
+0.0506667 Tc
+1 0 0 1 72 653 Tm
+(section to be copied, pressing and holding down the left mouse button, then dragging across the) Tj
+0.0115833 Tc
+1 0 0 1 72 640 Tm
+(text to be copied.  When the entire section to be copied is highlighted, release the left button, and) Tj
+0.131083 Tc
+1 0 0 1 72 627 Tm
+(move the cursor to the insertion point.  Then click either the center button \(on a three-button) Tj
+0 Tc
+1 0 0 1 72 614 Tm
+(mouse\) or both left and right buttons simultaneously \(on a two-button mouse\).) Tj
+ET
+Q
+endstream
+endobj
+99 0 obj
+1770
+endobj
+100 0 obj
+<<
+/Type /Page
+/MediaBox [0 0 612 792]
+/Parent 2 0 R
+/Resources << /ProcSet [/PDF /Text]
+/Font <<
+/R97 97 0 R
+/R94 94 0 R
+>>
+>>
+/Contents [
+95 0 R
+98 0 R
+]
+>>
+endobj
+101 0 obj
+<< /Type /Font /Name /R101 /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+102 0 obj
+<< /Length 103 0 R >>
+stream
+q
+BT
+/R101 12 Tf
+1 0 0 1 1137 784 Tm
+( ) Tj
+1 0 0 1 293.007 44 Tm
+(- ) Tj
+1 0 0 1 300.003 44 Tm
+(12) Tj
+1 0 0 1 312.003 44 Tm
+( -) Tj
+ET
+endstream
+endobj
+103 0 obj
+137
+endobj
+104 0 obj
+<< /Type /Font /Name /R104 /Subtype /Type1 /BaseFont /Times-Bold >>
+endobj
+105 0 obj
+<< /Length 106 0 R >>
+stream
+BT
+/R104 24 Tf
+1 0 0 1 1140 784 Tm
+( ) Tj
+1 0 0 1 211.333 722 Tm
+(5.  HSPICE Basics) Tj
+/R101 12 Tf
+1 0 0 1 1146 784 Tm
+( ) Tj
+0.0268333 Tc
+1 0 0 1 90 692 Tm
+(An input netlist file must be created to begin the design entry and simulation process.  If you) Tj
+0.000583333 Tc
+1 0 0 1 72 679 Tm
+(are just starting out, you might want to copy a demo file to your own directory and edit the netlist) Tj
+0 Tc
+1 0 0 1 72 666 Tm
+(to create your own circuit. Once you have created the file \() Tj
+ET
+endstream
+endobj
+106 0 obj
+491
+endobj
+107 0 obj
+<< /Type /Font /Name /R107 /Subtype /Type1 /BaseFont /Times-Italic >>
+endobj
+108 0 obj
+<< /Length 109 0 R >>
+stream
+BT
+/R107 12 Tf
+1 0 0 1 1149 784 Tm
+( ) Tj
+1 0 0 1 354.51 666 Tm
+(filename.hsp) Tj
+/R101 12 Tf
+1 0 0 1 1152 784 Tm
+( ) Tj
+1 0 0 1 415.494 666 Tm
+(\), enter ) Tj
+/R104 12 Tf
+1 0 0 1 1155 784 Tm
+( ) Tj
+1 0 0 1 108 641 Tm
+(hspice) Tj
+/R101 12 Tf
+1 0 0 1 1158 784 Tm
+( ) Tj
+1 0 0 1 139.995 641 Tm
+( ) Tj
+/R107 12 Tf
+1 0 0 1 1161 784 Tm
+( ) Tj
+1 0 0 1 142.995 641 Tm
+(filename) Tj
+/R101 12 Tf
+1 0 0 1 1164 784 Tm
+( ) Tj
+1 0 0 1 184.313 641 Tm
+(.) Tj
+/R107 12 Tf
+1 0 0 1 1167 784 Tm
+( ) Tj
+1 0 0 1 187.313 641 Tm
+(hsp) Tj
+/R101 12 Tf
+1 0 0 1 1170 784 Tm
+( ) Tj
+1 0 0 1 203.979 641 Tm
+(  > ) Tj
+/R107 12 Tf
+1 0 0 1 1173 784 Tm
+( ) Tj
+1 0 0 1 219.747 641 Tm
+(filename.lis) Tj
+/R101 12 Tf
+1 0 0 1 1176 784 Tm
+( ) Tj
+-0.0183333 Tc
+1 0 0 1 72 616 Tm
+(to begin the analyses specified in the input file.  HSPICE stores the simulation results requested in) Tj
+-0.0285833 Tc
+1 0 0 1 72 603 Tm
+(an output listing file and, if ) Tj
+/R104 12 Tf
+0 Tc
+1 0 0 1 1179 784 Tm
+( ) Tj
+1 0 0 1 203.58 603 Tm
+(.option) Tj
+/R101 12 Tf
+1 0 0 1 1182 784 Tm
+( ) Tj
+-0.0285833 Tc
+1 0 0 1 239.249 603 Tm
+( ) Tj
+/R104 12 Tf
+0 Tc
+1 0 0 1 1185 784 Tm
+( ) Tj
+1 0 0 1 241.906 603 Tm
+(post) Tj
+/R101 12 Tf
+1 0 0 1 1188 784 Tm
+( ) Tj
+-0.0285833 Tc
+1 0 0 1 263.237 603 Tm
+( is specified, a graph data file.  When ) Tj
+/R104 12 Tf
+0 Tc
+1 0 0 1 1191 784 Tm
+( ) Tj
+1 0 0 1 441.729 603 Tm
+(post) Tj
+/R101 12 Tf
+1 0 0 1 1194 784 Tm
+( ) Tj
+-0.0285833 Tc
+1 0 0 1 463.061 603 Tm
+( is specified, the) Tj
+-0.0211667 Tc
+1 0 0 1 72 590 Tm
+(complete circuit solution \(either steady state, time, or frequency domain\) is stored.  The results for) Tj
+0 Tc
+1 0 0 1 72 577 Tm
+(any node voltage or branch current can then be viewed or plotted using MetaWaves.) Tj
+-0.0156667 Tc
+1 0 0 1 90 552 Tm
+(If you are converting a SPICE-3 input file to HSPICE format, it is only necessary that you add) Tj
+-0.00458333 Tc
+1 0 0 1 72 539 Tm
+(the line ) Tj
+/R104 12 Tf
+0 Tc
+1 0 0 1 1197 784 Tm
+( ) Tj
+1 0 0 1 110.545 539 Tm
+(.option) Tj
+/R101 12 Tf
+1 0 0 1 1200 784 Tm
+( ) Tj
+-0.00458333 Tc
+1 0 0 1 146.214 539 Tm
+( ) Tj
+/R104 12 Tf
+0 Tc
+1 0 0 1 1203 784 Tm
+( ) Tj
+1 0 0 1 149.159 539 Tm
+(post) Tj
+/R101 12 Tf
+1 0 0 1 1206 784 Tm
+( ) Tj
+-0.00458333 Tc
+1 0 0 1 170.49 539 Tm
+( somewhere in your file and put ) Tj
+/R104 12 Tf
+0 Tc
+1 0 0 1 1209 784 Tm
+( ) Tj
+1 0 0 1 325.717 539 Tm
+(.end) Tj
+/R101 12 Tf
+1 0 0 1 1212 784 Tm
+( ) Tj
+-0.00458333 Tc
+1 0 0 1 347.385 539 Tm
+( at the end \(make sure you hit <cr> after) Tj
+0.0300833 Tc
+1 0 0 1 72 526 Tm
+(the ) Tj
+/R104 12 Tf
+0 Tc
+1 0 0 1 1215 784 Tm
+( ) Tj
+1 0 0 1 90.022 526 Tm
+(.end) Tj
+/R101 12 Tf
+1 0 0 1 1218 784 Tm
+( ) Tj
+0.0300833 Tc
+1 0 0 1 111.69 526 Tm
+( statement to form a complete line\).  However, if you wish to take advantage of some of) Tj
+-0.00575 Tc
+1 0 0 1 72 513 Tm
+(the unique features of HSPICE you will need to refer to a copy of the ) Tj
+/R107 12 Tf
+0 Tc
+1 0 0 1 1221 784 Tm
+( ) Tj
+-0.00575 Tc
+1 0 0 1 406.502 513 Tm
+(HSPICE USERS MANUAL.) Tj
+/R101 12 Tf
+0 Tc
+1 0 0 1 1224 784 Tm
+( ) Tj
+-0.000916667 Tc
+1 0 0 1 90 488 Tm
+(HSPICE also has specific file naming conventions to indicate the function of each file.  All of) Tj
+-0.037 Tc
+1 0 0 1 72 475 Tm
+(the files associated with a particular design reside in one directory and are named by catenating the) Tj
+-0.0596667 Tc
+1 0 0 1 72 462 Tm
+(design name and a particular suffix \(see Table 1\).  Both HSPICE and MetaWaves extract the design) Tj
+0 Tc
+1 0 0 1 72 449 Tm
+(name from the input file and use it to form the output files.) Tj
+/R104 12 Tf
+1 0 0 1 1227 784 Tm
+( ) Tj
+1 0 0 1 85.254 81 Tm
+(Table 1) Tj
+/R101 12 Tf
+1 0 0 1 1230 784 Tm
+( ) Tj
+1 0 0 1 123.589 81 Tm
+(.  Filename suffixes.  \() Tj
+/R107 12 Tf
+1 0 0 1 1233 784 Tm
+( ) Tj
+1 0 0 1 231.214 81 Tm
+(Note:  # ) Tj
+/R101 12 Tf
+1 0 0 1 1236 784 Tm
+( ) Tj
+1 0 0 1 272.871 81 Tm
+(is either a sweep number or a hardcopy file number.\)) Tj
+ET
+Q
+q
+W
+18 784 m
+594 784 l
+594 8 l
+18 8 l
+h
+n
+1 g
+1 i
+92.593 396.5 91.516 19 re
+f
+BT
+0 g
+/R104 12 Tf
+1 0 0 1 1239 784 Tm
+( ) Tj
+1 0 0 1 113.938 404 Tm
+(File Type) Tj
+ET
+1 g
+184.609 396.5 265.265 19 re
+f
+BT
+0 g
+1 0 0 1 276.423 404 Tm
+(File Description) Tj
+ET
+1 g
+450.874 396.5 64.502 19 re
+f
+BT
+0 g
+1 0 0 1 467.793 404 Tm
+(Suffix) Tj
+ET
+1 g
+92.593 376.5 91.016 19 re
+f
+BT
+0 g
+/R101 12 Tf
+1 0 0 1 1242 784 Tm
+( ) Tj
+1 0 0 1 96.093 384 Tm
+(HSPICE Input ) Tj
+ET
+1 g
+184.609 376.5 265.265 19 re
+f
+BT
+0 g
+1 0 0 1 188.109 384 Tm
+(input netlist ) Tj
+ET
+1 g
+450.874 376.5 64.502 19 re
+f
+BT
+0 g
+1 0 0 1 454.374 384 Tm
+(.hsp \(or sp\)) Tj
+ET
+1 g
+92.593 356.5 91.016 19 re
+f
+BT
+0 g
+1 0 0 1 96.093 364 Tm
+(HSPICE Output ) Tj
+ET
+1 g
+184.609 356.5 265.265 19 re
+f
+BT
+0 g
+1 0 0 1 188.109 364 Tm
+(output listing ) Tj
+ET
+1 g
+450.874 356.5 64.502 19 re
+f
+BT
+0 g
+1 0 0 1 454.374 364 Tm
+(.lis) Tj
+ET
+1 g
+92.593 336.5 91.016 19 re
+f
+BT
+0 g
+1 0 0 1 96.093 344 Tm
+(HSPICE Output ) Tj
+ET
+1 g
+184.609 336.5 265.265 19 re
+f
+BT
+0 g
+1 0 0 1 188.109 344 Tm
+(graph data - transient analysis results) Tj
+ET
+1 g
+450.874 336.5 64.502 19 re
+f
+BT
+0 g
+1 0 0 1 454.374 344 Tm
+(.tr#) Tj
+ET
+1 g
+92.593 316.5 91.016 19 re
+f
+BT
+0 g
+1 0 0 1 96.093 324 Tm
+(HSPICE Output ) Tj
+ET
+1 g
+184.609 316.5 265.265 19 re
+f
+BT
+0 g
+1 0 0 1 188.109 324 Tm
+(graph data - transient analysis measurement results ) Tj
+ET
+1 g
+450.874 316.5 64.502 19 re
+f
+BT
+0 g
+1 0 0 1 454.374 324 Tm
+(.mt#) Tj
+ET
+1 g
+92.593 296.5 91.016 19 re
+f
+BT
+0 g
+1 0 0 1 96.093 304 Tm
+(HSPICE Output ) Tj
+ET
+1 g
+184.609 296.5 265.265 19 re
+f
+BT
+0 g
+1 0 0 1 188.109 304 Tm
+(graph data - DC analysis results ) Tj
+ET
+1 g
+450.874 296.5 64.502 19 re
+f
+BT
+0 g
+1 0 0 1 454.374 304 Tm
+(.sw#) Tj
+ET
+1 g
+92.593 276.5 91.016 19 re
+f
+BT
+0 g
+1 0 0 1 96.093 284 Tm
+(HSPICE Output ) Tj
+ET
+1 g
+184.609 276.5 265.265 19 re
+f
+BT
+0 g
+1 0 0 1 188.109 284 Tm
+(graph data - DC analysis measurement results ) Tj
+ET
+1 g
+450.874 276.5 64.502 19 re
+f
+BT
+0 g
+1 0 0 1 454.374 284 Tm
+(.ms#) Tj
+ET
+1 g
+92.593 256.5 91.016 19 re
+f
+BT
+0 g
+1 0 0 1 96.093 264 Tm
+(HSPICE Output ) Tj
+ET
+1 g
+184.609 256.5 265.265 19 re
+f
+BT
+0 g
+1 0 0 1 188.109 264 Tm
+(graph data - AC analysis results ) Tj
+ET
+1 g
+450.874 256.5 64.502 19 re
+f
+BT
+0 g
+1 0 0 1 454.374 264 Tm
+(.ac#) Tj
+ET
+1 g
+92.593 236.5 91.016 19 re
+f
+BT
+0 g
+1 0 0 1 96.093 244 Tm
+(HSPICE Output ) Tj
+ET
+1 g
+184.609 236.5 265.265 19 re
+f
+BT
+0 g
+1 0 0 1 188.109 244 Tm
+(graph data - AC analysis measurement results ) Tj
+ET
+1 g
+450.874 236.5 64.502 19 re
+f
+BT
+0 g
+1 0 0 1 454.374 244 Tm
+(.ma#) Tj
+ET
+1 g
+92.593 203.5 91.016 32 re
+f
+BT
+0 g
+1 0 0 1 96.093 224 Tm
+(HSPICE Output ) Tj
+ET
+1 g
+184.609 203.5 265.265 32 re
+f
+BT
+0 g
+1 0 0 1 188.109 224 Tm
+(hardcopy .GRAPH data \(from meta.cfg PRTDE-) Tj
+1 0 0 1 188.109 211 Tm
+(FAULT\) ) Tj
+ET
+1 g
+450.874 203.5 64.502 32 re
+f
+BT
+0 g
+1 0 0 1 454.374 224 Tm
+(.gr#) Tj
+ET
+1 g
+92.593 183.5 91.016 19 re
+f
+BT
+0 g
+1 0 0 1 96.093 191 Tm
+(HSPICE Output ) Tj
+ET
+1 g
+184.609 183.5 265.265 19 re
+f
+BT
+0 g
+1 0 0 1 188.109 191 Tm
+(digital output file) Tj
+ET
+1 g
+450.874 183.5 64.502 19 re
+f
+BT
+0 g
+1 0 0 1 454.374 191 Tm
+(.a2d) Tj
+ET
+1 g
+92.593 163.5 91.016 19 re
+f
+BT
+0 g
+1 0 0 1 96.093 171 Tm
+(HSPICE Output ) Tj
+ET
+1 g
+184.609 163.5 265.265 19 re
+f
+BT
+0 g
+1 0 0 1 188.109 171 Tm
+(FFT analysis graph data file \(from .FFT statement\)) Tj
+ET
+1 g
+450.874 163.5 64.502 19 re
+f
+BT
+0 g
+1 0 0 1 454.374 171 Tm
+(.ft#) Tj
+ET
+1 g
+92.593 143.5 91.016 19 re
+f
+BT
+0 g
+1 0 0 1 96.093 151 Tm
+(HSPICE Output) Tj
+ET
+1 g
+184.609 143.5 265.265 19 re
+f
+BT
+0 g
+1 0 0 1 188.109 151 Tm
+(subcircuit cross-listing) Tj
+ET
+1 g
+450.874 143.5 64.502 19 re
+f
+BT
+0 g
+1 0 0 1 454.374 151 Tm
+(.pa#) Tj
+ET
+1 g
+92.593 123.5 91.016 19 re
+f
+BT
+0 g
+1 0 0 1 96.093 131 Tm
+(HSPICE Output) Tj
+ET
+1 g
+184.609 123.5 265.265 19 re
+f
+BT
+0 g
+1 0 0 1 188.109 131 Tm
+(output status) Tj
+ET
+1 g
+450.874 123.5 64.502 19 re
+f
+BT
+0 g
+1 0 0 1 454.374 131 Tm
+(.st#) Tj
+ET
+1 g
+92.593 103.5 91.016 19 re
+f
+BT
+0 g
+1 0 0 1 96.093 111 Tm
+(HSPICE Input) Tj
+ET
+1 g
+184.609 103.5 265.265 19 re
+f
+BT
+0 g
+1 0 0 1 188.109 111 Tm
+(operating point node voltages \(initial conditions\)) Tj
+ET
+1 g
+450.874 103.5 64.502 19 re
+f
+BT
+0 g
+1 0 0 1 454.374 111 Tm
+(.ic) Tj
+ET
+1 w
+92.093 415.5 m
+92.093 103.5 l
+S
+184.109 416.5 m
+184.109 102.5 l
+S
+450.374 416.5 m
+450.374 102.5 l
+S
+515.876 415.5 m
+515.876 103.5 l
+S
+91.593 416 m
+516.376 416 l
+S
+91.593 396 m
+516.376 396 l
+S
+91.593 376 m
+516.376 376 l
+S
+91.593 356 m
+516.376 356 l
+S
+91.593 336 m
+516.376 336 l
+S
+91.593 316 m
+516.376 316 l
+S
+91.593 296 m
+516.376 296 l
+S
+91.593 276 m
+516.376 276 l
+S
+91.593 256 m
+516.376 256 l
+S
+91.593 236 m
+516.376 236 l
+S
+91.593 203 m
+516.376 203 l
+S
+91.593 183 m
+516.376 183 l
+S
+91.593 163 m
+516.376 163 l
+S
+91.593 143 m
+516.376 143 l
+S
+91.593 123 m
+516.376 123 l
+S
+91.593 103 m
+516.376 103 l
+S
+Q
+endstream
+endobj
+109 0 obj
+8600
+endobj
+110 0 obj
+<<
+/Type /Page
+/MediaBox [0 0 612 792]
+/Parent 2 0 R
+/Resources << /ProcSet [/PDF /Text]
+/Font <<
+/R107 107 0 R
+/R104 104 0 R
+/R101 101 0 R
+>>
+>>
+/Contents [
+102 0 R
+105 0 R
+108 0 R
+]
+>>
+endobj
+111 0 obj
+<< /Type /Font /Name /R111 /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+112 0 obj
+<< /Length 113 0 R >>
+stream
+q
+BT
+/R111 12 Tf
+1 0 0 1 1245 784 Tm
+( ) Tj
+1 0 0 1 293.007 44 Tm
+(- ) Tj
+1 0 0 1 300.003 44 Tm
+(13) Tj
+1 0 0 1 312.003 44 Tm
+( -) Tj
+ET
+endstream
+endobj
+113 0 obj
+137
+endobj
+114 0 obj
+<< /Type /Font /Name /R114 /Subtype /Type1 /BaseFont /Times-Bold >>
+endobj
+115 0 obj
+<< /Length 116 0 R >>
+stream
+BT
+/R114 14 Tf
+1 0 0 1 1248 784 Tm
+( ) Tj
+1 0 0 1 72 728.667 Tm
+(HSPICE Input Netlist File) Tj
+/R111 12 Tf
+1 0 0 1 1251 784 Tm
+( ) Tj
+-0.0563333 Tc
+1 0 0 1 90 703 Tm
+(Input netlist and library input files can be generated using any standard UNIX editor \(vi, emacs,) Tj
+-0.0175 Tc
+1 0 0 1 72 690 Tm
+(etc.\).  The order of the statements is arbitrary, except that continuation lines \(those beginning with) Tj
+-0.0388333 Tc
+1 0 0 1 72 677 Tm
+(a plus \(+\) sign\) must immediately follow the statement being continued, and the last ) Tj
+/R114 12 Tf
+0 Tc
+1 0 0 1 1254 784 Tm
+( ) Tj
+1 0 0 1 472.467 677 Tm
+(.ALTER) Tj
+/R111 12 Tf
+1 0 0 1 1257 784 Tm
+( ) Tj
+-0.0388333 Tc
+1 0 0 1 516.805 677 Tm
+( sub-) Tj
+-0.03625 Tc
+1 0 0 1 72 664 Tm
+(module must appear next to the end of the file before the ) Tj
+/R114 12 Tf
+0 Tc
+1 0 0 1 1260 784 Tm
+( ) Tj
+1 0 0 1 341.996 664 Tm
+(.END) Tj
+/R111 12 Tf
+1 0 0 1 1263 784 Tm
+( ) Tj
+-0.03625 Tc
+1 0 0 1 370.326 664 Tm
+( statement.  Comments may be add-) Tj
+0.0259167 Tc
+1 0 0 1 72 651 Tm
+(ed any place in the file.  The input file name and equation length can be up to 256 characters.  A) Tj
+0 Tc
+1 0 0 1 72 638 Tm
+(summary of formatting rules is listed below:) Tj
+0.130583 Tc
+1 0 0 1 108 617 Tm
+(HSPICE uses a free-format input.  Fields in a statement are separated by one or more) Tj
+0 Tc
+1 0 0 1 126 604 Tm
+(blanks, tabs, a comma, an equal sign, or a left or right parenthesis.) Tj
+1 0 0 1 108 583 Tm
+(Upper and lower case is ignored except as filenames on UNIX systems.) Tj
+1 0 0 1 108 562 Tm
+(Statement length is limited to 256 characters.) Tj
+0.06325 Tc
+1 0 0 1 108 541 Tm
+(A statement may be continued by entering a plus \(+\) sign as the first non-numeric, non-) Tj
+0 Tc
+1 0 0 1 126 528 Tm
+(blank character in the subsequent statement.) Tj
+-0.0429167 Tc
+1 0 0 1 108 507 Tm
+(ALL statements, including QUOTED strings such as paths and algebraics can be continued) Tj
+0.05475 Tc
+1 0 0 1 126 494 Tm
+(with a backslash \(\\\) or a double backslash \(\\ \\\) at the end of the line to be continued.) Tj
+0.13075 Tc
+1 0 0 1 126 481 Tm
+(The single backslash preserves white space and the double squeezes out any white) Tj
+0.08725 Tc
+1 0 0 1 126 468 Tm
+(space between the continued lines.  The double backslash guarantees pathnames are) Tj
+0.0443333 Tc
+1 0 0 1 126 455 Tm
+(joined without interruption.  Note:  input lines can be 256 characters long, so folding) Tj
+0 Tc
+1 0 0 1 126 442 Tm
+(and continuing a line is only necessary to improve readability.) Tj
+/R114 14 Tf
+1 0 0 1 1266 784 Tm
+( ) Tj
+1 0 0 1 72 411.667 Tm
+(HSPICE Input File Structure) Tj
+/R111 12 Tf
+1 0 0 1 1269 784 Tm
+( ) Tj
+0.0351667 Tc
+1 0 0 1 90 386 Tm
+(The basic structure of an input netlist file consists of one main program and one or more op-) Tj
+-0.02325 Tc
+1 0 0 1 72 373 Tm
+(tional submodules.  The submodule \(preceded by the ) Tj
+/R114 12 Tf
+0 Tc
+1 0 0 1 1272 784 Tm
+( ) Tj
+1 0 0 1 326.693 373 Tm
+(.ALTER) Tj
+/R111 12 Tf
+1 0 0 1 1275 784 Tm
+( ) Tj
+-0.02325 Tc
+1 0 0 1 371.031 373 Tm
+( statement\) can be used to easily al-) Tj
+0.00691667 Tc
+1 0 0 1 72 360 Tm
+(ter and re-simulate an input netlist file with different options, netlist, analysis statements, and test) Tj
+-0.0268333 Tc
+1 0 0 1 72 347 Tm
+(vectors.  Several high level call statements can be used to restructure the input netlist file modules.) Tj
+-0.0609167 Tc
+1 0 0 1 72 334 Tm
+(These are the ) Tj
+/R114 12 Tf
+0 Tc
+1 0 0 1 1278 784 Tm
+( ) Tj
+1 0 0 1 136.762 334 Tm
+(.INCLUDE) Tj
+/R111 12 Tf
+1 0 0 1 1281 784 Tm
+( ) Tj
+-0.0609167 Tc
+1 0 0 1 195.089 334 Tm
+(, ) Tj
+/R114 12 Tf
+0 Tc
+1 0 0 1 1284 784 Tm
+( ) Tj
+1 0 0 1 200.358 334 Tm
+(.LIB) Tj
+/R111 12 Tf
+1 0 0 1 1287 784 Tm
+( ) Tj
+-0.0609167 Tc
+1 0 0 1 224.033 334 Tm
+( and ) Tj
+/R114 12 Tf
+0 Tc
+1 0 0 1 1290 784 Tm
+( ) Tj
+1 0 0 1 245.897 334 Tm
+(.DEL) Tj
+/R111 12 Tf
+1 0 0 1 1293 784 Tm
+( ) Tj
+-0.0609167 Tc
+1 0 0 1 273.568 334 Tm
+( ) Tj
+/R114 12 Tf
+0 Tc
+1 0 0 1 1296 784 Tm
+( ) Tj
+1 0 0 1 275.837 334 Tm
+(LIB) Tj
+/R111 12 Tf
+1 0 0 1 1299 784 Tm
+( ) Tj
+-0.0609167 Tc
+1 0 0 1 296.512 334 Tm
+( statements.  Using these statements, netlists, model) Tj
+0.0530833 Tc
+1 0 0 1 72 321 Tm
+(parameters, test vectors, analysis, and option macros can be called into a file from either library) Tj
+0.0204167 Tc
+1 0 0 1 72 308 Tm
+(files or other files.  The input netlist file can also call an external data file.  The external data file) Tj
+-0.0506667 Tc
+1 0 0 1 72 295 Tm
+(contains parameterized data for element sources and models.  The basic elements of an input netlist) Tj
+0 Tc
+1 0 0 1 72 282 Tm
+(file are:) Tj
+ET
+Q
+endstream
+endobj
+116 0 obj
+4525
+endobj
+117 0 obj
+<<
+/Type /Page
+/MediaBox [0 0 612 792]
+/Parent 2 0 R
+/Resources << /ProcSet [/PDF /Text]
+/Font <<
+/R114 114 0 R
+/R111 111 0 R
+>>
+>>
+/Contents [
+112 0 R
+115 0 R
+]
+>>
+endobj
+118 0 obj
+<< /Type /Font /Name /R118 /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+119 0 obj
+<< /Length 120 0 R >>
+stream
+q
+BT
+/R118 12 Tf
+1 0 0 1 1302 784 Tm
+( ) Tj
+1 0 0 1 293.007 44 Tm
+(- ) Tj
+1 0 0 1 300.003 44 Tm
+(14) Tj
+1 0 0 1 312.003 44 Tm
+( -) Tj
+ET
+endstream
+endobj
+120 0 obj
+137
+endobj
+121 0 obj
+<< /Type /Font /Name /R121 /Subtype /Type1 /BaseFont /Times-Bold >>
+endobj
+122 0 obj
+<< /Length 123 0 R >>
+stream
+BT
+/R121 14 Tf
+1 0 0 1 1305 784 Tm
+( ) Tj
+1 0 0 1 72 428.667 Tm
+(Output Listing File) Tj
+/R118 12 Tf
+1 0 0 1 1308 784 Tm
+( ) Tj
+-0.0165 Tc
+1 0 0 1 90 403 Tm
+(The results of each circuit simulation are saved in an output listing file with the same filename) Tj
+-0.05325 Tc
+1 0 0 1 72 390 Tm
+(as the input but appended with a '.lis' suffix instead of '.hsp'.  For example, the input file ) Tj
+/R121 12 Tf
+0 Tc
+1 0 0 1 1311 784 Tm
+( ) Tj
+1 0 0 1 492.348 390 Tm
+(rcnet.hsp) Tj
+/R118 12 Tf
+1 0 0 1 1314 784 Tm
+( ) Tj
+1 0 0 1 72 377 Tm
+(would have an output listing file named ) Tj
+/R121 12 Tf
+1 0 0 1 1317 784 Tm
+( ) Tj
+1 0 0 1 265.62 377 Tm
+(rcnet.lis) Tj
+/R118 12 Tf
+1 0 0 1 1320 784 Tm
+( ) Tj
+1 0 0 1 306.598 377 Tm
+(.) Tj
+0.0625833 Tc
+1 0 0 1 90 352 Tm
+(The output listing file contains the simulation results specified by the ) Tj
+/R121 12 Tf
+0 Tc
+1 0 0 1 1323 784 Tm
+( ) Tj
+1 0 0 1 433.173 352 Tm
+(.PLOT) Tj
+/R118 12 Tf
+1 0 0 1 1326 784 Tm
+( ) Tj
+0.0625833 Tc
+1 0 0 1 468.845 352 Tm
+(, ) Tj
+/R121 12 Tf
+0 Tc
+1 0 0 1 1329 784 Tm
+( ) Tj
+1 0 0 1 475.595 352 Tm
+(.PRINT) Tj
+/R118 12 Tf
+1 0 0 1 1332 784 Tm
+( ) Tj
+0.0625833 Tc
+1 0 0 1 515.923 352 Tm
+(, and) Tj
+0.017 Tc
+1 0 0 1 72 339 Tm
+(analysis statements in the input netlist files.  If the input netlist file contains more than one simu-) Tj
+-0.02525 Tc
+1 0 0 1 72 326 Tm
+(lation run \(by use of the ) Tj
+/R121 12 Tf
+0 Tc
+1 0 0 1 1335 784 Tm
+( ) Tj
+1 0 0 1 188.144 326 Tm
+(.ALTER) Tj
+/R118 12 Tf
+1 0 0 1 1338 784 Tm
+( ) Tj
+-0.02525 Tc
+1 0 0 1 232.482 326 Tm
+(, ) Tj
+/R121 12 Tf
+0 Tc
+1 0 0 1 1341 784 Tm
+( ) Tj
+1 0 0 1 238.179 326 Tm
+(.INCLUDE) Tj
+/R118 12 Tf
+1 0 0 1 1344 784 Tm
+( ) Tj
+-0.02525 Tc
+1 0 0 1 296.506 326 Tm
+(, ) Tj
+/R121 12 Tf
+0 Tc
+1 0 0 1 1347 784 Tm
+( ) Tj
+1 0 0 1 302.203 326 Tm
+(.DATA) Tj
+/R118 12 Tf
+1 0 0 1 1350 784 Tm
+( ) Tj
+-0.02525 Tc
+1 0 0 1 339.197 326 Tm
+(, or analysis statements\), the output listing) Tj
+0 Tc
+1 0 0 1 72 313 Tm
+(file also contains the results for each simulation run.) Tj
+/R121 14 Tf
+1 0 0 1 1353 784 Tm
+( ) Tj
+1 0 0 1 72 282.667 Tm
+(Graph Data File) Tj
+/R118 12 Tf
+1 0 0 1 1356 784 Tm
+( ) Tj
+-0.0109167 Tc
+1 0 0 1 90 257 Tm
+(Graph data files contain high resolution simulation results which can be viewed using a wave-) Tj
+-0.0511667 Tc
+1 0 0 1 72 244 Tm
+(form viewer like MetaWaves.  When ) Tj
+/R121 12 Tf
+0 Tc
+1 0 0 1 1359 784 Tm
+( ) Tj
+1 0 0 1 249.224 244 Tm
+(.OPTION) Tj
+/R118 12 Tf
+1 0 0 1 1362 784 Tm
+( ) Tj
+-0.0511667 Tc
+1 0 0 1 299.556 244 Tm
+( ) Tj
+/R121 12 Tf
+0 Tc
+1 0 0 1 1365 784 Tm
+( ) Tj
+1 0 0 1 301.942 244 Tm
+(POST) Tj
+/R118 12 Tf
+1 0 0 1 1368 784 Tm
+( ) Tj
+-0.0511667 Tc
+1 0 0 1 333.28 244 Tm
+( is included in the input netlist file, HSPICE) Tj
+0.04525 Tc
+1 0 0 1 72 231 Tm
+(produces a graph data file.  By default it contains all the simulation\251s node voltages, branch cur-) Tj
+0.00283333 Tc
+1 0 0 1 72 218 Tm
+(rents, and internal state variables.  One graph data file is created for each analysis specified in the) Tj
+-0.01375 Tc
+1 0 0 1 72 205 Tm
+(input netlist file.  Each file will be named by appending a suffix "XX#" to the design name, where) Tj
+-0.0148333 Tc
+1 0 0 1 72 192 Tm
+("XX" denotes an analysis \("TR" \261 transient, "SW" \261 DC sweep, and "AC" \261 AC\) and # is the sim-) Tj
+0.0253333 Tc
+1 0 0 1 72 179 Tm
+(ulation number for the given analysis.  For example, ) Tj
+/R121 12 Tf
+0 Tc
+1 0 0 1 1371 784 Tm
+( ) Tj
+1 0 0 1 328.984 179 Tm
+(rcnet.ac0) Tj
+/R118 12 Tf
+1 0 0 1 1374 784 Tm
+( ) Tj
+0.0253333 Tc
+1 0 0 1 375.953 179 Tm
+( and ) Tj
+/R121 12 Tf
+0 Tc
+1 0 0 1 1377 784 Tm
+( ) Tj
+1 0 0 1 399.886 179 Tm
+(rcnet.ac1) Tj
+/R118 12 Tf
+1 0 0 1 1380 784 Tm
+( ) Tj
+0.0253333 Tc
+1 0 0 1 446.855 179 Tm
+( are generated if an) Tj
+0 Tc
+1 0 0 1 72 166 Tm
+(input netlist file specifies an AC analysis for two different temperatures.) Tj
+/R121 14 Tf
+1 0 0 1 1383 784 Tm
+( ) Tj
+1 0 0 1 72 135.667 Tm
+(Scale Factor Notation and Units) Tj
+/R118 12 Tf
+1 0 0 1 1386 784 Tm
+( ) Tj
+-0.0359167 Tc
+1 0 0 1 90 110 Tm
+(Any letters that are not scale factors and immediately follow an entry number are ignored, with) Tj
+-0.0125 Tc
+1 0 0 1 72 97 Tm
+(the exception of O or I.  If an O or I follows a number, a fatal error results.  The letters O and I are) Tj
+-0.00266667 Tc
+1 0 0 1 72 84 Tm
+(not allowed in alphanumeric numbers because they are easily confused with the numbers 0 and 1.) Tj
+0 Tc
+1 0 0 1 108 63 Tm
+(The same unscaled number is represented by 10, 10amps, 10V, 10Volts, and 10Hz.) Tj
+ET
+Q
+q
+W
+18 784 m
+594 784 l
+594 8 l
+18 8 l
+h
+n
+1 g
+1 i
+79.947 457.5 193.634 266 re
+f
+endstream
+endobj
+123 0 obj
+4490
+endobj
+124 0 obj
+<< /Type /Font /Name /R124 /Subtype /Type1 /BaseFont /Times-Italic >>
+endobj
+125 0 obj
+<< /Length 126 0 R >>
+stream
+BT
+0 g
+/R124 12 Tf
+1 0 0 1 1389 784 Tm
+( ) Tj
+1 0 0 1 83.447 712 Tm
+(TITLE) Tj
+/R118 12 Tf
+1 0 0 1 1392 784 Tm
+( ) Tj
+1 0 0 1 114.783 712 Tm
+( ) Tj
+1 0 0 1 83.447 699 Tm
+(* ) Tj
+/R124 12 Tf
+1 0 0 1 1395 784 Tm
+( ) Tj
+1 0 0 1 92.447 699 Tm
+(or) Tj
+/R118 12 Tf
+1 0 0 1 1398 784 Tm
+( ) Tj
+1 0 0 1 103.114 699 Tm
+( $) Tj
+1 0 0 1 83.447 686 Tm
+(.OPTIONS) Tj
+/R124 12 Tf
+1 0 0 1 1401 784 Tm
+( ) Tj
+1 0 0 1 83.447 673 Tm
+(ANALYSIS and TEMPERATURE) Tj
+/R118 12 Tf
+1 0 0 1 1404 784 Tm
+( ) Tj
+1 0 0 1 83.447 660 Tm
+(PRINT / PLOT / GRAPH) Tj
+1 0 0 1 83.447 647 Tm
+(.IC) Tj
+/R124 12 Tf
+1 0 0 1 1407 784 Tm
+( ) Tj
+1 0 0 1 83.447 634 Tm
+(SOURCES) Tj
+1 0 0 1 83.447 621 Tm
+(NETLIST) Tj
+/R118 12 Tf
+1 0 0 1 1410 784 Tm
+( ) Tj
+1 0 0 1 83.447 608 Tm
+(< .PROTECT>) Tj
+1 0 0 1 83.447 595 Tm
+(.LIB ) Tj
+/R124 12 Tf
+1 0 0 1 1413 784 Tm
+( ) Tj
+1 0 0 1 108.775 595 Tm
+(libraries) Tj
+/R118 12 Tf
+1 0 0 1 1416 784 Tm
+( ) Tj
+1 0 0 1 83.447 582 Tm
+(.INCLUDE ) Tj
+/R124 12 Tf
+1 0 0 1 1419 784 Tm
+( ) Tj
+1 0 0 1 142.094 582 Tm
+(libraries) Tj
+/R118 12 Tf
+1 0 0 1 1422 784 Tm
+( ) Tj
+1 0 0 1 83.447 569 Tm
+(<.UNPROTECT>) Tj
+1 0 0 1 83.447 556 Tm
+(.ALTER) Tj
+1 0 0 1 83.447 543 Tm
+(.DELETE LIB) Tj
+/R121 12 Tf
+1 0 0 1 1425 784 Tm
+( ) Tj
+1 0 0 1 83.447 530 Tm
+(.) Tj
+/R118 12 Tf
+1 0 0 1 1428 784 Tm
+( ) Tj
+1 0 0 1 86.447 530 Tm
+(LIB) Tj
+1 0 0 1 83.447 517 Tm
+(.ALTER) Tj
+1 0 0 1 83.447 504 Tm
+(NETLIST) Tj
+1 0 0 1 83.447 491 Tm
+(PARAMETER redefinition) Tj
+1 0 0 1 83.447 478 Tm
+(ADDITIONAL COMMANDS) Tj
+1 0 0 1 83.447 465 Tm
+(.END) Tj
+ET
+1 g
+274.582 457.5 262.439 266 re
+f
+BT
+0 g
+1 0 0 1 278.082 712 Tm
+(Implicit first line; becomes input netlist file title) Tj
+1 0 0 1 278.082 699 Tm
+(Comments to describe the circuit) Tj
+1 0 0 1 278.082 686 Tm
+(Set conditions for simulation) Tj
+1 0 0 1 278.082 673 Tm
+(Statements to set sweep variables) Tj
+1 0 0 1 278.082 660 Tm
+(Statements to set print, plot and graph variables ) Tj
+1 0 0 1 278.082 647 Tm
+(Sets input state, also can be put in subcircuits ) Tj
+1 0 0 1 278.082 634 Tm
+(Sets input stimulus) Tj
+1 0 0 1 278.082 621 Tm
+(Circuit description) Tj
+1 0 0 1 278.082 608 Tm
+(Turns off output printback) Tj
+1 0 0 1 278.082 595 Tm
+(Include .MODEL or .MACRO libraries) Tj
+1 0 0 1 278.082 582 Tm
+(Include .MODEL or .MACRO libraries) Tj
+1 0 0 1 278.082 569 Tm
+(Restores output printback) Tj
+1 0 0 1 278.082 556 Tm
+(Sequence for worst case corners analysis ) Tj
+1 0 0 1 278.082 543 Tm
+(Removes previous library selection) Tj
+1 0 0 1 278.082 530 Tm
+(Adds a new library case) Tj
+1 0 0 1 278.082 517 Tm
+(Sequence for in-line case analysis) Tj
+1 0 0 1 278.082 465 Tm
+(Terminates any ALTERs and the simulation) Tj
+/R121 12 Tf
+1 0 0 1 1431 784 Tm
+( ) Tj
+1 0 0 1 79.447 445 Tm
+(Table 2) Tj
+/R118 12 Tf
+1 0 0 1 1434 784 Tm
+( ) Tj
+1 0 0 1 117.782 445 Tm
+(.  Basic elements of HSPICE netlist. ) Tj
+ET
+1 w
+79.447 723.5 m
+79.447 457.5 l
+S
+274.082 724.5 m
+274.082 456.5 l
+S
+537.52 723.5 m
+537.52 457.5 l
+S
+78.947 724 m
+538.02 724 l
+S
+78.947 457 m
+538.02 457 l
+S
+Q
+endstream
+endobj
+126 0 obj
+2955
+endobj
+127 0 obj
+<<
+/Type /Page
+/MediaBox [0 0 612 792]
+/Parent 2 0 R
+/Resources << /ProcSet [/PDF /Text]
+/Font <<
+/R124 124 0 R
+/R121 121 0 R
+/R118 118 0 R
+>>
+>>
+/Contents [
+119 0 R
+122 0 R
+125 0 R
+]
+>>
+endobj
+128 0 obj
+<< /Type /Font /Name /R128 /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+129 0 obj
+<< /Length 130 0 R >>
+stream
+q
+BT
+/R128 12 Tf
+1 0 0 1 1437 784 Tm
+( ) Tj
+1 0 0 1 293.007 44 Tm
+(- ) Tj
+1 0 0 1 300.003 44 Tm
+(15) Tj
+1 0 0 1 312.003 44 Tm
+( -) Tj
+1 0 0 1 108 730 Tm
+(The same scale factor is represented by M, MA, MSEC, and MMHOS.) Tj
+1 0 0 1 108 717 Tm
+(The same number is represented by 1000, 1000.0, 1000Hz, le3, 1.0e3, 1KHz.) Tj
+ET
+endstream
+endobj
+130 0 obj
+323
+endobj
+131 0 obj
+<< /Type /Font /Name /R131 /Subtype /Type1 /BaseFont /Times-Italic >>
+endobj
+132 0 obj
+<< /Length 133 0 R >>
+stream
+BT
+/R131 12 Tf
+1 0 0 1 1440 784 Tm
+( ) Tj
+-0.0580833 Tc
+1 0 0 1 72 692 Tm
+(Note: ) Tj
+/R128 12 Tf
+0 Tc
+1 0 0 1 1443 784 Tm
+( ) Tj
+-0.0580833 Tc
+1 0 0 1 100.96 692 Tm
+(Scale factors are not accumulative as with other simulators \(for example, 1KK does not equal) Tj
+0 Tc
+1 0 0 1 72 679 Tm
+(1MEG\).) Tj
+ET
+endstream
+endobj
+133 0 obj
+304
+endobj
+134 0 obj
+<< /Type /Font /Name /R134 /Subtype /Type1 /BaseFont /Times-Bold >>
+endobj
+135 0 obj
+<< /Length 136 0 R >>
+stream
+BT
+/R134 12 Tf
+1 0 0 1 1446 784 Tm
+( ) Tj
+1 0 0 1 108 653 Tm
+(Unit) Tj
+ET
+Q
+q
+W
+18 784 m
+594 784 l
+594 8 l
+18 8 l
+h
+n
+1 i
+0.6 w
+108 651.8 m
+130.661 651.8 l
+S
+BT
+/R134 12 Tf
+1 0 0 1 186.984 653 Tm
+(Use in Manual) Tj
+ET
+186.984 651.8 m
+261.647 651.8 l
+S
+BT
+1 0 0 1 280.008 653 Tm
+(Use in Netlist) Tj
+ET
+280.008 651.8 m
+347.98 651.8 l
+S
+BT
+/R128 12 Tf
+1 0 0 1 1449 784 Tm
+( ) Tj
+1 0 0 1 108 640 Tm
+(Angstrom) Tj
+1 0 0 1 186.993 640 Tm
+(A) Tj
+1 0 0 1 280.018 640 Tm
+(A) Tj
+1 0 0 1 108 627 Tm
+(ampere) Tj
+1 0 0 1 186.994 627 Tm
+(amp) Tj
+1 0 0 1 280.022 627 Tm
+(amp) Tj
+1 0 0 1 108 614 Tm
+(centimeter) Tj
+1 0 0 1 187.002 614 Tm
+(cm) Tj
+1 0 0 1 280.03 614 Tm
+(cm) Tj
+1 0 0 1 108 601 Tm
+(degree) Tj
+1 0 0 1 186.992 601 Tm
+(deg) Tj
+1 0 0 1 280.018 601 Tm
+(deg \(degree Centigrade) Tj
+1 0 0 1 280.008 588 Tm
+(unless specified as Kelvin\)) Tj
+1 0 0 1 108 575 Tm
+(electron volt) Tj
+1 0 0 1 187 575 Tm
+(ev) Tj
+1 0 0 1 280.026 575 Tm
+(do not use, confused with exponent) Tj
+1 0 0 1 108 562 Tm
+(farad) Tj
+1 0 0 1 186.993 562 Tm
+(F) Tj
+1 0 0 1 280.018 562 Tm
+(do not use, confused with femto) Tj
+1 0 0 1 108 549 Tm
+(Henry) Tj
+1 0 0 1 186.99 549 Tm
+(H) Tj
+1 0 0 1 280.015 549 Tm
+(H) Tj
+1 0 0 1 108 536 Tm
+(meter) Tj
+1 0 0 1 186.995 536 Tm
+(m) Tj
+1 0 0 1 280.021 536 Tm
+(do not use, confused with milIi) Tj
+1 0 0 1 108 523 Tm
+(Ohm) Tj
+1 0 0 1 186.987 523 Tm
+(Ohm) Tj
+1 0 0 1 280.014 523 Tm
+(do not use, confused with 0) Tj
+1 0 0 1 108 510 Tm
+(seconds) Tj
+1 0 0 1 186.99 510 Tm
+(s) Tj
+1 0 0 1 280.015 510 Tm
+(s) Tj
+1 0 0 1 108 497 Tm
+(volt) Tj
+1 0 0 1 186.988 497 Tm
+(v) Tj
+1 0 0 1 280.012 497 Tm
+(v) Tj
+0.0581667 Tc
+1 0 0 1 90 459 Tm
+(A number may be an integer \(for example 12 or -44\), a floating point number \(3.14159\), an) Tj
+-0.00658333 Tc
+1 0 0 1 72 446 Tm
+(integer or floating point number followed by an integer exponent \(1e-14, 2.65e3, but not 1e-3 PF\)) Tj
+0 Tc
+1 0 0 1 72 433 Tm
+(or an integer or floating point number followed by one of the scale factors listed below.) Tj
+/R134 14 Tf
+1 0 0 1 1452 784 Tm
+( ) Tj
+1 0 0 1 72 87.667 Tm
+(Algebraic Expressions) Tj
+/R128 12 Tf
+1 0 0 1 1455 784 Tm
+( ) Tj
+0.0528333 Tc
+1 0 0 1 90 62 Tm
+(Any parameter defined in the netlist can be replaced by an algebraic expression with single-) Tj
+ET
+1 g
+235.976 396.5 64.016 19 re
+f
+BT
+0 g
+/R134 12 Tf
+0 Tc
+1 0 0 1 1458 784 Tm
+( ) Tj
+1 0 0 1 239.476 404 Tm
+(Unit) Tj
+ET
+1 g
+300.992 396.5 71 19 re
+f
+BT
+0 g
+1 0 0 1 304.492 404 Tm
+(Factor) Tj
+ET
+1 g
+235.976 376.5 64.016 19 re
+f
+BT
+0 g
+/R128 12 Tf
+1 0 0 1 1461 784 Tm
+( ) Tj
+1 0 0 1 239.476 384 Tm
+(F) Tj
+ET
+1 g
+300.992 376.5 71 19 re
+f
+BT
+0 g
+1 0 0 1 304.492 384 Tm
+(1e-15) Tj
+ET
+1 g
+235.976 356.5 64.016 19 re
+f
+BT
+0 g
+1 0 0 1 239.476 364 Tm
+(P) Tj
+ET
+1 g
+300.992 356.5 71 19 re
+f
+BT
+0 g
+1 0 0 1 304.492 364 Tm
+(1e-12) Tj
+ET
+1 g
+235.976 336.5 64.016 19 re
+f
+BT
+0 g
+1 0 0 1 239.476 344 Tm
+(N) Tj
+ET
+1 g
+300.992 336.5 71 19 re
+f
+BT
+0 g
+1 0 0 1 304.492 344 Tm
+(1e-9) Tj
+ET
+1 g
+235.976 316.5 64.016 19 re
+f
+BT
+0 g
+1 0 0 1 239.476 324 Tm
+(U) Tj
+ET
+1 g
+300.992 316.5 71 19 re
+f
+BT
+0 g
+1 0 0 1 304.492 324 Tm
+(1e-6) Tj
+ET
+1 g
+235.976 296.5 64.016 19 re
+f
+BT
+0 g
+1 0 0 1 239.476 304 Tm
+(MI ) Tj
+ET
+1 g
+300.992 296.5 71 19 re
+f
+BT
+0 g
+1 0 0 1 304.492 304 Tm
+(25.4e-6) Tj
+ET
+1 g
+235.976 276.5 64.016 19 re
+f
+BT
+0 g
+1 0 0 1 239.476 284 Tm
+(M) Tj
+ET
+1 g
+300.992 276.5 71 19 re
+f
+BT
+0 g
+1 0 0 1 304.492 284 Tm
+(1e-3) Tj
+ET
+1 g
+235.976 256.5 64.016 19 re
+f
+BT
+0 g
+1 0 0 1 239.476 264 Tm
+(FT) Tj
+ET
+1 g
+300.992 256.5 71 19 re
+f
+BT
+0 g
+1 0 0 1 304.492 264 Tm
+(.305) Tj
+ET
+1 g
+235.976 236.5 64.016 19 re
+f
+BT
+0 g
+1 0 0 1 239.476 244 Tm
+(K) Tj
+ET
+1 g
+300.992 236.5 71 19 re
+f
+BT
+0 g
+1 0 0 1 304.492 244 Tm
+(1e3) Tj
+ET
+1 g
+235.976 216.5 64.016 19 re
+f
+BT
+0 g
+1 0 0 1 239.476 224 Tm
+(MEG) Tj
+ET
+1 g
+300.992 216.5 71 19 re
+f
+BT
+0 g
+1 0 0 1 304.492 224 Tm
+(1e6) Tj
+ET
+1 g
+235.976 196.5 64.016 19 re
+f
+BT
+0 g
+1 0 0 1 239.476 204 Tm
+(G) Tj
+ET
+1 g
+300.992 196.5 71 19 re
+f
+BT
+0 g
+1 0 0 1 304.492 204 Tm
+(1e9) Tj
+ET
+1 g
+235.976 176.5 64.016 19 re
+f
+BT
+0 g
+1 0 0 1 239.476 184 Tm
+(T) Tj
+ET
+1 g
+300.992 176.5 71 19 re
+f
+BT
+0 g
+1 0 0 1 304.492 184 Tm
+(1e12) Tj
+ET
+1 g
+235.976 156.5 64.016 19 re
+f
+BT
+0 g
+1 0 0 1 239.476 164 Tm
+(DB) Tj
+ET
+1 g
+300.992 156.5 71 19 re
+f
+BT
+0 g
+1 0 0 1 304.492 164 Tm
+(20log10) Tj
+/R134 12 Tf
+1 0 0 1 1464 784 Tm
+( ) Tj
+1 0 0 1 235.476 144 Tm
+(  Table 3.  ) Tj
+/R128 12 Tf
+1 0 0 1 1467 784 Tm
+( ) Tj
+1 0 0 1 288.811 144 Tm
+(  Scale Factors) Tj
+ET
+1 w
+235.476 415.5 m
+235.476 156.5 l
+S
+300.492 416.5 m
+300.492 155.5 l
+S
+372.492 415.5 m
+372.492 156.5 l
+S
+234.976 416 m
+372.992 416 l
+S
+234.976 396 m
+372.992 396 l
+S
+234.976 376 m
+372.992 376 l
+S
+234.976 356 m
+372.992 356 l
+S
+234.976 336 m
+372.992 336 l
+S
+234.976 316 m
+372.992 316 l
+S
+234.976 296 m
+372.992 296 l
+S
+234.976 276 m
+372.992 276 l
+S
+234.976 256 m
+372.992 256 l
+S
+234.976 236 m
+372.992 236 l
+S
+234.976 216 m
+372.992 216 l
+S
+234.976 196 m
+372.992 196 l
+S
+234.976 176 m
+372.992 176 l
+S
+234.976 156 m
+372.992 156 l
+S
+Q
+endstream
+endobj
+136 0 obj
+4903
+endobj
+137 0 obj
+<<
+/Type /Page
+/MediaBox [0 0 612 792]
+/Parent 2 0 R
+/Resources << /ProcSet [/PDF /Text]
+/Font <<
+/R134 134 0 R
+/R131 131 0 R
+/R128 128 0 R
+>>
+>>
+/Contents [
+129 0 R
+132 0 R
+135 0 R
+]
+>>
+endobj
+138 0 obj
+<< /Type /Font /Name /R138 /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+139 0 obj
+<< /Length 140 0 R >>
+stream
+q
+BT
+/R138 12 Tf
+1 0 0 1 1470 784 Tm
+( ) Tj
+1 0 0 1 293.007 44 Tm
+(- ) Tj
+1 0 0 1 300.003 44 Tm
+(16) Tj
+1 0 0 1 312.003 44 Tm
+( -) Tj
+0.05625 Tc
+1 0 0 1 72 730 Tm
+(quoted strings.  These expressions can then be used as output variables in the ) Tj
+ET
+endstream
+endobj
+140 0 obj
+251
+endobj
+141 0 obj
+<< /Type /Font /Name /R141 /Subtype /Type1 /BaseFont /Times-Bold >>
+endobj
+142 0 obj
+<< /Length 143 0 R >>
+stream
+BT
+/R141 12 Tf
+0 Tc
+1 0 0 1 1473 784 Tm
+( ) Tj
+1 0 0 1 454.326 730 Tm
+(.PLOT) Tj
+/R138 12 Tf
+1 0 0 1 1476 784 Tm
+( ) Tj
+0.05625 Tc
+1 0 0 1 489.998 730 Tm
+(, ) Tj
+/R141 12 Tf
+0 Tc
+1 0 0 1 1479 784 Tm
+( ) Tj
+1 0 0 1 496.673 730 Tm
+(.PRINT) Tj
+/R138 12 Tf
+1 0 0 1 1482 784 Tm
+( ) Tj
+1 0 0 1 537 730 Tm
+(,) Tj
+0.00225 Tc
+1 0 0 1 72 717 Tm
+(and ) Tj
+/R141 12 Tf
+0 Tc
+1 0 0 1 1485 784 Tm
+( ) Tj
+1 0 0 1 92.353 717 Tm
+(.GRAPH) Tj
+/R138 12 Tf
+1 0 0 1 1488 784 Tm
+( ) Tj
+0.00225 Tc
+1 0 0 1 138.677 717 Tm
+( statements.  The algebraic expressions greatly expand the user\251s options in creating) Tj
+0 Tc
+1 0 0 1 72 704 Tm
+(an input netlist file.  Important features of algebraic expressions are:) Tj
+1 0 0 1 108 683 Tm
+(Scaling or changing of element and model parameters) Tj
+1 0 0 1 108 662 Tm
+(Parameterization) Tj
+/R141 12 Tf
+1 0 0 1 1491 784 Tm
+( ) Tj
+1 0 0 1 126 649 Tm
+(.PARAM) Tj
+/R138 12 Tf
+1 0 0 1 1494 784 Tm
+( ) Tj
+1 0 0 1 173.646 649 Tm
+(  x=5) Tj
+1 0 0 1 108 628 Tm
+(Algebra) Tj
+/R141 12 Tf
+1 0 0 1 1497 784 Tm
+( ) Tj
+1 0 0 1 126 615 Tm
+(.PARAM) Tj
+/R138 12 Tf
+1 0 0 1 1500 784 Tm
+( ) Tj
+1 0 0 1 173.646 615 Tm
+(  x=\251y+3\251) Tj
+1 0 0 1 108 594 Tm
+(Functions) Tj
+/R141 12 Tf
+1 0 0 1 1503 784 Tm
+( ) Tj
+1 0 0 1 126 581 Tm
+(.PARAM    ) Tj
+/R138 12 Tf
+1 0 0 1 1506 784 Tm
+( ) Tj
+1 0 0 1 185.646 581 Tm
+(rho\(leff,weff\)=\251x*leff*weff-2u\251 ) Tj
+1 0 0 1 108 560 Tm
+(Hierarchical subcircuit algebraic parameter passing) Tj
+1 0 0 1 126 547 Tm
+(.) Tj
+/R141 12 Tf
+1 0 0 1 1509 784 Tm
+( ) Tj
+1 0 0 1 129 547 Tm
+(subckt) Tj
+/R138 12 Tf
+1 0 0 1 1512 784 Tm
+( ) Tj
+1 0 0 1 162.999 547 Tm
+(  inv  in  out  wp=10u  wn=5u  qbar-ic=vdd ) Tj
+/R141 12 Tf
+1 0 0 1 1515 784 Tm
+( ) Tj
+1 0 0 1 126 534 Tm
+(.ic) Tj
+/R138 12 Tf
+1 0 0 1 1518 784 Tm
+( ) Tj
+1 0 0 1 137.66 534 Tm
+(  qbar=qbar-ic) Tj
+1 0 0 1 126 521 Tm
+(\274) Tj
+/R141 12 Tf
+1 0 0 1 1521 784 Tm
+( ) Tj
+1 0 0 1 126 508 Tm
+(.ends) Tj
+/R138 12 Tf
+1 0 0 1 1524 784 Tm
+( ) Tj
+1 0 0 1 108 487 Tm
+(Algebra in elements) Tj
+/R141 12 Tf
+1 0 0 1 1527 784 Tm
+( ) Tj
+1 0 0 1 126 474 Tm
+(R1) Tj
+/R138 12 Tf
+1 0 0 1 1530 784 Tm
+( ) Tj
+1 0 0 1 140.663 474 Tm
+(  1  0  r=\251abs\(v\(1\)/i\(m1\)\)+10\251) Tj
+1 0 0 1 108 453 Tm
+(Algebra in ) Tj
+/R141 12 Tf
+1 0 0 1 1533 784 Tm
+( ) Tj
+1 0 0 1 161.977 453 Tm
+(.MEASURE) Tj
+/R138 12 Tf
+1 0 0 1 1536 784 Tm
+( ) Tj
+1 0 0 1 224.971 453 Tm
+( statements) Tj
+/R141 12 Tf
+1 0 0 1 1539 784 Tm
+( ) Tj
+1 0 0 1 126 440 Tm
+(.MEAS) Tj
+/R138 12 Tf
+1 0 0 1 1542 784 Tm
+( ) Tj
+1 0 0 1 163.664 440 Tm
+( vmax MAX V\( 1 \)) Tj
+/R141 12 Tf
+1 0 0 1 1545 784 Tm
+( ) Tj
+1 0 0 1 126 427 Tm
+(.MEAS) Tj
+/R138 12 Tf
+1 0 0 1 1548 784 Tm
+( ) Tj
+1 0 0 1 163.664 427 Tm
+( imax MAX I \( q2 \)) Tj
+/R141 12 Tf
+1 0 0 1 1551 784 Tm
+( ) Tj
+1 0 0 1 126 414 Tm
+(.MEAS) Tj
+/R138 12 Tf
+1 0 0 1 1554 784 Tm
+( ) Tj
+1 0 0 1 163.664 414 Tm
+( ivmax PARAM= \251 vmax* imax\251 ) Tj
+1 0 0 1 108 393 Tm
+(Algebra in output statements) Tj
+/R141 12 Tf
+1 0 0 1 1557 784 Tm
+( ) Tj
+1 0 0 1 126 380 Tm
+(.print) Tj
+/R138 12 Tf
+1 0 0 1 1560 784 Tm
+( ) Tj
+1 0 0 1 154.995 380 Tm
+( conductance=PAR\( \251 i \(ml\)/v\( 22 \251 \)) Tj
+-0.0235833 Tc
+1 0 0 1 90 355 Tm
+(In addition to simple arithmetic operations \(+, -, *,/\), HSPICE also accepts the following quot-) Tj
+0 Tc
+1 0 0 1 72 342 Tm
+(ed string functions:) Tj
+ET
+endstream
+endobj
+143 0 obj
+3240
+endobj
+144 0 obj
+<< /Type /Font /Name /R144 /Subtype /Type1 /BaseFont /Times-Italic >>
+endobj
+145 0 obj
+<< /Length 146 0 R >>
+stream
+BT
+/R144 12 Tf
+1 0 0 1 1563 784 Tm
+( ) Tj
+0.0121667 Tc
+1 0 0 1 72 203 Tm
+(Note  ) Tj
+/R138 12 Tf
+0 Tc
+1 0 0 1 1566 784 Tm
+( ) Tj
+0.0121667 Tc
+1 0 0 1 100.957 203 Tm
+(The pwr, log, log10 and sqrt functions will use the absolute value of x, then assign the sign) Tj
+0 Tc
+1 0 0 1 72 190 Tm
+(of x to the results.  The pwr \(x,y\) function is x to power y.) Tj
+/R141 14 Tf
+1 0 0 1 1569 784 Tm
+( ) Tj
+1 0 0 1 72 159.667 Tm
+(HSPICE Input File example) Tj
+/R138 12 Tf
+1 0 0 1 1572 784 Tm
+( ) Tj
+0.0249167 Tc
+1 0 0 1 90 134 Tm
+(A good way to learn HSPICE and MetaWaves is to simulate example files provided by Meta) Tj
+0.0398333 Tc
+1 0 0 1 72 121 Tm
+(Software.  An example HSPICE input file called ) Tj
+/R141 12 Tf
+0 Tc
+1 0 0 1 1575 784 Tm
+( ) Tj
+1 0 0 1 312.07 121 Tm
+(demo.sp) Tj
+/R138 12 Tf
+1 0 0 1 1578 784 Tm
+( ) Tj
+0.0398333 Tc
+1 0 0 1 354.398 121 Tm
+( can be copied to your home directory) Tj
+0 Tc
+1 0 0 1 72 108 Tm
+(by entering) Tj
+/R141 12 Tf
+1 0 0 1 1581 784 Tm
+( ) Tj
+1 0 0 1 108 87 Tm
+(cp) Tj
+/R138 12 Tf
+1 0 0 1 1584 784 Tm
+( ) Tj
+1 0 0 1 119.997 87 Tm
+( /usr/class/ee/hspice/96/demo/hspice/bench/demo.sp ~/demo.hsp) Tj
+1 0 0 1 72 66 Tm
+(Try simulating this file and running MetaWaves to observe the results.) Tj
+ET
+Q
+q
+W
+18 784 m
+594 784 l
+594 8 l
+18 8 l
+h
+n
+1 g
+1 i
+212.468 240.5 71 84 re
+f
+BT
+0 g
+/R141 12 Tf
+1 0 0 1 1587 784 Tm
+( ) Tj
+1 0 0 1 215.968 313 Tm
+(sin) Tj
+/R138 12 Tf
+1 0 0 1 1590 784 Tm
+( ) Tj
+1 0 0 1 230.64 313 Tm
+(\(x\)) Tj
+/R141 12 Tf
+1 0 0 1 1593 784 Tm
+( ) Tj
+1 0 0 1 215.968 300 Tm
+(cos) Tj
+/R138 12 Tf
+1 0 0 1 1596 784 Tm
+( ) Tj
+1 0 0 1 231.961 300 Tm
+(\(x\)) Tj
+/R141 12 Tf
+1 0 0 1 1599 784 Tm
+( ) Tj
+1 0 0 1 215.968 287 Tm
+(tan) Tj
+/R138 12 Tf
+1 0 0 1 1602 784 Tm
+( ) Tj
+1 0 0 1 232.632 287 Tm
+(\(x\)) Tj
+/R141 12 Tf
+1 0 0 1 1605 784 Tm
+( ) Tj
+1 0 0 1 215.968 274 Tm
+(atan) Tj
+/R138 12 Tf
+1 0 0 1 1608 784 Tm
+( ) Tj
+1 0 0 1 238.632 274 Tm
+(\(x\)) Tj
+/R141 12 Tf
+1 0 0 1 1611 784 Tm
+( ) Tj
+1 0 0 1 215.968 261 Tm
+(exp) Tj
+/R138 12 Tf
+1 0 0 1 1614 784 Tm
+( ) Tj
+1 0 0 1 233.965 261 Tm
+(\(x\)) Tj
+/R141 12 Tf
+1 0 0 1 1617 784 Tm
+( ) Tj
+1 0 0 1 215.968 248 Tm
+(log) Tj
+/R138 12 Tf
+1 0 0 1 1620 784 Tm
+( ) Tj
+1 0 0 1 231.302 248 Tm
+(\(x\)) Tj
+ET
+1 g
+284.468 240.5 75.032 84 re
+f
+BT
+0 g
+/R141 12 Tf
+1 0 0 1 1623 784 Tm
+( ) Tj
+1 0 0 1 287.968 313 Tm
+(pwr) Tj
+/R138 12 Tf
+1 0 0 1 1626 784 Tm
+( ) Tj
+1 0 0 1 308.628 313 Tm
+(\(x, y\)) Tj
+/R141 12 Tf
+1 0 0 1 1629 784 Tm
+( ) Tj
+1 0 0 1 287.968 300 Tm
+(sinh) Tj
+/R138 12 Tf
+1 0 0 1 1632 784 Tm
+( ) Tj
+1 0 0 1 309.311 300 Tm
+(\(x\)) Tj
+/R141 12 Tf
+1 0 0 1 1635 784 Tm
+( ) Tj
+1 0 0 1 287.968 287 Tm
+(abs) Tj
+/R138 12 Tf
+1 0 0 1 1638 784 Tm
+( ) Tj
+1 0 0 1 305.306 287 Tm
+(\(x\)) Tj
+/R141 12 Tf
+1 0 0 1 1641 784 Tm
+( ) Tj
+1 0 0 1 287.968 274 Tm
+(cosh) Tj
+/R138 12 Tf
+1 0 0 1 1644 784 Tm
+( ) Tj
+1 0 0 1 310.632 274 Tm
+(\(x\)) Tj
+/R141 12 Tf
+1 0 0 1 1647 784 Tm
+( ) Tj
+1 0 0 1 287.968 261 Tm
+(min) Tj
+/R138 12 Tf
+1 0 0 1 1650 784 Tm
+( ) Tj
+1 0 0 1 307.966 261 Tm
+(\(x,x\)) Tj
+/R141 12 Tf
+1 0 0 1 1653 784 Tm
+( ) Tj
+1 0 0 1 287.968 248 Tm
+(tanh) Tj
+/R138 12 Tf
+1 0 0 1 1656 784 Tm
+( ) Tj
+1 0 0 1 311.303 248 Tm
+(\(x\)) Tj
+ET
+1 g
+360.5 240.5 71 84 re
+f
+BT
+0 g
+/R141 12 Tf
+1 0 0 1 1659 784 Tm
+( ) Tj
+1 0 0 1 364 313 Tm
+(max) Tj
+/R138 12 Tf
+1 0 0 1 1662 784 Tm
+( ) Tj
+1 0 0 1 385.993 313 Tm
+(\(x,x\)) Tj
+/R141 12 Tf
+1 0 0 1 1665 784 Tm
+( ) Tj
+1 0 0 1 364 300 Tm
+(sqrt) Tj
+/R138 12 Tf
+1 0 0 1 1668 784 Tm
+( ) Tj
+1 0 0 1 384.657 300 Tm
+(\(x\)) Tj
+/R141 12 Tf
+1 0 0 1 1671 784 Tm
+( ) Tj
+1 0 0 1 364 287 Tm
+(db) Tj
+/R138 12 Tf
+1 0 0 1 1674 784 Tm
+( ) Tj
+1 0 0 1 377.342 287 Tm
+(\(x\)) Tj
+/R141 12 Tf
+1 0 0 1 1677 784 Tm
+( ) Tj
+1 0 0 1 364 274 Tm
+(log10) Tj
+/R138 12 Tf
+1 0 0 1 1680 784 Tm
+( ) Tj
+1 0 0 1 391.334 274 Tm
+(\(x\)) Tj
+/R141 12 Tf
+1 0 0 1 1683 784 Tm
+( ) Tj
+1 0 0 1 211.968 228 Tm
+(         Table 4.) Tj
+/R138 12 Tf
+1 0 0 1 1686 784 Tm
+( ) Tj
+1 0 0 1 280.303 228 Tm
+(  HSPICE functions.) Tj
+ET
+1 w
+211.968 324.5 m
+211.968 240.5 l
+S
+283.968 325.5 m
+283.968 239.5 l
+S
+360 325.5 m
+360 239.5 l
+S
+432 324.5 m
+432 240.5 l
+S
+211.468 325 m
+432.5 325 l
+S
+211.468 240 m
+432.5 240 l
+S
+Q
+endstream
+endobj
+146 0 obj
+4041
+endobj
+147 0 obj
+<<
+/Type /Page
+/MediaBox [0 0 612 792]
+/Parent 2 0 R
+/Resources << /ProcSet [/PDF /Text]
+/Font <<
+/R144 144 0 R
+/R141 141 0 R
+/R138 138 0 R
+>>
+>>
+/Contents [
+139 0 R
+142 0 R
+145 0 R
+]
+>>
+endobj
+148 0 obj
+<< /Type /Font /Name /R148 /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+149 0 obj
+<< /Length 150 0 R >>
+stream
+q
+BT
+/R148 12 Tf
+1 0 0 1 1689 784 Tm
+( ) Tj
+1 0 0 1 293.007 44 Tm
+(- ) Tj
+1 0 0 1 300.003 44 Tm
+(17) Tj
+1 0 0 1 312.003 44 Tm
+( -) Tj
+ET
+endstream
+endobj
+150 0 obj
+137
+endobj
+151 0 obj
+<< /Type /Font /Name /R151 /Subtype /Type1 /BaseFont /Times-Bold >>
+endobj
+152 0 obj
+<< /Length 153 0 R >>
+stream
+BT
+/R151 14 Tf
+1 0 0 1 1692 784 Tm
+( ) Tj
+1 0 0 1 72 728.667 Tm
+(Statement Summary) Tj
+/R151 12 Tf
+1 0 0 1 1695 784 Tm
+( ) Tj
+1 0 0 1 90 707 Tm
+(.Alter \251Alter Title Name\251) Tj
+/R148 12 Tf
+1 0 0 1 1698 784 Tm
+( ) Tj
+0.0865833 Tc
+1 0 0 1 126 694 Tm
+(Reruns a simulation several times with selected changes specified for each run.  An) Tj
+/R151 12 Tf
+0 Tc
+1 0 0 1 1701 784 Tm
+( ) Tj
+1 0 0 1 126 681 Tm
+(.END) Tj
+/R148 12 Tf
+1 0 0 1 1704 784 Tm
+( ) Tj
+-0.04675 Tc
+1 0 0 1 154.33 681 Tm
+( or another ) Tj
+/R151 12 Tf
+0 Tc
+1 0 0 1 1707 784 Tm
+( ) Tj
+1 0 0 1 207.62 681 Tm
+(.ALTER) Tj
+/R148 12 Tf
+1 0 0 1 1710 784 Tm
+( ) Tj
+-0.04675 Tc
+1 0 0 1 251.958 681 Tm
+( terminates the ALTER sequence.  If given, the alter title will) Tj
+0 Tc
+1 0 0 1 126 668 Tm
+(replace the original title for the altered sequence.) Tj
+/R151 12 Tf
+1 0 0 1 1713 784 Tm
+( ) Tj
+1 0 0 1 90 647 Tm
+(elname <node1 node2 \274 nodeN> <mname>  <pname1=val1> <pname2=val2>\274) Tj
+/R148 12 Tf
+1 0 0 1 1716 784 Tm
+( ) Tj
+1 0 0 1 126 634 Tm
+(elname) Tj
+-0.00583333 Tc
+1 0 0 1 189.01 634 Tm
+(The element name; must begin with a specific element keyletter for each ) Tj
+0 Tc
+1 0 0 1 189 621 Tm
+(element type and cannot exceed 15 characters:) Tj
+1 0 0 1 216 604 Tm
+(C) Tj
+1 0 0 1 265.032 604 Tm
+(Capacitor) Tj
+1 0 0 1 216 591 Tm
+(D) Tj
+1 0 0 1 265.033 591 Tm
+(Diode) Tj
+1 0 0 1 216 578 Tm
+(E,F,G,H) Tj
+1 0 0 1 265.037 578 Tm
+(Voltage/Current Controlled Elements) Tj
+1 0 0 1 216 565 Tm
+(I) Tj
+1 0 0 1 265.035 565 Tm
+(Current source) Tj
+1 0 0 1 216 552 Tm
+(J) Tj
+1 0 0 1 265.033 552 Tm
+(JFET or MESFET) Tj
+1 0 0 1 216 539 Tm
+(K) Tj
+1 0 0 1 265.033 539 Tm
+(Mutual Inductor) Tj
+1 0 0 1 216 526 Tm
+(L) Tj
+1 0 0 1 265.034 526 Tm
+(Inductor) Tj
+1 0 0 1 216 513 Tm
+(M) Tj
+1 0 0 1 265.033 513 Tm
+(MOSFET) Tj
+1 0 0 1 216 500 Tm
+(Q) Tj
+1 0 0 1 265.033 500 Tm
+(BJT) Tj
+1 0 0 1 216 487 Tm
+(R) Tj
+1 0 0 1 265.032 487 Tm
+(Resistor) Tj
+1 0 0 1 216 474 Tm
+(T) Tj
+1 0 0 1 265.034 474 Tm
+(Transmission Line) Tj
+1 0 0 1 216 461 Tm
+(U) Tj
+1 0 0 1 265.033 461 Tm
+(Lossy Transmission Line) Tj
+1 0 0 1 216 448 Tm
+(V) Tj
+1 0 0 1 265.033 448 Tm
+(Voltage source) Tj
+1 0 0 1 216 435 Tm
+(X) Tj
+1 0 0 1 265.033 435 Tm
+(Subcircuit Call) Tj
+1 0 0 1 126 418 Tm
+(mname) Tj
+1 0 0 1 189.008 418 Tm
+(Model reference name) Tj
+1 0 0 1 126 405 Tm
+(node1 \274) Tj
+1 0 0 1 189.002 405 Tm
+(Node names) Tj
+1 0 0 1 126 392 Tm
+(pname1 \274) Tj
+-0.039 Tc
+1 0 0 1 189.006 392 Tm
+(The element parameter name used to identify the parameter value that fol-) Tj
+0 Tc
+1 0 0 1 189 379 Tm
+(lows this name.) Tj
+/R151 12 Tf
+1 0 0 1 1719 784 Tm
+( ) Tj
+1 0 0 1 90 354 Tm
+(.IC V\(node1\) = val1 V\(node2\) = val2 \274) Tj
+/R148 12 Tf
+1 0 0 1 1722 784 Tm
+( ) Tj
+1 0 0 1 126 341 Tm
+(sets node1 to val1, node2 to val2, etc at startup) Tj
+/R151 12 Tf
+1 0 0 1 1725 784 Tm
+( ) Tj
+1 0 0 1 90 316 Tm
+(.INCLUDE \251<filepath> filename\251) Tj
+/R148 12 Tf
+1 0 0 1 1728 784 Tm
+( ) Tj
+1 0 0 1 126 303 Tm
+(filename) Tj
+1 0 0 1 189.014 303 Tm
+(The name of a file to include in the data file) Tj
+1 0 0 1 126 290 Tm
+(filepath) Tj
+1 0 0 1 189.013 290 Tm
+(The path name of tree structured directories) Tj
+/R151 12 Tf
+1 0 0 1 1731 784 Tm
+( ) Tj
+1 0 0 1 90 265 Tm
+(.MODEL mname type <pname1=val1 pname2=val2.\274>) Tj
+/R148 12 Tf
+1 0 0 1 1734 784 Tm
+( ) Tj
+1 0 0 1 126 252 Tm
+(same syntax used in SPICE-3) Tj
+/R151 12 Tf
+1 0 0 1 1737 784 Tm
+( ) Tj
+1 0 0 1 90 227 Tm
+(.DC var1 start1 stop1 incr1 <var2 start2 stop2 incr2>) Tj
+/R148 12 Tf
+1 0 0 1 1740 784 Tm
+( ) Tj
+1 0 0 1 126 214 Tm
+(Defines DC sweep parameters) Tj
+/R151 12 Tf
+1 0 0 1 1743 784 Tm
+( ) Tj
+1 0 0 1 90 189 Tm
+(.MEASURE <DC | TRAN | AC> measure_name) Tj
+1 0 0 1 90 176 Tm
+(+) Tj
+1 0 0 1 108.002 176 Tm
+(TRIG\274TARG\274<GOAL=value>,weight=> <xmin, xmax\)) Tj
+/R148 12 Tf
+1 0 0 1 1746 784 Tm
+( ) Tj
+1 0 0 1 126 163 Tm
+(Measures RISE, FALL, and DELAY) Tj
+1 0 0 1 126 150 Tm
+(<DC | TRAN | AC>) Tj
+1 0 0 1 234.008 150 Tm
+(Analysis type, DC, AC, or Transient) Tj
+1 0 0 1 126 137 Tm
+(GOAL) Tj
+1 0 0 1 234.005 137 Tm
+(Specifies the desired measure value for optimization) Tj
+1 0 0 1 126 124 Tm
+(MEASURE) Tj
+1 0 0 1 234.008 124 Tm
+(Activates measurement) Tj
+1 0 0 1 126 111 Tm
+(measure_name) Tj
+1 0 0 1 234.017 111 Tm
+(The name given the measured value) Tj
+1 0 0 1 126 98 Tm
+(TRIG\274TARG\274) Tj
+1 0 0 1 210.66 98 Tm
+(Denotes the beginning of Trigger and Target specifications respec-) Tj
+1 0 0 1 234 85 Tm
+(tively) Tj
+ET
+Q
+endstream
+endobj
+153 0 obj
+4356
+endobj
+154 0 obj
+<<
+/Type /Page
+/MediaBox [0 0 612 792]
+/Parent 2 0 R
+/Resources << /ProcSet [/PDF /Text]
+/Font <<
+/R151 151 0 R
+/R148 148 0 R
+>>
+>>
+/Contents [
+149 0 R
+152 0 R
+]
+>>
+endobj
+155 0 obj
+<< /Type /Font /Name /R155 /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+156 0 obj
+<< /Length 157 0 R >>
+stream
+q
+BT
+/R155 12 Tf
+1 0 0 1 1749 784 Tm
+( ) Tj
+1 0 0 1 293.007 44 Tm
+(- ) Tj
+1 0 0 1 300.003 44 Tm
+(18) Tj
+1 0 0 1 312.003 44 Tm
+( -) Tj
+ET
+endstream
+endobj
+157 0 obj
+137
+endobj
+158 0 obj
+<< /Type /Font /Name /R158 /Subtype /Type1 /BaseFont /Times-Bold >>
+endobj
+159 0 obj
+<< /Length 160 0 R >>
+stream
+BT
+/R158 24 Tf
+1 0 0 1 1752 784 Tm
+( ) Tj
+1 0 0 1 195.363 722 Tm
+(6.  MetaWaves Basics) Tj
+/R155 12 Tf
+1 0 0 1 1758 784 Tm
+( ) Tj
+0.0915833 Tc
+1 0 0 1 90 693 Tm
+(MetaWaves is a menu-driven, point and click graphical user interface for viewing HSPICE) Tj
+0.0509167 Tc
+1 0 0 1 72 680 Tm
+(waveforms.  It provides interactive measurement capabilities and is faster and easier to use than) Tj
+-0.000916667 Tc
+1 0 0 1 72 667 Tm
+(GSI or HSPLOT.  It manages analysis results from one or more simulation runs, alters, or sweeps) Tj
+0.0485 Tc
+1 0 0 1 72 654 Tm
+(and, because it is X-Windows based, can be used in any windows environment \(including motif) Tj
+0 Tc
+1 0 0 1 72 641 Tm
+(and Open Windows\).) Tj
+1 0 0 1 90 616 Tm
+(To start MetaWaves enter) Tj
+/R158 12 Tf
+1 0 0 1 1761 784 Tm
+( ) Tj
+1 0 0 1 255.677 595 Tm
+(mwaves) Tj
+/R155 12 Tf
+1 0 0 1 1764 784 Tm
+( ) Tj
+1 0 0 1 296.326 595 Tm
+( ) Tj
+ET
+endstream
+endobj
+160 0 obj
+891
+endobj
+161 0 obj
+<< /Type /Font /Name /R161 /Subtype /Type1 /BaseFont /Times-Italic >>
+endobj
+162 0 obj
+<< /Length 163 0 R >>
+stream
+BT
+/R161 12 Tf
+1 0 0 1 1767 784 Tm
+( ) Tj
+1 0 0 1 299.326 595 Tm
+(inputfile.tr0) Tj
+/R155 12 Tf
+1 0 0 1 1770 784 Tm
+( ) Tj
+0.0085 Tc
+1 0 0 1 72 570 Tm
+(This will load the design ) Tj
+/R161 12 Tf
+0 Tc
+1 0 0 1 1773 784 Tm
+( ) Tj
+1 0 0 1 194.152 570 Tm
+(inputfile) Tj
+/R155 12 Tf
+1 0 0 1 1776 784 Tm
+( ) Tj
+0.0085 Tc
+1 0 0 1 234.148 570 Tm
+( using configuration options from ) Tj
+/R161 12 Tf
+0 Tc
+1 0 0 1 1779 784 Tm
+( ) Tj
+1 0 0 1 398.953 570 Tm
+(inputfile.cfg.) Tj
+/R155 12 Tf
+1 0 0 1 1782 784 Tm
+( ) Tj
+0.0085 Tc
+1 0 0 1 459.609 570 Tm
+(  You should see) Tj
+0.025 Tc
+1 0 0 1 72 557 Tm
+(two windows, one is the waveform viewer labeled ) Tj
+/R158 12 Tf
+0 Tc
+1 0 0 1 1785 784 Tm
+( ) Tj
+0.025 Tc
+1 0 0 1 318.638 557 Tm
+(MetaWaves 96.1) Tj
+/R155 12 Tf
+0 Tc
+1 0 0 1 1788 784 Tm
+( ) Tj
+0.025 Tc
+1 0 0 1 403.576 557 Tm
+( and the other is the ) Tj
+/R158 12 Tf
+0 Tc
+1 0 0 1 1791 784 Tm
+( ) Tj
+1 0 0 1 502.678 557 Tm
+(Results) Tj
+1 0 0 1 72 544 Tm
+(Browser) Tj
+/R155 12 Tf
+1 0 0 1 1794 784 Tm
+( ) Tj
+0.00908333 Tc
+1 0 0 1 115.313 544 Tm
+(.  The Browser lists the current design \(simulation file\) and a list of curves. To view any) Tj
+0.0168333 Tc
+1 0 0 1 72 531 Tm
+(of the listed curves double-click the left-mouse button on the voltage/current you want to display) Tj
+-0.0528333 Tc
+1 0 0 1 72 518 Tm
+(\(for example v\(4\)\), and it will appear in panel 1 of the waveform viewer window. You can continue) Tj
+0.0650833 Tc
+1 0 0 1 72 505 Tm
+(to add waveforms to the panel, or create another panel by double-clicking on ) Tj
+/R158 12 Tf
+0 Tc
+1 0 0 1 1797 784 Tm
+( ) Tj
+0.0650833 Tc
+1 0 0 1 453.996 505 Tm
+(Add Panel) Tj
+/R155 12 Tf
+0 Tc
+1 0 0 1 1800 784 Tm
+( ) Tj
+0.0650833 Tc
+1 0 0 1 508.444 505 Tm
+( in the) Tj
+/R158 12 Tf
+0 Tc
+1 0 0 1 1803 784 Tm
+( ) Tj
+0.03425 Tc
+1 0 0 1 72 492 Tm
+(Panel List) Tj
+/R155 12 Tf
+0 Tc
+1 0 0 1 1806 784 Tm
+( ) Tj
+0.03425 Tc
+1 0 0 1 124.071 492 Tm
+( of the waveform viewer window. Panels can be turned off and on by double-clicking) Tj
+-0.0286667 Tc
+1 0 0 1 72 479 Tm
+(on the ) Tj
+/R158 12 Tf
+0 Tc
+1 0 0 1 1809 784 Tm
+( ) Tj
+-0.0286667 Tc
+1 0 0 1 103.972 479 Tm
+(Panel #) Tj
+/R155 12 Tf
+0 Tc
+1 0 0 1 1812 784 Tm
+( ) Tj
+-0.0286667 Tc
+1 0 0 1 141.289 479 Tm
+( in the ) Tj
+/R158 12 Tf
+0 Tc
+1 0 0 1 1815 784 Tm
+( ) Tj
+-0.0286667 Tc
+1 0 0 1 173.252 479 Tm
+(Panel List) Tj
+/R155 12 Tf
+0 Tc
+1 0 0 1 1818 784 Tm
+( ) Tj
+-0.0286667 Tc
+1 0 0 1 224.567 479 Tm
+(, and they can be deleted by first highlighting the ) Tj
+/R158 12 Tf
+0 Tc
+1 0 0 1 1821 784 Tm
+( ) Tj
+-0.0286667 Tc
+1 0 0 1 459.39 479 Tm
+(Panel #) Tj
+/R155 12 Tf
+0 Tc
+1 0 0 1 1824 784 Tm
+( ) Tj
+-0.0286667 Tc
+1 0 0 1 496.707 479 Tm
+( from the) Tj
+/R158 12 Tf
+0 Tc
+1 0 0 1 1827 784 Tm
+( ) Tj
+0.0560833 Tc
+1 0 0 1 72 466 Tm
+(Panel List) Tj
+/R155 12 Tf
+0 Tc
+1 0 0 1 1830 784 Tm
+( ) Tj
+0.0560833 Tc
+1 0 0 1 124.333 466 Tm
+( using the left mouse button, and then dragging the panel name to the trash using the) Tj
+0 Tc
+1 0 0 1 72 453 Tm
+(middle mouse button.) Tj
+-0.0121667 Tc
+1 0 0 1 90 428 Tm
+(The best way to learn MetaWaves is to experiment.  Load in a demonstration file \(you can use) Tj
+-0.00466667 Tc
+1 0 0 1 72 415 Tm
+(/usr/class/ee/hspice/96/demo/hspice/bench/demo.tr0\), and try to explore through all of the menus.) Tj
+-0.04225 Tc
+1 0 0 1 90 390 Tm
+( To copy a waveform from one panel to the other, click the left button on the name of the wave-) Tj
+0.04975 Tc
+1 0 0 1 72 377 Tm
+(form from the ) Tj
+/R158 12 Tf
+0 Tc
+1 0 0 1 1833 784 Tm
+( ) Tj
+0.04975 Tc
+1 0 0 1 144.093 377 Tm
+(Waveform List) Tj
+/R155 12 Tf
+0 Tc
+1 0 0 1 1836 784 Tm
+( ) Tj
+0.04975 Tc
+1 0 0 1 222.327 377 Tm
+( of one panel, then click and hold the middle button and drag the) Tj
+-0.00183333 Tc
+1 0 0 1 72 364 Tm
+(name to the black area of a different panel. You can also drag a waveform to the trash-can icon in) Tj
+0 Tc
+1 0 0 1 72 351 Tm
+(the lower right hand corner to remove it from a panel.) Tj
+-0.0343333 Tc
+1 0 0 1 90 326 Tm
+(To zoom in or out on a waveform, place the cursor in the desired panel and hold down the right) Tj
+-0.00583333 Tc
+1 0 0 1 72 313 Tm
+(mouse button.  When the menu pops up, select ) Tj
+/R158 12 Tf
+0 Tc
+1 0 0 1 1839 784 Tm
+( ) Tj
+1 0 0 1 298.317 313 Tm
+(zoom) Tj
+/R155 12 Tf
+1 0 0 1 1842 784 Tm
+( ) Tj
+-0.00583333 Tc
+1 0 0 1 325.636 313 Tm
+(, and then select ) Tj
+/R158 12 Tf
+0 Tc
+1 0 0 1 1845 784 Tm
+( ) Tj
+-0.00583333 Tc
+1 0 0 1 405.655 313 Tm
+(zoom in) Tj
+/R155 12 Tf
+0 Tc
+1 0 0 1 1848 784 Tm
+( ) Tj
+-0.00583333 Tc
+1 0 0 1 445.909 313 Tm
+( from the sub-menu) Tj
+-0.0618333 Tc
+1 0 0 1 72 300 Tm
+(that appears. Then use the left mouse button to select starting and stopping points for zooming. This) Tj
+-0.0179167 Tc
+1 0 0 1 72 287 Tm
+(procedure can be used to zoom in or out in the X or Y dimension \(when you zoom out, the scale is) Tj
+0 Tc
+1 0 0 1 72 274 Tm
+(set by the ratio of the window size to the length you select\).) Tj
+-0.01075 Tc
+1 0 0 1 90 249 Tm
+(You can also perform measurements on the waveforms using the ) Tj
+/R158 12 Tf
+0 Tc
+1 0 0 1 1851 784 Tm
+( ) Tj
+1 0 0 1 403.251 249 Tm
+(Measure) Tj
+/R155 12 Tf
+1 0 0 1 1854 784 Tm
+( ) Tj
+-0.01075 Tc
+1 0 0 1 447.894 249 Tm
+( menu of the wave-) Tj
+-0.0188333 Tc
+1 0 0 1 72 236 Tm
+(form viewer.  First highlight the curve you want to measure by clicking the left mouse button over) Tj
+0.0944167 Tc
+1 0 0 1 72 223 Tm
+(the curve name \(for example ) Tj
+/R158 12 Tf
+0 Tc
+1 0 0 1 1857 784 Tm
+( ) Tj
+1 0 0 1 218.583 223 Tm
+(v\(3\)) Tj
+/R155 12 Tf
+1 0 0 1 1860 784 Tm
+( ) Tj
+0.0944167 Tc
+1 0 0 1 238.569 223 Tm
+(\) in the ) Tj
+/R158 12 Tf
+0 Tc
+1 0 0 1 1863 784 Tm
+( ) Tj
+0.0944167 Tc
+1 0 0 1 278.955 223 Tm
+(Waveform List.) Tj
+/R155 12 Tf
+0 Tc
+1 0 0 1 1866 784 Tm
+( ) Tj
+0.0944167 Tc
+1 0 0 1 360.725 223 Tm
+( Then select ) Tj
+/R158 12 Tf
+0 Tc
+1 0 0 1 1869 784 Tm
+( ) Tj
+1 0 0 1 425.093 223 Tm
+(PointToPoint) Tj
+/R155 12 Tf
+1 0 0 1 1872 784 Tm
+( ) Tj
+0.0944167 Tc
+1 0 0 1 493.753 223 Tm
+( from the) Tj
+/R158 12 Tf
+0 Tc
+1 0 0 1 1875 784 Tm
+( ) Tj
+-0.01875 Tc
+1 0 0 1 72 210 Tm
+(Measure ) Tj
+/R155 12 Tf
+0 Tc
+1 0 0 1 1878 784 Tm
+( ) Tj
+-0.01875 Tc
+1 0 0 1 119.418 210 Tm
+(menu, and then click and drag the left mouse button to select the desired range you want) Tj
+0 Tc
+1 0 0 1 72 197 Tm
+(to measure. ) Tj
+0.0493333 Tc
+1 0 0 1 90 172 Tm
+(MetaWaves also provides the capability of creating mathematical expressions to modify and) Tj
+0.0290833 Tc
+1 0 0 1 72 159 Tm
+(display different waveforms. For example, to subtract two waveforms, first select ) Tj
+/R158 12 Tf
+0 Tc
+1 0 0 1 1881 784 Tm
+( ) Tj
+1 0 0 1 469.667 159 Tm
+(Expressions...) Tj
+/R155 12 Tf
+1 0 0 1 1884 784 Tm
+( ) Tj
+0.00708333 Tc
+1 0 0 1 72 146 Tm
+(from the ) Tj
+/R158 12 Tf
+0 Tc
+1 0 0 1 1887 784 Tm
+( ) Tj
+1 0 0 1 116.15 146 Tm
+(Tools) Tj
+/R155 12 Tf
+1 0 0 1 1890 784 Tm
+( ) Tj
+0.00708333 Tc
+1 0 0 1 144.155 146 Tm
+( menu to display the ) Tj
+/R158 12 Tf
+0 Tc
+1 0 0 1 1893 784 Tm
+( ) Tj
+0.00708333 Tc
+1 0 0 1 244.893 146 Tm
+(Expression Builder) Tj
+/R155 12 Tf
+0 Tc
+1 0 0 1 1896 784 Tm
+( ) Tj
+0.00708333 Tc
+1 0 0 1 343.31 146 Tm
+( window.  You can then select one of the) Tj
+-0.0289167 Tc
+1 0 0 1 72 133 Tm
+(waveforms from the ) Tj
+/R158 12 Tf
+0 Tc
+1 0 0 1 1899 784 Tm
+( ) Tj
+-0.0289167 Tc
+1 0 0 1 171.243 133 Tm
+(Wave List) Tj
+/R155 12 Tf
+0 Tc
+1 0 0 1 1902 784 Tm
+( ) Tj
+-0.0289167 Tc
+1 0 0 1 223.221 133 Tm
+(, and use the middle mouse button to drag it to the ) Tj
+/R158 12 Tf
+0 Tc
+1 0 0 1 1905 784 Tm
+( ) Tj
+1 0 0 1 462.68 133 Tm
+(Expression) Tj
+/R155 12 Tf
+1 0 0 1 1908 784 Tm
+( ) Tj
+-0.0289167 Tc
+1 0 0 1 519.346 133 Tm
+( box) Tj
+0.0215833 Tc
+1 0 0 1 72 120 Tm
+(\(at the top of the ) Tj
+/R158 12 Tf
+0 Tc
+1 0 0 1 1911 784 Tm
+( ) Tj
+1 0 0 1 155.595 120 Tm
+(Expression) Tj
+/R155 12 Tf
+1 0 0 1 1914 784 Tm
+( ) Tj
+0.0215833 Tc
+1 0 0 1 212.261 120 Tm
+( ) Tj
+/R158 12 Tf
+0 Tc
+1 0 0 1 1917 784 Tm
+( ) Tj
+1 0 0 1 215.52 120 Tm
+(Builder) Tj
+/R155 12 Tf
+1 0 0 1 1920 784 Tm
+( ) Tj
+0.0215833 Tc
+1 0 0 1 254.186 120 Tm
+( window\).  This action inserts the node name \(for example,) Tj
+0.022 Tc
+1 0 0 1 72 107 Tm
+(node\(D0, "A0","v\(r\)"\) \), where it can be included as part of an expression. Next, double-click on) Tj
+0.0913333 Tc
+1 0 0 1 72 94 Tm
+(the '-' operator from the ) Tj
+/R158 12 Tf
+0 Tc
+1 0 0 1 1923 784 Tm
+( ) Tj
+1 0 0 1 197.073 94 Tm
+(Operators) Tj
+/R155 12 Tf
+1 0 0 1 1926 784 Tm
+( ) Tj
+0.0913333 Tc
+1 0 0 1 249.717 94 Tm
+( list to insert the subtraction symbol \(-\) after the first node) Tj
+-0.00775 Tc
+1 0 0 1 72 81 Tm
+(name.  Now drag a second waveform into the ) Tj
+/R158 12 Tf
+0 Tc
+1 0 0 1 1929 784 Tm
+( ) Tj
+1 0 0 1 292.401 81 Tm
+(Expression) Tj
+/R155 12 Tf
+1 0 0 1 1932 784 Tm
+( ) Tj
+-0.00775 Tc
+1 0 0 1 349.067 81 Tm
+( box to complete the expression \(for ex-) Tj
+0.0959167 Tc
+1 0 0 1 72 68 Tm
+(ample, node\(D0,"A0","v\(4\)"\)-node\(D0,"A0","v\(3\)"\).  When the expression is complete, enter a) Tj
+ET
+Q
+endstream
+endobj
+163 0 obj
+8698
+endobj
+164 0 obj
+<<
+/Type /Page
+/MediaBox [0 0 612 792]
+/Parent 2 0 R
+/Resources << /ProcSet [/PDF /Text]
+/Font <<
+/R161 161 0 R
+/R158 158 0 R
+/R155 155 0 R
+>>
+>>
+/Contents [
+156 0 R
+159 0 R
+162 0 R
+]
+>>
+endobj
+165 0 obj
+<< /Type /Font /Name /R165 /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+166 0 obj
+<< /Length 167 0 R >>
+stream
+q
+BT
+/R165 12 Tf
+1 0 0 1 1935 784 Tm
+( ) Tj
+1 0 0 1 293.007 44 Tm
+(- ) Tj
+1 0 0 1 300.003 44 Tm
+(19) Tj
+1 0 0 1 312.003 44 Tm
+( -) Tj
+-0.0135 Tc
+1 0 0 1 72 730 Tm
+(name in the ) Tj
+ET
+endstream
+endobj
+167 0 obj
+184
+endobj
+168 0 obj
+<< /Type /Font /Name /R168 /Subtype /Type1 /BaseFont /Times-Bold >>
+endobj
+169 0 obj
+<< /Length 170 0 R >>
+stream
+BT
+/R168 12 Tf
+0 Tc
+1 0 0 1 1938 784 Tm
+( ) Tj
+1 0 0 1 130.495 730 Tm
+(Result:) Tj
+/R165 12 Tf
+1 0 0 1 1941 784 Tm
+( ) Tj
+-0.0135 Tc
+1 0 0 1 167.143 730 Tm
+( box \(such as vtest\), and click on ) Tj
+/R168 12 Tf
+0 Tc
+1 0 0 1 1944 784 Tm
+( ) Tj
+1 0 0 1 326.129 730 Tm
+(Apply) Tj
+/R165 12 Tf
+1 0 0 1 1947 784 Tm
+( ) Tj
+-0.0135 Tc
+1 0 0 1 357.468 730 Tm
+( to add it to the ) Tj
+/R168 12 Tf
+0 Tc
+1 0 0 1 1950 784 Tm
+( ) Tj
+1 0 0 1 431.82 730 Tm
+(Expressions) Tj
+/R165 12 Tf
+1 0 0 1 1953 784 Tm
+( ) Tj
+-0.0135 Tc
+1 0 0 1 493.153 730 Tm
+( list.  You) Tj
+0.0416667 Tc
+1 0 0 1 72 717 Tm
+(can view the result by selecting the Expression \(left-mouse click on it\) and dragging it to one of) Tj
+0 Tc
+1 0 0 1 72 704 Tm
+(the panels using the middle mouse button.) Tj
+-0.0343333 Tc
+1 0 0 1 90 679 Tm
+(To print out hardcopies of your waveforms, select the ) Tj
+/R168 12 Tf
+0 Tc
+1 0 0 1 1956 784 Tm
+( ) Tj
+1 0 0 1 346.85 679 Tm
+(Print) Tj
+/R165 12 Tf
+1 0 0 1 1959 784 Tm
+( ) Tj
+-0.0343333 Tc
+1 0 0 1 373.504 679 Tm
+( option from the ) Tj
+/R168 12 Tf
+0 Tc
+1 0 0 1 1962 784 Tm
+( ) Tj
+1 0 0 1 452.503 679 Tm
+(Tools) Tj
+/R165 12 Tf
+1 0 0 1 1965 784 Tm
+( ) Tj
+-0.0343333 Tc
+1 0 0 1 480.508 679 Tm
+( menu. Your) Tj
+0.00258333 Tc
+1 0 0 1 72 666 Tm
+(printout will be sent to the default printer, unless you change the default printer definition in your) Tj
+0 Tc
+1 0 0 1 72 653 Tm
+(meta.cfg file \(see ) Tj
+ET
+endstream
+endobj
+170 0 obj
+1385
+endobj
+171 0 obj
+<< /Type /Font /Name /R171 /Subtype /Type1 /BaseFont /Times-Italic >>
+endobj
+172 0 obj
+<< /Length 173 0 R >>
+stream
+BT
+/R171 12 Tf
+1 0 0 1 1968 784 Tm
+( ) Tj
+1 0 0 1 157.939 653 Tm
+(Running HSPICE) Tj
+/R165 12 Tf
+1 0 0 1 1971 784 Tm
+( ) Tj
+1 0 0 1 242.924 653 Tm
+( \).) Tj
+ET
+Q
+endstream
+endobj
+173 0 obj
+162
+endobj
+174 0 obj
+<<
+/Type /Page
+/MediaBox [0 0 612 792]
+/Parent 2 0 R
+/Resources << /ProcSet [/PDF /Text]
+/Font <<
+/R171 171 0 R
+/R168 168 0 R
+/R165 165 0 R
+>>
+>>
+/Contents [
+166 0 R
+169 0 R
+172 0 R
+]
+>>
+endobj
+175 0 obj
+<< /Type /Font /Name /R175 /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+176 0 obj
+<< /Length 177 0 R >>
+stream
+q
+BT
+/R175 12 Tf
+1 0 0 1 1974 784 Tm
+( ) Tj
+1 0 0 1 293.007 44 Tm
+(- ) Tj
+1 0 0 1 300.003 44 Tm
+(20) Tj
+1 0 0 1 312.003 44 Tm
+( -) Tj
+ET
+endstream
+endobj
+177 0 obj
+137
+endobj
+178 0 obj
+<< /Type /Font /Name /R178 /Subtype /Type1 /BaseFont /Times-Bold >>
+endobj
+179 0 obj
+<< /Length 180 0 R >>
+stream
+BT
+/R178 24 Tf
+1 0 0 1 1977 784 Tm
+( ) Tj
+1 0 0 1 146.672 722 Tm
+(7.  Sample HSPICE Input Files) Tj
+/R178 14 Tf
+1 0 0 1 1983 784 Tm
+( ) Tj
+1 0 0 1 72 687.667 Tm
+(Example 1:) Tj
+/R175 12 Tf
+1 0 0 1 1986 784 Tm
+( ) Tj
+1 0 0 1 72 661 Tm
+(SIMPLE NMOS INVERTER) Tj
+1 0 0 1 72 648 Tm
+(.INCLUDE `../models') Tj
+1 0 0 1 72 635 Tm
+(* This line includes the model file) Tj
+1 0 0 1 72 609 Tm
+(.DC) Tj
+1 0 0 1 108.001 609 Tm
+(VIN) Tj
+1 0 0 1 144.006 609 Tm
+(0) Tj
+1 0 0 1 180.006 609 Tm
+(5) Tj
+1 0 0 1 216.006 609 Tm
+(.1) Tj
+1 0 0 1 72 596 Tm
+(.OPT) Tj
+1 0 0 1 108.004 596 Tm
+(POST) Tj
+1 0 0 1 72 570 Tm
+(**  Sources  ***********) Tj
+1 0 0 1 72 557 Tm
+(VD) Tj
+1 0 0 1 108.002 557 Tm
+(VDD) Tj
+1 0 0 1 144.005 557 Tm
+(0) Tj
+1 0 0 1 180.005 557 Tm
+(5V) Tj
+1 0 0 1 72 544 Tm
+(VIN) Tj
+1 0 0 1 108.005 544 Tm
+(IN) Tj
+1 0 0 1 144.009 544 Tm
+(0) Tj
+1 0 0 1 180.009 544 Tm
+(0) Tj
+1 0 0 1 72 518 Tm
+(**  Inverter  Netlist *****) Tj
+1 0 0 1 72 505 Tm
+(M1) Tj
+1 0 0 1 108.001 505 Tm
+(VDD) Tj
+1 0 0 1 144.004 505 Tm
+(VDD) Tj
+1 0 0 1 180.007 505 Tm
+(OUT) Tj
+1 0 0 1 216.011 505 Tm
+(0) Tj
+1 0 0 1 252.011 505 Tm
+(N315) Tj
+1 0 0 1 288.012 505 Tm
+(W=5U) Tj
+1 0 0 1 324.015 505 Tm
+(L=1.2U) Tj
+1 0 0 1 72 492 Tm
+(M2) Tj
+1 0 0 1 108.001 492 Tm
+(OUT) Tj
+1 0 0 1 144.005 492 Tm
+(IN) Tj
+1 0 0 1 180.009 492 Tm
+(0) Tj
+1 0 0 1 216.009 492 Tm
+(0) Tj
+1 0 0 1 252.009 492 Tm
+(N315) Tj
+1 0 0 1 288.01 492 Tm
+(W=10U) Tj
+1 0 0 1 326.77 492 Tm
+(L=1.2U) Tj
+1 0 0 1 72 466 Tm
+(.END) Tj
+ET
+Q
+endstream
+endobj
+180 0 obj
+1445
+endobj
+181 0 obj
+<<
+/Type /Page
+/MediaBox [0 0 612 792]
+/Parent 2 0 R
+/Resources << /ProcSet [/PDF /Text]
+/Font <<
+/R178 178 0 R
+/R175 175 0 R
+>>
+>>
+/Contents [
+176 0 R
+179 0 R
+]
+>>
+endobj
+182 0 obj
+<< /Type /Font /Name /R182 /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+183 0 obj
+<< /Length 184 0 R >>
+stream
+q
+BT
+/R182 12 Tf
+1 0 0 1 1989 784 Tm
+( ) Tj
+1 0 0 1 293.007 44 Tm
+(- ) Tj
+1 0 0 1 300.003 44 Tm
+(21) Tj
+1 0 0 1 312.003 44 Tm
+( -) Tj
+ET
+endstream
+endobj
+184 0 obj
+137
+endobj
+185 0 obj
+<< /Type /Font /Name /R185 /Subtype /Type1 /BaseFont /Times-Bold >>
+endobj
+186 0 obj
+<< /Length 187 0 R >>
+stream
+BT
+/R185 18 Tf
+1 0 0 1 1992 784 Tm
+( ) Tj
+1 0 0 1 72 726 Tm
+(Example 2:) Tj
+/R182 12 Tf
+1 0 0 1 1996 784 Tm
+( ) Tj
+1 0 0 1 72 703 Tm
+(RING OSCILATOR) Tj
+1 0 0 1 72 690 Tm
+(.TEMP 27) Tj
+1 0 0 1 72 677 Tm
+(.IC v\(A1\) =0) Tj
+1 0 0 1 72 664 Tm
+(.TRAN   .01n  10n) Tj
+1 0 0 1 72 638 Tm
+(**  Sources  *****************) Tj
+1 0 0 1 72 625 Tm
+(VD) Tj
+1 0 0 1 108.002 625 Tm
+(VDD   ) Tj
+1 0 0 1 144.005 625 Tm
+(0    ) Tj
+1 0 0 1 180.005 625 Tm
+(5.5) Tj
+1 0 0 1 72 612 Tm
+(VB) Tj
+1 0 0 1 108.001 612 Tm
+(VBIAS   ) Tj
+1 0 0 1 153.001 612 Tm
+(0    ) Tj
+1 0 0 1 180.007 612 Tm
+(.75) Tj
+1 0 0 1 72 599 Tm
+(***************************) Tj
+1 0 0 1 72 586 Tm
+(.SUBCKT inverter  KIN  KOUT   KVDD   KBIAS   KGND) Tj
+1 0 0 1 72 573 Tm
+(Mtpl ) Tj
+1 0 0 1 144.005 573 Tm
+(KOUT     KBIAS     KVDD     KVDD    P313) Tj
+1 0 0 1 72 560 Tm
+(+) Tj
+1 0 0 1 144 560 Tm
+(L=2.2u    W=l4.lu) Tj
+1 0 0 1 72 547 Tm
+(+) Tj
+1 0 0 1 144 547 Tm
+(AD=39.48p  PD=19.7u  AS=39.48p  PS=19.7u) Tj
+1 0 0 1 72 534 Tm
+(Mtnl) Tj
+1 0 0 1 144.005 534 Tm
+(KOUT     KIN       KGND     KGND    N313) Tj
+1 0 0 1 72 521 Tm
+(+) Tj
+1 0 0 1 144 521 Tm
+(L=2.2u   W=6.3u) Tj
+1 0 0 1 72 508 Tm
+(+) Tj
+1 0 0 1 144 508 Tm
+(AD=I7.64p  PD=11.9u  AS=17.64p  PS=11.9u) Tj
+1 0 0 1 72 495 Tm
+(Cintl) Tj
+1 0 0 1 144.006 495 Tm
+(KOUT     KGND      10f) Tj
+/R185 12 Tf
+1 0 0 1 1999 784 Tm
+( ) Tj
+1 0 0 1 72 482 Tm
+(.) Tj
+/R182 12 Tf
+1 0 0 1 2002 784 Tm
+( ) Tj
+1 0 0 1 75 482 Tm
+(ENDS) Tj
+1 0 0 1 72 456 Tm
+(** Ring Oscilator  Netlist ******) Tj
+1 0 0 1 72 443 Tm
+(Xinvl ) Tj
+1 0 0 1 144.005 443 Tm
+(A1) Tj
+1 0 0 1 180.006 443 Tm
+(A2) Tj
+1 0 0 1 216.007 443 Tm
+(VDD) Tj
+1 0 0 1 252.01 443 Tm
+(VBIAS) Tj
+1 0 0 1 288.016 443 Tm
+(0) Tj
+1 0 0 1 324.016 443 Tm
+(inverter) Tj
+1 0 0 1 72 430 Tm
+(Xinv2) Tj
+1 0 0 1 144.003 430 Tm
+(A2) Tj
+1 0 0 1 180.004 430 Tm
+(A3) Tj
+1 0 0 1 216.005 430 Tm
+(VDD) Tj
+1 0 0 1 252.008 430 Tm
+(VBIAS) Tj
+1 0 0 1 288.014 430 Tm
+(0) Tj
+1 0 0 1 324.014 430 Tm
+(inverter) Tj
+1 0 0 1 72 417 Tm
+(Xinv3 ) Tj
+1 0 0 1 108.003 417 Tm
+(A3) Tj
+1 0 0 1 144.004 417 Tm
+(A4) Tj
+1 0 0 1 180.005 417 Tm
+(VDD) Tj
+1 0 0 1 216.008 417 Tm
+(VBIAS) Tj
+1 0 0 1 252.014 417 Tm
+(0) Tj
+1 0 0 1 288.014 417 Tm
+(inverter) Tj
+1 0 0 1 72 404 Tm
+(Xinv4 ) Tj
+1 0 0 1 108.003 404 Tm
+(A4) Tj
+1 0 0 1 144.004 404 Tm
+(A5) Tj
+1 0 0 1 180.005 404 Tm
+(VDD) Tj
+1 0 0 1 216.008 404 Tm
+(VBIAS) Tj
+1 0 0 1 252.014 404 Tm
+(0) Tj
+1 0 0 1 288.014 404 Tm
+(inverter) Tj
+1 0 0 1 72 391 Tm
+(Xinv5 ) Tj
+1 0 0 1 108.003 391 Tm
+(A5) Tj
+1 0 0 1 144.004 391 Tm
+(A6) Tj
+1 0 0 1 180.005 391 Tm
+(VDD) Tj
+1 0 0 1 216.008 391 Tm
+(VBIAS) Tj
+1 0 0 1 252.014 391 Tm
+(0) Tj
+1 0 0 1 288.014 391 Tm
+(inverter) Tj
+1 0 0 1 72 378 Tm
+(Xinv6 ) Tj
+1 0 0 1 108.003 378 Tm
+(A6) Tj
+1 0 0 1 144.004 378 Tm
+(A7) Tj
+1 0 0 1 180.005 378 Tm
+(VDD) Tj
+1 0 0 1 216.008 378 Tm
+(VBIAS) Tj
+1 0 0 1 252.014 378 Tm
+(0) Tj
+1 0 0 1 288.014 378 Tm
+(inverter) Tj
+1 0 0 1 72 365 Tm
+(Xinv7) Tj
+1 0 0 1 144.003 365 Tm
+(A7) Tj
+1 0 0 1 180.004 365 Tm
+(A1) Tj
+1 0 0 1 216.005 365 Tm
+(VDD) Tj
+1 0 0 1 252.008 365 Tm
+(VBIAS) Tj
+1 0 0 1 288.014 365 Tm
+(0) Tj
+1 0 0 1 324.014 365 Tm
+(inverter) Tj
+1 0 0 1 72 344 Tm
+(***************************) Tj
+/R185 12 Tf
+1 0 0 1 2005 784 Tm
+( ) Tj
+1 0 0 1 72 331 Tm
+(*) Tj
+/R182 12 Tf
+1 0 0 1 2008 784 Tm
+( ) Tj
+1 0 0 1 108 331 Tm
+(In  HSPICE:  measure  the  single  stage  delay.) Tj
+1 0 0 1 72 318 Tm
+(.MEA) Tj
+1 0 0 1 108.004 318 Tm
+(TRAN) Tj
+1 0 0 1 144.008 318 Tm
+(tpLH) Tj
+1 0 0 1 180.013 318 Tm
+(TRIG) Tj
+1 0 0 1 216.019 318 Tm
+(v\(A5\)) Tj
+1 0 0 1 252.026 318 Tm
+(va1=2.45) Tj
+1 0 0 1 297.122 318 Tm
+(rise=0) Tj
+1 0 0 1 327.218 318 Tm
+(fall=1) Tj
+1 0 0 1 72 305 Tm
+(+) Tj
+1 0 0 1 180 305 Tm
+(TARG) Tj
+1 0 0 1 216.004 305 Tm
+(v\(A6\)) Tj
+1 0 0 1 252.011 305 Tm
+(va1=2.45) Tj
+1 0 0 1 297.107 305 Tm
+(rise=l) Tj
+1 0 0 1 324.539 305 Tm
+(fall=0) Tj
+1 0 0 1 72 292 Tm
+(.MEA) Tj
+1 0 0 1 108.004 292 Tm
+(TRAN) Tj
+1 0 0 1 144.008 292 Tm
+(tpHL) Tj
+1 0 0 1 180.013 292 Tm
+(TRIG) Tj
+1 0 0 1 216.019 292 Tm
+(v\(A5\)) Tj
+1 0 0 1 252.026 292 Tm
+(va1=2.45) Tj
+1 0 0 1 297.122 292 Tm
+(rise=1) Tj
+1 0 0 1 327.218 292 Tm
+(fall=0) Tj
+1 0 0 1 72 279 Tm
+(+) Tj
+1 0 0 1 180 279 Tm
+(TARG) Tj
+1 0 0 1 216.004 279 Tm
+(v\(A6\)) Tj
+1 0 0 1 252.011 279 Tm
+(va1=2.45) Tj
+1 0 0 1 297.107 279 Tm
+(rise=0) Tj
+1 0 0 1 327.203 279 Tm
+(fall=1) Tj
+1 0 0 1 72 253 Tm
+(*  In  SPICE:  find  the  delay  graphically.) Tj
+1 0 0 1 72 240 Tm
+(.GRAPH  v\(Al\)  v\(A2\)  v\(A3\)  v\(A4\)  v\(A5\)  v\(A6\)  v\(A7\)) Tj
+1 0 0 1 72 214 Tm
+(.MODEL  N313  NMOS\(  LEVEL=1  VTO=0.5  KP=103.8E-6  GAMMA=0.298  PHI=0.684) Tj
+1 0 0 1 72 201 Tm
+(+) Tj
+1 0 0 1 144 201 Tm
+(LAMBDA=0.0133  PB=0.904  CGSO=3.46E-10  CGDO=3.46E-10) Tj
+1 0 0 1 72 188 Tm
+(+) Tj
+1 0 0 1 144 188 Tm
+(CGBO=1.66E-10  RSH=40  CJ--2.71E-4  MJ=.5  CJSW=6E-10) Tj
+1 0 0 1 72 175 Tm
+(+) Tj
+1 0 0 1 144 175 Tm
+(MJSW=.5  JS=7.77E-7  TOX=2E-8  NSUB=8E15  NSS=-7.24E11) Tj
+1 0 0 1 72 162 Tm
+(+) Tj
+1 0 0 1 144 162 Tm
+(TPG=+1 LD=.2E-6  U0=600  TNOM=27\)) Tj
+1 0 0 1 72 136 Tm
+(.MODEL  P313  PMOS\(  LEVEL=I  VTO=0.5   K]P-34.6E-6  GAMMA=0.472  PHI=0.731) Tj
+1 0 0 1 72 123 Tm
+(+) Tj
+1 0 0 1 144 123 Tm
+(LAMBDA=0.0133  PB=0.928  CGSO=3.46E-10  CGDO=3.46E-10) Tj
+1 0 0 1 72 110 Tm
+(+) Tj
+1 0 0 1 144 110 Tm
+(CGBO=1.66E-10  RSH=60  CJ=4.23E-4  MJ=.5  CJSW=12E-10) Tj
+1 0 0 1 72 97 Tm
+(+) Tj
+1 0 0 1 144 97 Tm
+(MJSW=.5  JS=I.84E-7  TOX=2E-8  NSUB=2E16  NSS=-6.82E11) Tj
+1 0 0 1 72 84 Tm
+(+) Tj
+1 0 0 1 144 84 Tm
+(TPG=-1 LD=.2E-6  U0=200  TNOM=27\)) Tj
+1 0 0 1 72 67 Tm
+(.END) Tj
+ET
+Q
+endstream
+endobj
+187 0 obj
+5383
+endobj
+188 0 obj
+<<
+/Type /Page
+/MediaBox [0 0 612 792]
+/Parent 2 0 R
+/Resources << /ProcSet [/PDF /Text]
+/Font <<
+/R185 185 0 R
+/R182 182 0 R
+>>
+>>
+/Contents [
+183 0 R
+186 0 R
+]
+>>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [
+9 0 R
+19 0 R
+29 0 R
+39 0 R
+49 0 R
+59 0 R
+69 0 R
+79 0 R
+86 0 R
+93 0 R
+100 0 R
+110 0 R
+117 0 R
+127 0 R
+137 0 R
+147 0 R
+154 0 R
+164 0 R
+174 0 R
+181 0 R
+188 0 R
+] /Count 21
+>>
+endobj
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R
+>>
+endobj
+189 0 obj
+<< /CreationDate (D:19971126131101)
+/Producer (Aladdin Ghostscript 4.03)
+>>
+endobj
+xref
+0 190
+0000000000 65535 f 
+0000131550 00000 n 
+0000131339 00000 n 
+0000000009 00000 n 
+0000000091 00000 n 
+0000000529 00000 n 
+0000000548 00000 n 
+0000000629 00000 n 
+0000001606 00000 n 
+0000001625 00000 n 
+0000001793 00000 n 
+0000001877 00000 n 
+0000002064 00000 n 
+0000002084 00000 n 
+0000002167 00000 n 
+0000003479 00000 n 
+0000003500 00000 n 
+0000003585 00000 n 
+0000010703 00000 n 
+0000010724 00000 n 
+0000010918 00000 n 
+0000011002 00000 n 
+0000011190 00000 n 
+0000011210 00000 n 
+0000011293 00000 n 
+0000012566 00000 n 
+0000012587 00000 n 
+0000012672 00000 n 
+0000017421 00000 n 
+0000017442 00000 n 
+0000017636 00000 n 
+0000017720 00000 n 
+0000017908 00000 n 
+0000017928 00000 n 
+0000018011 00000 n 
+0000018392 00000 n 
+0000018412 00000 n 
+0000018497 00000 n 
+0000023210 00000 n 
+0000023231 00000 n 
+0000023425 00000 n 
+0000023509 00000 n 
+0000023729 00000 n 
+0000023749 00000 n 
+0000023832 00000 n 
+0000027619 00000 n 
+0000027640 00000 n 
+0000027725 00000 n 
+0000032322 00000 n 
+0000032343 00000 n 
+0000032537 00000 n 
+0000032621 00000 n 
+0000032809 00000 n 
+0000032829 00000 n 
+0000032912 00000 n 
+0000034341 00000 n 
+0000034362 00000 n 
+0000034447 00000 n 
+0000040686 00000 n 
+0000040707 00000 n 
+0000040901 00000 n 
+0000040985 00000 n 
+0000041451 00000 n 
+0000041471 00000 n 
+0000041554 00000 n 
+0000042006 00000 n 
+0000042026 00000 n 
+0000042111 00000 n 
+0000042978 00000 n 
+0000042998 00000 n 
+0000043192 00000 n 
+0000043276 00000 n 
+0000043464 00000 n 
+0000043484 00000 n 
+0000043567 00000 n 
+0000044784 00000 n 
+0000044805 00000 n 
+0000044890 00000 n 
+0000052002 00000 n 
+0000052023 00000 n 
+0000052217 00000 n 
+0000052301 00000 n 
+0000052489 00000 n 
+0000052509 00000 n 
+0000052592 00000 n 
+0000058688 00000 n 
+0000058709 00000 n 
+0000058884 00000 n 
+0000058968 00000 n 
+0000060078 00000 n 
+0000060099 00000 n 
+0000060182 00000 n 
+0000064961 00000 n 
+0000064982 00000 n 
+0000065157 00000 n 
+0000065241 00000 n 
+0000065431 00000 n 
+0000065451 00000 n 
+0000065534 00000 n 
+0000067358 00000 n 
+0000067379 00000 n 
+0000067555 00000 n 
+0000067641 00000 n 
+0000067834 00000 n 
+0000067855 00000 n 
+0000067940 00000 n 
+0000068487 00000 n 
+0000068508 00000 n 
+0000068595 00000 n 
+0000077251 00000 n 
+0000077273 00000 n 
+0000077477 00000 n 
+0000077563 00000 n 
+0000077756 00000 n 
+0000077777 00000 n 
+0000077862 00000 n 
+0000082443 00000 n 
+0000082465 00000 n 
+0000082647 00000 n 
+0000082733 00000 n 
+0000082926 00000 n 
+0000082947 00000 n 
+0000083032 00000 n 
+0000087578 00000 n 
+0000087600 00000 n 
+0000087687 00000 n 
+0000090698 00000 n 
+0000090720 00000 n 
+0000090924 00000 n 
+0000091010 00000 n 
+0000091389 00000 n 
+0000091410 00000 n 
+0000091497 00000 n 
+0000091857 00000 n 
+0000091878 00000 n 
+0000091963 00000 n 
+0000096922 00000 n 
+0000096944 00000 n 
+0000097148 00000 n 
+0000097234 00000 n 
+0000097541 00000 n 
+0000097562 00000 n 
+0000097647 00000 n 
+0000100943 00000 n 
+0000100965 00000 n 
+0000101052 00000 n 
+0000105149 00000 n 
+0000105171 00000 n 
+0000105375 00000 n 
+0000105461 00000 n 
+0000105654 00000 n 
+0000105675 00000 n 
+0000105760 00000 n 
+0000110172 00000 n 
+0000110194 00000 n 
+0000110376 00000 n 
+0000110462 00000 n 
+0000110655 00000 n 
+0000110676 00000 n 
+0000110761 00000 n 
+0000111708 00000 n 
+0000111729 00000 n 
+0000111816 00000 n 
+0000120570 00000 n 
+0000120592 00000 n 
+0000120796 00000 n 
+0000120882 00000 n 
+0000121122 00000 n 
+0000121143 00000 n 
+0000121228 00000 n 
+0000122669 00000 n 
+0000122691 00000 n 
+0000122778 00000 n 
+0000122996 00000 n 
+0000123017 00000 n 
+0000123221 00000 n 
+0000123307 00000 n 
+0000123500 00000 n 
+0000123521 00000 n 
+0000123606 00000 n 
+0000125107 00000 n 
+0000125129 00000 n 
+0000125311 00000 n 
+0000125397 00000 n 
+0000125590 00000 n 
+0000125611 00000 n 
+0000125696 00000 n 
+0000131135 00000 n 
+0000131157 00000 n 
+0000131599 00000 n 
+trailer
+<< /Size 190 /Root 1 0 R /Info 189 0 R
+>>
+startxref
+131692
+%%EOF

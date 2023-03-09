@@ -1,0 +1,62 @@
+; Top Design: "frequency_conversion_lib:frequency conversion:schematic"
+; Netlisted using Hierarchy Policy: "Standard"
+
+Options ResourceUsage=yes UseNutmegFormat=no EnableOptim=no TopDesignName="frequency_conversion_lib:frequency conversion:schematic" DcopOutputNodeVoltages=yes DcopOutputPinCurrents=yes DcopOutputAllSweepPoints=no DcopOutputDcopType=0
+Port:PORT1  Vin 0 Num=1 Z=50 Ohm P[1]=dbmtow(-40) Freq[1]=RF_freq MHz    Noise=yes Pac=polar(dbmtow(0),0) LimitPhaseNoiseToCarrier=no 
+#uselib "ckt" , "BPF_Chebyshev"
+BPF_Chebyshev:BPF1  Vin N__2 Fcenter=2140 MHz BWpass=80 MHz Apass=1 dB Ripple=0.1 dB BWstop=400 MHz Astop=25 dB StopType="open" N=0 IL=0 dB Qu=1E308 Z1=50 Ohm Z2=50 Ohm 
+#uselib "sml" , "Amplifier2"
+Amplifier2:AMP1  N__2 N__5 S21=dbpolar(21,180) S11=polar(0,0) S22=polar(0,180) S12=0 GainCompType=0 ReferToInput=0 GainCompSat=5.0 dB GainComp=1.0 dB ClipDataFile=1 
+#uselib "ckt" , "PwrSplit2"
+PwrSplit2:PWR1  N__5 N__19 N__22 SP21=1 SP31=1 SP11=0. SP22=0.  Isolation=100. dB ZRef=50. Ohm CheckPassivity=1 
+#uselib "ckt" , "PhaseShift"
+PhaseShift:PS1  N__9 N__10 Phase=90. PhaseSlope=0. RTConj=0 ZRef=50. Ohm 
+#uselib "ckt" , "PwrSplit2"
+PwrSplit2:PWR2  N__15 N__9 N__13 SP21=1 SP31=1 SP11=0. SP22=0.  Isolation=100. dB ZRef=50. Ohm CheckPassivity=1 
+R:R1  N__15 N__16 R=50 Ohm Noise=yes 
+Port:PORT2  N__16 0 Num=2 Z=50 Ohm P[1]=0.02 W Freq[1]=LO_freq MHz    Noise=yes Pac=polar(dbmtow(0),0) LimitPhaseNoiseToCarrier=no 
+Mixer:MIX3  N__19 N__20 N__10 SideBand=-1 ConvGain=dbpolar(10,0) S11=polar(0,0) S22=polar(0,180) S33=0 GainCompType=0 ReferToInput=0 GainCompSat=5.0 dB GainComp=1.0 dB 
+Mixer:MIX4  N__22 N__23 N__13 SideBand=-1 ConvGain=dbpolar(10,0) S11=polar(0,0) S22=polar(0,180) S33=0 GainCompType=0 ReferToInput=0 GainCompSat=5.0 dB GainComp=1.0 dB 
+#uselib "ckt" , "LPF_Chebyshev"
+LPF_Chebyshev:LPF1  N__20 N__28 Fpass=1.92 MHz Apass=1 dB Ripple=0.01 dB Fstop=5 MHz Astop=36 dB StopType="open" N=0 IL=0 dB Qu=1E308 Z1=50 Ohm Z2=50 Ohm 
+#uselib "ckt" , "LPF_Chebyshev"
+LPF_Chebyshev:LPF2  N__23 N__30 Fpass=1.92 MHz Apass=1 dB Ripple=0.01 dB Fstop=5 MHz Astop=36 dB StopType="open" N=0 IL=0 dB Qu=1E308 Z1=50 Ohm Z2=50 Ohm 
+#uselib "sml" , "Amplifier2"
+Amplifier2:AMP2  N__28 Vout_i S21=dbpolar(G5,0) S11=polar(0,0) S22=polar(0,180) S12=0 GainCompType=0 ReferToInput=0 GainCompSat=5.0 dB GainComp=1.0 dB ClipDataFile=1 
+#uselib "sml" , "Amplifier2"
+Amplifier2:AMP3  N__30 Vout_q S21=dbpolar(G5,0) S11=polar(0,0) S22=polar(0,180) S12=0 GainCompType=0 ReferToInput=0 GainCompSat=5.0 dB GainComp=1.0 dB ClipDataFile=1 
+HB:HB1 MaxOrder=4 Freq[1]=LO_freq MHz Freq[2]=RF_freq MHz Order[1]=3 Order[2]=3 StatusLevel=2 OutputPlan="HB1_Output" 
+
+OutputPlan:HB1_Output \
+      Type="Output" \
+      UseNodeNestLevel=yes \
+      NodeNestLevel=2 \
+      UseEquationNestLevel=yes \
+      EquationNestLevel=2 \
+      UseSavedEquationNestLevel=yes \
+      SavedEquationNestLevel=2 \
+      UseDeviceCurrentNestLevel=no \
+      DeviceCurrentNestLevel=0 \
+      DeviceCurrentDeviceType="All" \
+      DeviceCurrentSymSyntax=yes \
+      UseCurrentNestLevel=yes \
+      CurrentNestLevel=999 \
+      UseDeviceVoltageNestLevel=no \
+      DeviceVoltageNestLevel=0 \
+      DeviceVoltageDeviceType="All"
+
+Tran:HB1_tran HB_Sol=1 SteadyState=1 StatusLevel=3 \
+Freq[1]=LO_freq MHz Order[1]=3 
+
+Component:tahb_HB1 Module="ATAHB" Type="ModelExtractor" \ 
+ Tran_Analysis="HB1_tran" HB_Analysis="HB1" 
+
+aele budget_path = ["PORT1.t1","BPF1.t2","AMP1.t2","PWR1.t2","MIX3.t2","LPF1.t2","AMP2.t2","Term2.t1"];
+aele BudGain1=bud_gain(,,50.0,,budget_path);
+
+RF_freq=2140
+LO_freq=2140
+G5=66
+RF_pwr=-40
+Port:Term4  Vout_q 0 Num=4 Z=50 Ohm Noise=yes 
+Port:Term5  Vout_i 0 Num=5 Z=50 Ohm Noise=yes 
