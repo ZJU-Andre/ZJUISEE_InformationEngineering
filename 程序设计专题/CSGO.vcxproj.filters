@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\libgraphics\boolean.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\libgraphics\exception.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\libgraphics\extgraph.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\libgraphics\gcalloc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\libgraphics\genlib.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\libgraphics\graphics.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\libgraphics\imgui.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\libgraphics\linkedlist.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\libgraphics\random.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\libgraphics\simpio.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\libgraphics\strlib.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BubbleSort.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalVars.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MergeSort.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MyButton.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MyData.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MyFunc.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MyMenu.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectionSort.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="include\libgraphics\exceptio.c">
+      <Filter>头文件</Filter>
+    </ClCompile>
+    <ClCompile Include="include\libgraphics\genlib.c">
+      <Filter>头文件</Filter>
+    </ClCompile>
+    <ClCompile Include="include\libgraphics\graphics.c">
+      <Filter>头文件</Filter>
+    </ClCompile>
+    <ClCompile Include="include\libgraphics\imgui.c">
+      <Filter>头文件</Filter>
+    </ClCompile>
+    <ClCompile Include="include\libgraphics\linkedlist.c">
+      <Filter>头文件</Filter>
+    </ClCompile>
+    <ClCompile Include="include\libgraphics\random.c">
+      <Filter>头文件</Filter>
+    </ClCompile>
+    <ClCompile Include="include\libgraphics\simpio.c">
+      <Filter>头文件</Filter>
+    </ClCompile>
+    <ClCompile Include="include\libgraphics\strlib.c">
+      <Filter>头文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BubbleSort.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GlobalVars.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MergeSort.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MyButton.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MyData.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MyFunc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MyMenu.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectionSort.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="double.txt">
+      <Filter>源文件</Filter>
+    </Text>
+    <Text Include="float.txt">
+      <Filter>源文件</Filter>
+    </Text>
+    <Text Include="input.txt">
+      <Filter>源文件</Filter>
+    </Text>
+    <Text Include="int.txt">
+      <Filter>源文件</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="snap.dat">
+      <Filter>源文件</Filter>
+    </None>
+  </ItemGroup>
+</Project>

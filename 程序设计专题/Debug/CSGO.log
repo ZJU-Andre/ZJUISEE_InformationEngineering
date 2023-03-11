@@ -1,0 +1,60 @@
+﻿  BubbleSort.c
+  GlobalVars.c
+  exceptio.c
+E:\C programming language\C project disign\CSGO\include\libgraphics\exceptio.c(69,9): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\C programming language\C project disign\CSGO\include\libgraphics\exceptio.c(79,13): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  genlib.c
+E:\C programming language\C project disign\CSGO\include\libgraphics\genlib.c(121,5): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\C programming language\C project disign\CSGO\include\libgraphics\genlib.c(136,9): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  graphics.c
+E:\C programming language\C project disign\CSGO\include\libgraphics\graphics.c(790,5): warning C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\C programming language\C project disign\CSGO\include\libgraphics\graphics.c(791,5): warning C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\C programming language\C project disign\CSGO\include\libgraphics\graphics.c(822,18): warning C4101: “consoleRect”: 未引用的局部变量
+E:\C programming language\C project disign\CSGO\include\libgraphics\graphics.c(1266,59): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+E:\C programming language\C project disign\CSGO\include\libgraphics\graphics.c(1267,63): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+E:\C programming language\C project disign\CSGO\include\libgraphics\graphics.c(1268,61): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+E:\C programming language\C project disign\CSGO\include\libgraphics\graphics.c(1654,58): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+  imgui.c
+E:\C programming language\C project disign\CSGO\include\libgraphics\imgui.c(135,12): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\C programming language\C project disign\CSGO\include\libgraphics\imgui.c(136,12): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\C programming language\C project disign\CSGO\include\libgraphics\imgui.c(137,15): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\C programming language\C project disign\CSGO\include\libgraphics\imgui.c(138,15): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\C programming language\C project disign\CSGO\include\libgraphics\imgui.c(144,12): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\C programming language\C project disign\CSGO\include\libgraphics\imgui.c(145,12): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\C programming language\C project disign\CSGO\include\libgraphics\imgui.c(146,15): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\C programming language\C project disign\CSGO\include\libgraphics\imgui.c(147,15): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\C programming language\C project disign\CSGO\include\libgraphics\imgui.c(153,12): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\C programming language\C project disign\CSGO\include\libgraphics\imgui.c(154,12): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\C programming language\C project disign\CSGO\include\libgraphics\imgui.c(155,15): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\C programming language\C project disign\CSGO\include\libgraphics\imgui.c(156,15): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  linkedlist.c
+  random.c
+  simpio.c
+E:\C programming language\C project disign\CSGO\include\libgraphics\simpio.c(145,13): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\C programming language\C project disign\CSGO\include\libgraphics\simpio.c(157,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  strlib.c
+E:\C programming language\C project disign\CSGO\include\libgraphics\strlib.c(53,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\C programming language\C project disign\CSGO\include\libgraphics\strlib.c(54,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\C programming language\C project disign\CSGO\include\libgraphics\strlib.c(82,5): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\C programming language\C project disign\CSGO\include\libgraphics\strlib.c(109,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\C programming language\C project disign\CSGO\include\libgraphics\strlib.c(139,15): warning C4018: “>”: 有符号/无符号不匹配
+E:\C programming language\C project disign\CSGO\include\libgraphics\strlib.c(152,15): warning C4018: “>”: 有符号/无符号不匹配
+E:\C programming language\C project disign\CSGO\include\libgraphics\strlib.c(194,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\C programming language\C project disign\CSGO\include\libgraphics\strlib.c(206,9): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\C programming language\C project disign\CSGO\include\libgraphics\strlib.c(216,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\C programming language\C project disign\CSGO\include\libgraphics\strlib.c(226,9): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  main.c
+  MergeSort.c
+  MyButton.c
+  MyData.c
+  MyFunc.c
+E:\C programming language\C project disign\CSGO\MyFunc.c(162,1): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+E:\C programming language\C project disign\CSGO\MyFunc.c(208,1): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+E:\C programming language\C project disign\CSGO\MyFunc.c(253,13): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\C programming language\C project disign\CSGO\MyFunc.c(343,1): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+E:\C programming language\C project disign\CSGO\MyFunc.c(472,13): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\C programming language\C project disign\CSGO\MyFunc.c(484,13): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  MyMenu.c
+  SelectionSort.c
+  正在生成代码...
+  CSGO.vcxproj -> E:\C programming language\C project disign\CSGO\Debug\CSGO.exe
