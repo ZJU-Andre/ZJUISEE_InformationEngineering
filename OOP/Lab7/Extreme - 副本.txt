@@ -1,0 +1,15 @@
+int , malloc ,no random
+Elapsed time: 0.187415 seconds.
+Elapsed time: 0.172675 seconds.
+Elapsed time: 0.186463 seconds.
+--------------------- 
+int, memorypool ,no random
+Elapsed time: 0 seconds.
+Elapsed time: 0 seconds.
+Elapsed time: 0.006066 seconds.
+--------------------- 
+no random, int ,std::, 
+Elapsed time: 0.0312508 seconds.
+Elapsed time: 0.0358469 seconds.
+Elapsed time: 0.0359367 seconds.
+--------------------- 

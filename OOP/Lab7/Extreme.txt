@@ -1,0 +1,77 @@
+int  ,malloc
+correct assignment in vecints: 50407
+correct assignment in vecmyclass2: 59319
+Elapsed time: 0.0156217 seconds.
+correct assignment in vecints: 50407
+correct assignment in vecmyclass2: 59319
+Elapsed time: 0.0312616 seconds.
+correct assignment in vecints: 50407
+correct assignment in vecmyclass2: 59319
+Elapsed time: 0.0156206 seconds.
+--------------------- 
+int, memorypool 
+correct assignment in vecints: 50407
+correct assignment in vecmyclass2: 59319
+Elapsed time: 0 seconds.
+correct assignment in vecints: 50407
+correct assignment in vecmyclass2: 59319
+Elapsed time: 0.015621 seconds.
+correct assignment in vecints: 50407
+correct assignment in vecmyclass2: 59319
+Elapsed time: 0 seconds.
+--------------------- 
+int, std:: 
+correct assignment in vecints: 50407
+correct assignment in vecmyclass2: 59319
+Elapsed time: 0 seconds.
+correct assignment in vecints: 50407
+correct assignment in vecmyclass2: 59319
+Elapsed time: 0 seconds.
+correct assignment in vecints: 50407
+correct assignment in vecmyclass2: 59319
+Elapsed time: 0.0060108 seconds.
+--------------------- 
+int, malloc 
+correct assignment in vecints: 50407
+correct assignment in vecmyclass2: 59319
+Elapsed time: 0 seconds.
+correct assignment in vecints: 50407
+correct assignment in vecmyclass2: 59319
+Elapsed time: 0.0069808 seconds.
+correct assignment in vecints: 50407
+correct assignment in vecmyclass2: 59319
+Elapsed time: 0 seconds.
+--------------------- 
+int , malloc ,no random
+correct assignment in vecints: 56171
+correct assignment in vecmyclass2: 72626
+Elapsed time: 0.187415 seconds.
+correct assignment in vecints: 56171
+correct assignment in vecmyclass2: 72626
+Elapsed time: 0.172675 seconds.
+correct assignment in vecints: 56171
+correct assignment in vecmyclass2: 72626
+Elapsed time: 0.186463 seconds.
+--------------------- 
+int, memorypool ,no random
+correct assignment in vecints: 56171
+correct assignment in vecmyclass2: 72626
+Elapsed time: 0 seconds.
+correct assignment in vecints: 56171
+correct assignment in vecmyclass2: 72626
+Elapsed time: 0 seconds.
+correct assignment in vecints: 56171
+correct assignment in vecmyclass2: 72626
+Elapsed time: 0.006066 seconds.
+--------------------- 
+no random, int ,std::, 
+correct assignment in vecints: 56171
+correct assignment in vecmyclass2: 72626
+Elapsed time: 0.0312508 seconds.
+correct assignment in vecints: 56171
+correct assignment in vecmyclass2: 72626
+Elapsed time: 0.0358469 seconds.
+correct assignment in vecints: 56171
+correct assignment in vecmyclass2: 72626
+Elapsed time: 0.0359367 seconds.
+--------------------- 

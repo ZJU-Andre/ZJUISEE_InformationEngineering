@@ -1,0 +1,101 @@
+-----------------------------------
+std::allocator resize Myclass
+Elapsed time: 0.0578502 seconds.
+Elapsed time: 0.0590227 seconds.
+Elapsed time: 0.0588804 seconds.
+----------------------------------
+malloc allocator resize Myclass
+Elapsed time: 0.0857997 seconds.
+Elapsed time: 0.084811 seconds.
+Elapsed time: 0.0781032 seconds.
+-----------------------------------
+create int MemoryPool::alloc
+Elapsed time: 0.541124 seconds.
+Elapsed time: 0.514963 seconds.
+Elapsed time: 0.527125 seconds.
+--------- 
+create int, Malloc alloc 
+Elapsed time: 0.530445 seconds.
+Elapsed time: 0.524562 seconds.
+Elapsed time: 0.578497 seconds.
+--------------------- 
+create int, std::allocator 
+Elapsed time: 0.167141 seconds.
+Elapsed time: 0.166348 seconds.
+Elapsed time: 0.174578 seconds.
+--------------------- 
+create MyClass, std::allocator 
+Elapsed time: 0.322498 seconds.
+Elapsed time: 0.33257 seconds.
+Elapsed time: 0.327409 seconds.
+--------------------- 
+create MyClass, Malloc_alloc 
+Elapsed time: 0.549531 seconds.
+Elapsed time: 0.520617 seconds.
+Elapsed time: 0.511612 seconds.
+--------------------- 
+create MyClass, MemoryPool_alloc 
+Elapsed time: 0.046868 seconds.
+Elapsed time: 0.035905 seconds.
+Elapsed time: 0.036875 seconds.
+--------------------- 
+resize int, malloc 
+Elapsed time: 0.0728065 seconds.
+Elapsed time: 0.0708107 seconds.
+Elapsed time: 0.0717966 seconds.
+--------------------- 
+resize int, memorypool 
+Elapsed time: 0 seconds.
+Elapsed time: 0 seconds.
+Elapsed time: 0 seconds.
+--------------------- 
+resize int, std:: 
+Elapsed time: 0 seconds.
+Elapsed time: 0.007977 seconds.
+Elapsed time: 0.0156223 seconds.
+--------------------- 
+resize myclass, std:: 
+Elapsed time: 0.0593221 seconds.
+Elapsed time: 0.0743532 seconds.
+Elapsed time: 0.0598415 seconds.
+--------------------- 
+resize MyClass, malloc 
+Elapsed time: 0.0877648 seconds.
+Elapsed time: 0.0864166 seconds.
+Elapsed time: 0.074434 seconds.
+--------------------- 
+resize MyClass, memorypool 
+Elapsed time: 0.015623 seconds.
+Elapsed time: 0.009939 seconds.
+Elapsed time: 0.008975 seconds.
+--------------------- 
+small, resize MyClass, memorypool 
+Elapsed time: 0.0369561 seconds.
+Elapsed time: 0.0359014 seconds.
+Elapsed time: 0.0388927 seconds.
+--------------------- 
+small, resize MyClass, malloc 
+Elapsed time: 0.0378528 seconds.
+Elapsed time: 0.0369015 seconds.
+Elapsed time: 0.0369118 seconds.
+--------------------- 
+small,resize MyClass, std:: 
+Elapsed time: 0.0229393 seconds.
+Elapsed time: 0.0156217 seconds.
+Elapsed time: 0.0209755 seconds.
+--------------------- 
+small, resize int, std:: 
+Elapsed time: 0 seconds.
+Elapsed time: 0 seconds.
+Elapsed time: 0 seconds.
+--------------------- 
+small, resize int, malloc 
+Elapsed time: 0.0299196 seconds.
+Elapsed time: 0.0308617 seconds.
+Elapsed time: 0.0312411 seconds.
+--------------------- 
+small, resize int, memorypool 
+Elapsed time: 0.0298706 seconds.
+Elapsed time: 0.0299167 seconds.
+Elapsed time: 0.0251836 seconds.
+--------------------- 
